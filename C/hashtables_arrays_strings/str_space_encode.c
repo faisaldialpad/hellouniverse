@@ -10,10 +10,10 @@ char* str_space_encode(char * str){
 	char* s=str;
 	while(*s){
 		if(*s==' ') count++;
-		length++;
+		else length++;
 		s++;
 	}
-	char * ret=malloc((3*count+length)*sizeof(char));
+	char * ret=malloc((3*count+length+1)*sizeof(char));
 	s=str;
 	char *r=ret;
 	while(*s){
@@ -21,6 +21,7 @@ char* str_space_encode(char * str){
 		else *r++=*s;
 		s++;
 	}
+	*r='\0';
 	return ret;
 }
 

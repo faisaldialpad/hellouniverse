@@ -35,8 +35,8 @@ int is_substring(const char* str,const char* sub){
 int is_rotation(const char* s1,const char* s2){
 	int l1=strlen(s1);
 	if(l1!=strlen(s2)) return 0;
-	char* t=malloc(2*l1*sizeof(char));
-	strcat(t,s1);
+	char* t=malloc(2*l1*sizeof(char)+1);
+	strcpy(t,s1);
 	strcat(t,s1);
 	int r=is_substring(t,s2);
 	free(t);
