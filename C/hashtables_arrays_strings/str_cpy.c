@@ -3,7 +3,7 @@
 #include<string.h>
 
 /**
-* assuming dest has enough memory for src
+* Copy a string. Assuming dest has enough memory for src
 **/
 void str_cpy(char *dest, const char* src){
 	while(*dest++=*src++);
