@@ -1,4 +1,4 @@
 Hello Universe
 =========
 
-The Hello Universe In this project, I will be solving some of the most common, sometimes rare but fun, and thought provoking interview questions. The primary languages will be C and Java. If I need to use existing datastructures, I will probably be using Java, and for simple problems I will probably be using C. Please feel free to imporve upon my code.
+The Hello Universe is a project with a collection of fun and thought provoking programming problems. You are welcome to use this project to analyze and grow your core programming skills. This project focuses less on programming structures but more on the problem itself, the right data structures for the problem, the best algorithm to use in terms of time and space complexities. These types of questions are most common in first year programming courses and programming interviews, but solving these problems are necessary skills to be a good programmer. The primary languages for this project is C and Java. If I need to use existing datastructures, I will probably be using Java, and for simple problems I will probably be using C. Please feel free to imporve upon my code.
