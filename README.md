@@ -26,6 +26,18 @@ Questions in C/2_linkedlists
 1. Implement a singly linked list with add(int v, int pos), remove(int pos), and print() functionalities. Write a function to remove a linked list node when you only have access to that node.
 
 
+Questions in C/3_stacks_queues
+=========
+
+1. Implement a stack that has push(), pop(), and min(). min() gives the current minimum in the stack. All 3 function should be O(1) time. 
+
+
+Questions in C/4_trees_graphs
+=========
+
+1. Implement a tree and a in-order-traversal. Implement a function to return the first common ancestor (fca) of any 2 given values.
+
+
 Questions in C/5_bitwise_operations
 =========
 
