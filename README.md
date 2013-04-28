@@ -6,6 +6,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 Questions in C/1_hashtables_arrays_strings_sort
 =========
+
 1. Find the length of a string.
 2. Reverse a string.
 3. Copy a source string to a destination string.
@@ -17,6 +18,12 @@ Questions in C/1_hashtables_arrays_strings_sort
 9. Detect if one string is a substring of another string or not. Using isSubstring() method only, check if 2 strings are rotations of each other or not.
 10. Replace each space of a string with %20
 11. Given an array A and a number n, if the n is in A then return the next bigger number than n. All the other cases return -1. Ex: A={3,2,7,6},n=1 --> -1, A={3,2,7,6},n=3 --> 7, A={3,2,7,6},n=7 --> -1, A={3,2,7,6},n=2 --> 7.
+
+
+Questions in C/2_linkedlists
+=========
+
+1. Implement a singly linked list with add(int v, int pos), remove(int pos), and print() functionalities. Write a function to remove a linked list node when you only have access to that node.
 
 
 Questions in C/5_bitwise_operations
