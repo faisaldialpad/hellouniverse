@@ -90,5 +90,6 @@ int main(){
 	remove_node_without_head(head->next->next);
 	printf("\nAfter removing last without head (failure) = ");
 	print(head);
+	free(head);
 	return 0;
 }
