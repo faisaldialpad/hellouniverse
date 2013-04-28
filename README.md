@@ -11,7 +11,6 @@ Questions in C/hashtables_arrays_strings
 3. Copy a source string to a destination string.
 4. Concat two strings and save the result to the first string.
 5. Recursively find the length of a string, the number of upper case, lower case charecters and vowels in a string.
-
 6. Return the first duplicate char of a string with O(n) time.
 7. Remove all the duplicate chars of a string.
 8. Detect if 2 strings are anagrams of each other or not with O(n) time.
