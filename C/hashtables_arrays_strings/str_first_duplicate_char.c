@@ -1,3 +1,7 @@
+/**
+* Problem owner: Faisal Rahman
+* Problem contributors: Faisal Rahman
+**/
 #include<stdlib.h>
 #include<stdio.h>
 #include<string.h>

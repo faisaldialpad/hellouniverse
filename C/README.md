@@ -23,4 +23,11 @@ Questions in hashtables_arrays_strings
 
 Questions in math
 =========
+
 1. Print first n prime numbers.
+
+
+Questions in bitwise_operations
+=========
+
+1. Add 2 integers without any arithmetic operators. 
