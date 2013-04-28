@@ -6,16 +6,16 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 Questions in C/hashtables_arrays_strings
 =========
+1. Find the length of a string.
+2. Reverse a string.
+3. Copy a source string to a destination string.
+4. Concat two strings and save the result to the first string.
+5. Recursively find the length of a string, the number of upper case, lower case charecters and vowels in a string.
 
-1. Concat two strings and save the result to the first string.
-2. Copy a source string to a destination string.
-3. Return the first duplicate char of a string with O(n) time.
-4. Detect if 2 strings are anagrams of each other or not with O(n) time.
-5. Detect if one string is a substring of another string or not. Using isSubstring() method only, check if 2 strings are rotations of each other or not.
-6. Recursively find the length of a string, the number of upper case, lower case charecters and vowels in a string.
-7. Find the length of a string.
-8. Remove all the duplicate chars of a string.
-9. Reverse a string.
+6. Return the first duplicate char of a string with O(n) time.
+7. Remove all the duplicate chars of a string.
+8. Detect if 2 strings are anagrams of each other or not with O(n) time.
+9. Detect if one string is a substring of another string or not. Using isSubstring() method only, check if 2 strings are rotations of each other or not.
 10. Replace each space of a string with %20
 
 
