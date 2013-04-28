@@ -1,4 +1,0 @@
-Default Readme
-=========
-
-Default Readme.
