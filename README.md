@@ -48,3 +48,39 @@ Questions in C/6_math
 =========
 
 1. Print first n prime numbers.
+
+
+Questions in C/7_file_operations
+=========
+
+
+
+Questions in Java/1_hashtables_arrays_strings_sort
+=========
+
+
+
+Questions in Java/2_linkedlists
+=========
+
+
+
+
+Questions in Java/3_stacks_queues
+=========
+
+
+
+
+Questions in Java/4_trees_graphs
+=========
+
+
+
+Questions in Java/5_file_operations
+=========
+
+
+
+Questions in Java/6_threading
+=========
