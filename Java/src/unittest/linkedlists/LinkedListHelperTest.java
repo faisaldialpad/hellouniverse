@@ -29,6 +29,7 @@ public class LinkedListHelperTest {
 	public void tearDown() throws Exception {
 	}
 
+	
 	@Test
 	public final void t_isCircular_null() {
 		assertFalse(LinkedListHelper.isCircular(null));
@@ -54,6 +55,33 @@ public class LinkedListHelperTest {
 		list.next.next.next=new LNode(4);
 		list.next.next.next.next=list.next;
 		assertTrue(LinkedListHelper.isCircular(list));
+	}
+	
+	@Test
+	public final void t_startOfCircle_null() {
+		assertNull(LinkedListHelper.startOfCircle(null));
+	}
+	@Test
+	public final void t_startOfCircle_one_element() {
+		assertNull(LinkedListHelper.startOfCircle(new LNode(1)));
+	}
+	@Test
+	public final void t_startOfCircle_non_circular() {
+		LNode list= new LNode(1);
+		list.next=new LNode(2);
+		list.next.next=new LNode(3);
+		list.next.next.next=new LNode(4);
+		list.next.next.next.next=new LNode(5);
+		assertNull(LinkedListHelper.startOfCircle(list));
+	}
+	@Test
+	public final void t_startOfCircle_circular() {
+		LNode list= new LNode(1);
+		list.next=new LNode(2);
+		list.next.next=new LNode(3);
+		list.next.next.next=new LNode(4);
+		list.next.next.next.next=list.next;
+		assertEquals(list.next,LinkedListHelper.startOfCircle(list));
 	}
 
 }
