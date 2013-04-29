@@ -74,7 +74,11 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 
 
-### Questions in Java/2_linkedlists
+### Questions in Java/src/linkedlists
+
+1. How will you detect a corrupt singly linked list (a linked list that has a circle in it, i.e., an arbitrary node's next pointer points to an earlier node)?
+2. Return the starting node of a circle and null if it is not circular.
+3. Write a function that will return true if a circular singly linked list has duplicate values and false if there are no duplicate values or the linked list is not circular. You can assume that the values are ascii characters ranging from 0 to 127.
 
 
 
