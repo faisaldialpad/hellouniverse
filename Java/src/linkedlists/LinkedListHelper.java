@@ -1,6 +1,7 @@
 package linkedlists;
 public class LinkedListHelper{
-    public static boolean isCircular(LNode<Integer> head){
+    public LinkedListHelper(){}
+	public static boolean isCircular(LNode<Integer> head){
     	if(head==null)
     		return false;
     	LNode<Integer> slow=head;
