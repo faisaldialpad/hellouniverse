@@ -36,23 +36,23 @@ public class LinkedListHelperTest {
 	}
 	@Test
 	public final void t_isCircular_one_element() {
-		assertFalse(LinkedListHelper.isCircular(new LNode(1)));
+		assertFalse(LinkedListHelper.isCircular(new LNode<Integer>(1)));
 	}
 	@Test
 	public final void t_isCircular_non_circular() {
-		LNode list= new LNode(1);
-		list.next=new LNode(2);
-		list.next.next=new LNode(3);
-		list.next.next.next=new LNode(4);
-		list.next.next.next.next=new LNode(5);
+		LNode<Integer> list= new LNode<Integer>(1);
+		list.next=new LNode<Integer>(2);
+		list.next.next=new LNode<Integer>(3);
+		list.next.next.next=new LNode<Integer>(4);
+		list.next.next.next.next=new LNode<Integer>(5);
 		assertFalse(LinkedListHelper.isCircular(list));
 	}
 	@Test
 	public final void t_isCircular_circular() {
-		LNode list= new LNode(1);
-		list.next=new LNode(2);
-		list.next.next=new LNode(3);
-		list.next.next.next=new LNode(4);
+		LNode<Integer> list= new LNode<Integer>(1);
+		list.next=new LNode<Integer>(2);
+		list.next.next=new LNode<Integer>(3);
+		list.next.next.next=new LNode<Integer>(4);
 		list.next.next.next.next=list.next;
 		assertTrue(LinkedListHelper.isCircular(list));
 	}
@@ -63,23 +63,23 @@ public class LinkedListHelperTest {
 	}
 	@Test
 	public final void t_startOfCircle_one_element() {
-		assertNull(LinkedListHelper.startOfCircle(new LNode(1)));
+		assertNull(LinkedListHelper.startOfCircle(new LNode<Integer>(1)));
 	}
 	@Test
 	public final void t_startOfCircle_non_circular() {
-		LNode list= new LNode(1);
-		list.next=new LNode(2);
-		list.next.next=new LNode(3);
-		list.next.next.next=new LNode(4);
-		list.next.next.next.next=new LNode(5);
+		LNode<Integer> list= new LNode<Integer>(1);
+		list.next=new LNode<Integer>(2);
+		list.next.next=new LNode<Integer>(3);
+		list.next.next.next=new LNode<Integer>(4);
+		list.next.next.next.next=new LNode<Integer>(5);
 		assertNull(LinkedListHelper.startOfCircle(list));
 	}
 	@Test
 	public final void t_startOfCircle_circular() {
-		LNode list= new LNode(1);
-		list.next=new LNode(2);
-		list.next.next=new LNode(3);
-		list.next.next.next=new LNode(4);
+		LNode<Integer> list= new LNode<Integer>(1);
+		list.next=new LNode<Integer>(2);
+		list.next.next=new LNode<Integer>(3);
+		list.next.next.next=new LNode<Integer>(4);
 		list.next.next.next.next=list.next;
 		assertEquals(list.next,LinkedListHelper.startOfCircle(list));
 	}

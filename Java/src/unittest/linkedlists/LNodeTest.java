@@ -11,7 +11,7 @@ import org.junit.Test;
 
 public class LNodeTest {
 
-	private LNode node;
+	private LNode<Integer> node;
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
 	}
@@ -22,7 +22,7 @@ public class LNodeTest {
 
 	@Before
 	public void setUp() throws Exception {
-		node = new LNode(1);
+		node = new LNode<Integer>(1);
 	}
 
 	@After

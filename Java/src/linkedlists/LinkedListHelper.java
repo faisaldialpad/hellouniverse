@@ -1,10 +1,10 @@
 package linkedlists;
 public class LinkedListHelper{
-    public static boolean isCircular(LNode head){
+    public static boolean isCircular(LNode<Integer> head){
     	if(head==null)
     		return false;
-        LNode slow=head;
-        LNode fast=head;
+    	LNode<Integer> slow=head;
+    	LNode<Integer> fast=head;
         while(fast.next!=null){
             slow=slow.next;
             fast=fast.next.next;
@@ -14,11 +14,11 @@ public class LinkedListHelper{
         return false;
     }
     
-    public static LNode startOfCircle(LNode head){
+    public static LNode<Integer> startOfCircle(LNode<Integer> head){
     	if(head == null)
     		return null;
-    	LNode slow=head;
-        LNode fast=head;
+    	LNode<Integer> slow=head;
+    	LNode<Integer> fast=head;
         while(fast.next!=null){
             slow=slow.next;
             fast=fast.next.next;
@@ -33,5 +33,37 @@ public class LinkedListHelper{
             fast=fast.next;
         }
         return slow;
+    }
+    public static boolean isCircularAndDuplicate(LNode<Character> head){
+        int []table= new int[4]; // initialized to 0
+        boolean isCircular=false;
+        boolean isDuplicate=false;
+        LNode<Character> slow=head;
+        LNode<Character> fast=head;
+        while(fast!=null && fast.next!=null){
+            if((table[slow.data/32]&(1<<(slow.data%32)))==0)
+                table[slow.data/32]|=(1<<(slow.data%32)); //set the corresponding bit
+            else
+                isDuplicate=true;
+            slow=slow.next;
+            fast=fast.next.next;
+            if(slow==fast){
+                isCircular= true;
+                break;
+            }
+        } 
+        // upto n-k values are checked for duplicate. If duplicate not found so far and it is circular then continue checking the rest.
+        if(isCircular&&!isDuplicate){
+            fast=head;
+            while(slow!=fast){
+                if((table[slow.data/32]&(1<<(slow.data%32)))==0)
+                    table[slow.data/32]|=(1<<(slow.data%32));
+                else
+                    isDuplicate=true;
+                slow=slow.next;
+                fast=fast.next;
+            }
+        }
+        return isDuplicate&&isCircular;
     }
 }
