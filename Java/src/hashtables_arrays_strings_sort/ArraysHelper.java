@@ -4,6 +4,8 @@ import java.util.HashSet;
 
 
 public class ArraysHelper {
+	
+	public ArraysHelper(){}
 	public static HashSet<ArrayList<Integer>> permuteWithoutDuplicate(ArrayList<Integer> input){
 		  if(input.size()==1){
 			  HashSet<ArrayList<Integer>> b=new HashSet<ArrayList<Integer>>();
