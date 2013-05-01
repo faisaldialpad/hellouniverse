@@ -65,6 +65,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 
 ### Questions in C/7_file_operations
+1. Print last n words from a file.
 
 
 
