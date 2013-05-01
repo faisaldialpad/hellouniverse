@@ -70,7 +70,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 
 ### Questions in Java/hashtables_arrays_strings_sort
-1. Write a function which will return the permutations of integers without any duplicates. E.g., `[1 2 3]-->[[1 2 3],[1 3 2],[2 1 3],[2 3 1], [3 1 2], [3 2 1]]`
+1. Write a function which will return the permutations of integers without any duplicates. E.g., `[1 2 2]-->[[1 2 2],[2 2 1],[2 1 2]]`
 
 
 
