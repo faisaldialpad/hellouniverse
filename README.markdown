@@ -33,6 +33,10 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 10. Replace each space of a string with `%20`
 11. Given an array A and a number n, if the n is in A then return the next bigger number than n. All the other cases return -1. Ex: `A={3,2,7,6},n=1 --> -1, A={3,2,7,6},n=3 --> 7, A={3,2,7,6},n=7 --> -1, A={3,2,7,6},n=2 --> 7`.
 12. Remove extra space in a string. Ex: `"   abc       def     " --> " abc def "`.
+13. Find a specific integer in a sorted array (binary search).
+14. Find a specific integer in a sorted (in increasing order) array that is rotated unknown number of times. The algorithm should run in `log(n)` time. Ex.  `Arr=[45 67 76 88 90 95 1 5 6 9 12 37], n=6 -->8`.
+15. A sequence increases, reach a max and then decreases, like `[45 67 76 88 90 95 47 12 9 7 6 5 4 3 2 1]`. Find the max. (An array sorted in an ascending order and another array sorted in descending order are concatenated together. Find the max. Either array can be empty.)
+16. Given an array of integers such that each element is either +1 or -1 to its preceding element. Find 1st occurrence of a given number in that array without using linear search.Ex. `Arr=[1 2 1 2 3 4 5 6 7 6 5 4 5 6 7 8 9],n=7-->8`
 
 
 ### Questions in C/2_linkedlists
