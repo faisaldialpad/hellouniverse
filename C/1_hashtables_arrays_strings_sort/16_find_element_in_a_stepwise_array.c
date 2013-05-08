@@ -5,26 +5,17 @@
 #include<stdlib.h>
 #include<stdio.h>
 #include<math.h>
-#define MAX(a,b) (((a)>(b))?(a):(b))
 
 /**
-* arr is such that each element is either +1 or -1 to its preceding element. i=start_index j=end_index
-* returns max
+* arr is such that each element is either +1 or -1 to its preceding element. 
+* i=start_index j=end_index
+* returns index of n
+* Algorithm: At each index i the difference between n and arr[i] is the minimum distance where n can be (because of the nature of the array)
 **/
-int find_element_stepwise_array(int *arr, int n, int length){
-	int current = 0;
-	int difference = abs(arr[current]-n);
-
-	while (difference != 0 && current < length){
-		difference = abs(arr[current]-n);
-		current += difference;
-	}
-
-	if (difference == 0){
-		return current;
-	}
-
-	return -1;
+int find_element_stepwise_array(int *arr, int n, int i, int j){
+	if(i>j) return -1;
+	else if(*(arr+i)==n) return i;
+	else return find_element_stepwise_array(arr,n,i+abs(*(arr+i)-n),j);
 }
 
 /**
@@ -36,7 +27,7 @@ int main(int argc, char *argv[]){
 	for(int i=1;i<argc-1;i++)
 		*(arr+i-1) = atoi(argv[i]);
 	int n=atoi(argv[argc-1]);
-	printf("%d",find_element_stepwise_array(arr,n,argc-2));
+	printf("%d",find_element_stepwise_array(arr,n,0,argc-3));
 	free(arr);
 	return 0;
 }
