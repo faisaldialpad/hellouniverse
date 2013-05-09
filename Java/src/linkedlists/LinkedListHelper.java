@@ -1,4 +1,8 @@
 package linkedlists;
+/**
+* Class owner: Faisal Rahman
+* Class contributors: Faisal Rahman
+**/
 public class LinkedListHelper{
     public LinkedListHelper(){}
 	public static boolean isCircular(LNode<Integer> head){
