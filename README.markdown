@@ -38,6 +38,8 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 15. A sequence increases, reach a max and then decreases, like `[45 67 76 88 90 95 47 12 9 7 6 5 4 3 2 1]`. Find the max. (An array sorted in an ascending order and another array sorted in descending order are concatenated together. Find the max. Either array can be empty.)
 16. Given an array of integers such that each element is either +1 or -1 to its preceding element. Find 1st occurrence of a given number in that array without using linear search.Ex. `Arr=[1 2 1 2 3 4 5 6 7 6 5 4 5 6 7 8 9],n=7-->8`
 17. Given a NxN pixel image, where each pixel is 4 bytes (therefore the image can be represented by a NxN integer matrix). Rotate by 90 degree in place.
+18. Given a MxN matrix. If a cell is 0 make the entire row and column corresponding to that cell to 0.
+19. Given a MxN matrix that is sorted in both rows and columns. Find an element in it. The algorithm should run in O(M+N) time.
 
 
 
@@ -63,12 +65,14 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 
 1. Add 2 integers without any arithmetic operators. 
+2. Write a function to check if an integer is the power of 2.
 
 
 ### Questions in C/6_math
 
 
 1. Print first n prime numbers.
+2. Print the nth fibonacci number. Ex. `f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, ...`.
 
 
 ### Questions in C/7_file_operations
