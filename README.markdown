@@ -39,6 +39,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 16. Given an array of integers such that each element is either +1 or -1 to its preceding element. Find 1st occurrence of a given number in that array without using linear search.Ex. `Arr=[1 2 1 2 3 4 5 6 7 6 5 4 5 6 7 8 9],n=7-->8`
 17. Given a NxN pixel image, where each pixel is 4 bytes (therefore the image can be represented by a NxN integer matrix). Rotate by 90 degree in place.
 18. Given a MxN matrix. If a cell is 0 make the entire row and column corresponding to that cell to 0.
+19. Given a MxN matrix that is sorted in both rows and columns. Find an element in it. The algorithm should run in O(M+N) time.
 
 
 
