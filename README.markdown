@@ -71,6 +71,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 
 1. Print first n prime numbers.
+2. Print the nth fibonacci number. Ex. `f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, ...`.
 
 
 ### Questions in C/7_file_operations
