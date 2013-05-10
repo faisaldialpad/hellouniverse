@@ -65,6 +65,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 
 1. Add 2 integers without any arithmetic operators. 
+2. Write a function to check if an integer is the power of 2.
 
 
 ### Questions in C/6_math
