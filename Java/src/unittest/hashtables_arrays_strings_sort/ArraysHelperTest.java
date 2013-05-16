@@ -74,8 +74,26 @@ public class ArraysHelperTest {
 	@Test
 	public final void testmaxseq() {
 		int []a= { 74, 63, 7, 8, 9, 10, 11, 12, 78, 2, 21, 22, 23, 25, 79, 78, 76, 77, 71, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 };
-		System.out.println(Arrays.toString(a));
-		System.out.println(Arrays.toString(ArraysHelper.maxSequence(a)));
+	//	System.out.println(Arrays.toString(a));
+	//	System.out.println(Arrays.toString(ArraysHelper.maxSequence(a)));
+	}
+	@Test
+	public final void testrotations() {
+		
+		
+		
+		
+		
+		
+		System.out.println(ArraysHelper.rotations(""));
+		System.out.println(ArraysHelper.rotations("s"));
+		System.out.println(ArraysHelper.rotations("sa"));
+		System.out.println(ArraysHelper.rotations("ss"));
+		System.out.println(ArraysHelper.rotations("ByeBye"));
+		System.out.println(ArraysHelper.rotations("StackOverflow"));
+		System.out.println(ArraysHelper.rotations("ssi"));
+		System.out.println(ArraysHelper.rotations("BeyBye"));
+	//	System.out.println(Arrays.toString(ArraysHelper.maxSequence(a)));
 	}
 
 }
