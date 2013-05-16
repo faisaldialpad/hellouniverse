@@ -2,7 +2,10 @@ package hashtables_arrays_strings_sort;
 import java.util.ArrayList;
 import java.util.HashSet;
 
-
+/**
+* Class owner: Faisal Rahman
+* Class contributors: Faisal Rahman
+**/
 public class ArraysHelper {
 	
 	public ArraysHelper(){}

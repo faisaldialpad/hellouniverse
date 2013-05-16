@@ -22,7 +22,7 @@ int next_bigger(int *arr,int len, int n){
 }
 
 /**
-* USAGE: ./a.out 4 5 6 7 5 [Array={4,5,6,7}, n=5] s
+* USAGE: ./a.out 4 5 6 7 5 [Array={4,5,6,7}, n=5] 
 **/
 int main(int argc, char *argv[]){
 	if(argc<2) return 1;
