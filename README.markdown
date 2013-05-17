@@ -49,10 +49,8 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 1. Implement a stack that has `push()`, `pop()`, and `min()`. `min()` gives the current minimum in the stack. All 3 function should be `O(1)` time. `stack_push_pop_min_constant_time.c`
 
 
-#### C/4_trees_graphs
-
-
-1. Implement a tree and a in-order-traversal. Implement a function to return the first common ancestor (fca) of any 2 given values.
+#### C/trees_graphs
+1. Implement a tree and a in-order-traversal. Implement a function to return the first common ancestor (fca) of any 2 given values. `tree_inorder_fca.c`
 
 
 #### C/5_bitwise_operations
