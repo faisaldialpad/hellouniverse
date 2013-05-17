@@ -1,4 +1,4 @@
-package others;
+package dynamic_programming;
 
 public class EditDistance {
 	
