@@ -32,63 +32,64 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 11. Reverse a string. `str_rev.c`
 
 #### C/arrays
-11. Given an array A and a number n, if the n is in A then return the next bigger number than n. All the other cases return -1. Ex: `A={3,2,7,6},n=1 --> -1, A={3,2,7,6},n=3 --> 7, A={3,2,7,6},n=7 --> -1, A={3,2,7,6},n=2 --> 7`.
-12. 
-13. Find a specific integer in a sorted array (binary search).
-14. Find a specific integer in a sorted (in increasing order) array that is rotated unknown number of times. The algorithm should run in `log(n)` time. Ex.  `Arr=[45 67 76 88 90 95 1 5 6 9 12 37], n=6 -->8`.
-15. A sequence increases, reach a max and then decreases, like `[45 67 76 88 90 95 47 12 9 7 6 5 4 3 2 1]`. Find the max. (An array sorted in an ascending order and another array sorted in descending order are concatenated together. Find the max. Either array can be empty.)
-16. Given an array of integers such that each element is either +1 or -1 to its preceding element. Find 1st occurrence of a given number in that array without using linear search.Ex. `Arr=[1 2 1 2 3 4 5 6 7 6 5 4 5 6 7 8 9],n=7-->8`
-17. Given a NxN pixel image, where each pixel is 4 bytes (therefore the image can be represented by a NxN integer matrix). Rotate by 90 degree in place.
-18. Given a MxN matrix. If a cell is 0 make the entire row and column corresponding to that cell to 0.
-19. Given a MxN matrix that is sorted in both rows and columns. Find an element in it. The algorithm should run in O(M+N) time.
+1. Given a MxN matrix. If a cell is 0 make the entire row and column corresponding to that cell to 0. `matrix_filter_by_zero.c`
+1. Given a NxN pixel image, where each pixel is 4 bytes (therefore the image can be represented by a NxN integer matrix). Rotate by 90 degree in place. `matrix_in_place_rotation.c`
+3. Given a MxN matrix that is sorted in both rows and columns. Find an element in it. The algorithm should run in O(M+N) time. `matrix_linear_search.c`
+4. Find a specific integer in a sorted array (binary search). `search_binary.c`
+5. Find a specific integer in a sorted (in increasing order) array that is rotated unknown number of times. The algorithm should run in `log(n)` time. Ex.  `Arr=[45 67 76 88 90 95 1 5 6 9 12 37], n=6 -->8`. `search_binary_rotated_sorted_array.c`
+6. Given an array of integers such that each element is either +1 or -1 to its preceding element. Find 1st occurrence of a given number in that array without using linear search.Ex. `Arr=[1 2 1 2 3 4 5 6 7 6 5 4 5 6 7 8 9],n=7-->8`. `search_element_in_a_stepwise_array.c`
+7. A sequence increases, reach a max and then decreases, like `[45 67 76 88 90 95 47 12 9 7 6 5 4 3 2 1]`. Find the max. (An array sorted in an ascending order and another array sorted in descending order are concatenated together. Find the max. Either array can be empty.). `search_max_in_increasing_then_decreasing_seq.c`
+8. Given an array A and a number n, if the n is in A then return the next bigger number than n. All the other cases return -1. Ex: `A={3,2,7,6},n=1 --> -1, A={3,2,7,6},n=3 --> 7, A={3,2,7,6},n=7 --> -1, A={3,2,7,6},n=2 --> 7`. `search_next_bigger_num.c`
 
 
 
-### Questions in C/2_linkedlists
+
+
+#### C/2_linkedlists
 
 
 1. Implement a singly linked list with `add(int v, int pos)`, `remove(int pos)`, and `print()` functionalities. Write a function to remove a linked list node when you only have access to that node.
 
 
-### Questions in C/3_stacks_queues
+#### C/3_stacks_queues
 
 
 1. Implement a stack that has `push()`, `pop()`, and `min()`. `min()` gives the current minimum in the stack. All 3 function should be `O(1)` time. 
 
 
-### Questions in C/4_trees_graphs
+#### C/4_trees_graphs
 
 
 1. Implement a tree and a in-order-traversal. Implement a function to return the first common ancestor (fca) of any 2 given values.
 
 
-### Questions in C/5_bitwise_operations
+#### C/5_bitwise_operations
 
 
 1. Add 2 integers without any arithmetic operators. 
 2. Write a function to check if an integer is the power of 2.
 
 
-### Questions in C/6_math
+#### C/6_math
 
 
 1. Print first n prime numbers.
 2. Print the nth fibonacci number. Ex. `f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, ...`.
 
 
-### Questions in C/7_file_operations
+#### C/7_file_operations
 1. Print last n words from a file.
 
 
 
 
-### Questions in Java/hashtables_arrays_strings_sort
+#### Java/hashtables_arrays_strings_sort
 
 1. Write a function which will return the permutations of integers without any duplicates. E.g., `[1 2 2]-->[[1 2 2],[2 2 1],[2 1 2]]`
 2. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`
 
 
-### Questions in Java/src/linkedlists
+#### Java/src/linkedlists
 
 1. How will you detect a corrupt singly linked list (a linked list that has a circle in it, i.e., an arbitrary node's next pointer points to an earlier node)?
 2. Return the starting node of a circle and null if it is not circular.
@@ -98,21 +99,21 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 
 
-### Questions in Java/3_stacks_queues
+#### Java/3_stacks_queues
 
 
 
 
 
-### Questions in Java/4_trees_graphs
+#### Java/4_trees_graphs
 
 
 
 
-### Questions in Java/5_file_operations
+#### Java/5_file_operations
 
 
 
 
-### Questions in Java/6_threading
+#### Java/6_threading
 
