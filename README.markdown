@@ -53,11 +53,9 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 1. Implement a tree and a in-order-traversal. Implement a function to return the first common ancestor (fca) of any 2 given values. `tree_inorder_fca.c`
 
 
-#### C/5_bitwise_operations
-
-
-1. Add 2 integers without any arithmetic operators. 
-2. Write a function to check if an integer is the power of 2.
+#### C/bitwise_operations
+1. Add 2 integers without any arithmetic operators. `add_without_any_arithmetic_operator.c`
+2. Write a function to check if an integer is the power of 2. `power_of_two.c`
 
 
 #### C/6_math
