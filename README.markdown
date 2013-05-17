@@ -45,10 +45,8 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 1. Implement a singly linked list with `add(int v, int pos)`, `remove(int pos)`, and `print()` functionalities. Write a function to remove a linked list node when you only have access to that node. `singly__add__remove__remove_without_head.c`
 
 
-#### C/3_stacks_queues
-
-
-1. Implement a stack that has `push()`, `pop()`, and `min()`. `min()` gives the current minimum in the stack. All 3 function should be `O(1)` time. 
+#### C/stacks_queues
+1. Implement a stack that has `push()`, `pop()`, and `min()`. `min()` gives the current minimum in the stack. All 3 function should be `O(1)` time. `stack_push_pop_min_constant_time.c`
 
 
 #### C/4_trees_graphs
