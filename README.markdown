@@ -19,7 +19,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 ### Questions:
 #### C/strings
-1. Remove all the duplicate chars of a string. `dulicates_remove.c`
+1. Remove all the duplicate chars of a string. `duplicates_remove.c`
 2. Return the first duplicate char of a string with `O(n)` time. `duplicate_char_first.c`
 3. Remove extra space in a string. Ex: `"(5 spaces)abc(10 spaces)def(1 space)" --> "(1 space)abc(1 space)def(1 space)"`. `extra_space_remove.c`
 4. Detect if 2 strings are anagrams of each other or not with `O(n)` time. `is_anagram.c`
