@@ -67,8 +67,8 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 2. Print the nth fibonacci number. Ex. `f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, ...`.
 
 
-#### C/7_file_operations
-1. Print last n words from a file.
+#### C/file_operations
+1. Print last n words from a file. `print_last_n_words.c`
 
 
 
