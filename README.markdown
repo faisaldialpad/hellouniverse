@@ -41,44 +41,30 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 7. A sequence increases, reach a max and then decreases, like `[45 67 76 88 90 95 47 12 9 7 6 5 4 3 2 1]`. Find the max. (An array sorted in an ascending order and another array sorted in descending order are concatenated together. Find the max. Either array can be empty.). `search_max_in_increasing_then_decreasing_seq.c`
 8. Given an array A and a number n, if the n is in A then return the next bigger number than n. All the other cases return -1. Ex: `A={3,2,7,6},n=1 --> -1, A={3,2,7,6},n=3 --> 7, A={3,2,7,6},n=7 --> -1, A={3,2,7,6},n=2 --> 7`. `search_next_bigger_num.c`
 
+#### C/linkedlists
+1. Implement a singly linked list with `add(int v, int pos)`, `remove(int pos)`, and `print()` functionalities. Write a function to remove a linked list node when you only have access to that node. `singly__add__remove__remove_without_head.c`
 
 
+#### C/stacks_queues
+1. Implement a stack that has `push()`, `pop()`, and `min()`. `min()` gives the current minimum in the stack. All 3 function should be `O(1)` time. `stack_push_pop_min_constant_time.c`
 
 
-#### C/2_linkedlists
+#### C/trees_graphs
+1. Implement a tree and a in-order-traversal. Implement a function to return the first common ancestor (fca) of any 2 given values. `tree_inorder_fca.c`
 
 
-1. Implement a singly linked list with `add(int v, int pos)`, `remove(int pos)`, and `print()` functionalities. Write a function to remove a linked list node when you only have access to that node.
+#### C/bitwise_operations
+1. Add 2 integers without any arithmetic operators. `add_without_any_arithmetic_operator.c`
+2. Write a function to check if an integer is the power of 2. `power_of_two.c`
 
 
-#### C/3_stacks_queues
+#### C/math
+1. Print first n prime numbers. `n_primes.c`
+2. Print the nth fibonacci number. Ex. `f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, ...`. `nth_fibonacci.c`
 
 
-1. Implement a stack that has `push()`, `pop()`, and `min()`. `min()` gives the current minimum in the stack. All 3 function should be `O(1)` time. 
-
-
-#### C/4_trees_graphs
-
-
-1. Implement a tree and a in-order-traversal. Implement a function to return the first common ancestor (fca) of any 2 given values.
-
-
-#### C/5_bitwise_operations
-
-
-1. Add 2 integers without any arithmetic operators. 
-2. Write a function to check if an integer is the power of 2.
-
-
-#### C/6_math
-
-
-1. Print first n prime numbers.
-2. Print the nth fibonacci number. Ex. `f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, ...`.
-
-
-#### C/7_file_operations
-1. Print last n words from a file.
+#### C/file_operations
+1. Print last n words from a file. `print_last_n_words.c`
 
 
 
