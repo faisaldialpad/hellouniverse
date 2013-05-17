@@ -58,11 +58,9 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 2. Write a function to check if an integer is the power of 2. `power_of_two.c`
 
 
-#### C/6_math
-
-
-1. Print first n prime numbers.
-2. Print the nth fibonacci number. Ex. `f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, ...`.
+#### C/math
+1. Print first n prime numbers. `n_primes.c`
+2. Print the nth fibonacci number. Ex. `f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, ...`. `nth_fibonacci.c`
 
 
 #### C/file_operations
