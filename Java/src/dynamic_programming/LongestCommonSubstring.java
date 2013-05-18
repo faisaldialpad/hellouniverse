@@ -1,5 +1,10 @@
 package dynamic_programming;
-
+/**
+ * Calculate the Longest Common SubString between s1 and s2.
+ * Class Contributors: Faisal Rahman
+ * @author Faisal Rahman
+ *
+ */
 public class LongestCommonSubString {
 	private String s1;
 	private String s2;
