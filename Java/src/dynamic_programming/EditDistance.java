@@ -1,34 +1,58 @@
 package dynamic_programming;
-
+/**
+ * Calculate the EditDistance between s1 and s2.
+ * Class Contributors: Faisal Rahman
+ * @author Faisal Rahman
+ *
+ */
 public class EditDistance {
-	
-	public static int getMin(int a,int b,int c){
-		int min=a;
-		if(min>b)
-			min=b;
-		if(min>c)
-			min=c;
-		return min;
-		
+	private String s1;
+	private String s2;
+	/**
+	 * Needed for dynamic programming algorithm.
+	 */
+	private int [][]table;
+	public EditDistance(String s1,String s2){
+		this.s1=s1;
+		this.s2=s2;
+		if(!(equalOrNull(s1) || equalOrNull(s2) || s1.equals(s2))) //cases we know the edit distance
+			table= new int[s1.length()+1][s2.length()+1]; // a dummy 1st column and dummy 1st row
 	}
-	public static int getEditDistance(String s1, String s2){
-		int [][]table= new int[s1.length()][s2.length()];
-		for(int i=0;i<s1.length();i++){
+	private int getMin(int a,int b,int c){
+		int min=a;
+		if(min>b) min=b;
+		if(min>c) min=c;
+		return min;
+	}
+	private boolean equalOrNull(String s){
+		return s==null || s.equals("");
+	}
+	/**
+	 * Calculate the edit distance between s1 and s2 by dynamic programming.
+	 * @param s1
+	 * @param s2
+	 * @return
+	 */
+	public int calculate(){
+		if(equalOrNull(s1) && equalOrNull(s2)) return 0;
+		else if(equalOrNull(s1)) return s2.length();
+		else if(equalOrNull(s2)) return s1.length();
+		else if(s1.equals(s2)) return 0;
+		
+		for(int i=0;i<s1.length()+1;i++){
 			table[i][0]=i;
 		}
-		for(int j=0;j<s2.length();j++){
+		for(int j=0;j<s2.length()+1;j++){
 			table[0][j]=j;
 		}
-		for(int i=1;i<s1.length();i++){
-			for(int j=1;j<s2.length();j++){
-				int dis=s1.charAt(i)==s2.charAt(j)?0:1;
-				table[i][j]=getMin(1+table[i-1][j],1+table[i][j-1],dis+table[i-1][j-1]);
+		for(int i=1;i<s1.length()+1;i++){
+			for(int j=1;j<s2.length()+1;j++){
+				int dis=s1.charAt(i-1)==s2.charAt(j-1)?0:1;
+				table[i][j]=getMin(1+table[i-1][j], //deletion
+						1+table[i][j-1], //insertion
+						dis+table[i-1][j-1]); //substitution
 			}
 		}
 		return table[s1.length()-1][s2.length()-1];
 	}
-	public static void main(String[] args){
-		System.out.print(getEditDistance("exponential", "polynomial"));
-	}
-
 }
