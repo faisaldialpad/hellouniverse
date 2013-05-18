@@ -12,12 +12,6 @@ public class EditDistance {
 	 * Needed for dynamic programming algorithm.
 	 */
 	private int [][]table;
-	public EditDistance(String s1,String s2){
-		this.s1=s1;
-		this.s2=s2;
-		if(!(equalOrNull(s1) || equalOrNull(s2) || s1.equals(s2))) //cases we know the edit distance
-			table= new int[s1.length()+1][s2.length()+1]; // a dummy 1st column and dummy 1st row
-	}
 	private int getMin(int a,int b,int c){
 		int min=a;
 		if(min>b) min=b;
@@ -27,11 +21,16 @@ public class EditDistance {
 	private boolean equalOrNull(String s){
 		return s==null || s.equals("");
 	}
+	public EditDistance(String s1,String s2){
+		this.s1=s1;
+		this.s2=s2;
+		if(!(equalOrNull(s1) || equalOrNull(s2) || s1.equals(s2))) //cases we know the edit distance
+			table= new int[s1.length()+1][s2.length()+1]; // a dummy 1st column and dummy 1st row
+	}
+
 	/**
 	 * Calculate the edit distance between s1 and s2 by dynamic programming.
-	 * @param s1
-	 * @param s2
-	 * @return
+	 * @return edit distance
 	 */
 	public int calculate(){
 		if(equalOrNull(s1) && equalOrNull(s2)) return 0;
