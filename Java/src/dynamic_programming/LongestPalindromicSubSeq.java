@@ -1,12 +1,12 @@
 package dynamic_programming;
 /**
- * Calculate the Longest Palindromic Sequence of a string.
+ * Calculate the Longest Palindromic SubSequence of a string.
  * Class Contributors: Faisal Rahman
  * @author Faisal Rahman
  *
  */
-public class LongestPalindromicSeq extends LongestCommonSubSeq {
-	public LongestPalindromicSeq(String s) {
+public class LongestPalindromicSubSeq extends LongestCommonSubSeq {
+	public LongestPalindromicSubSeq(String s) {
 		super(s, reverse(s));
 	}
 	private static String reverse(String s){
