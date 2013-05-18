@@ -1,9 +1,28 @@
 package dynamic_programming;
 
-public class LongestCommonSubstring {
-
-	public static String getLongestCommonSubstring(String s1, String s2){
-		int[][]table = new int[s1.length()+1][s2.length()+1];
+public class LongestCommonSubString {
+	private String s1;
+	private String s2;
+	/**
+	 * Needed for dynamic programming algorithm.
+	 */
+	private int [][]table;
+	private boolean equalOrNull(String s){
+		return s==null || s.equals("");
+	}
+	public LongestCommonSubString(String s1,String s2){
+		this.s1=s1;
+		this.s2=s2;
+		if(!(equalOrNull(s1) || equalOrNull(s2) || s1.equals(s2))) //cases we know the edit distance
+			table= new int[s1.length()+1][s2.length()+1]; // a dummy 1st column and dummy 1st row
+	}
+	/**
+	 * Calculate the LongestCommonSubString between s1 and s2 by dynamic programming.
+	 * @return LongestCommonSubString length
+	 */
+	public int calculate(){
+		if(equalOrNull(s1) && equalOrNull(s2)) return 0;
+		else if(s1.equals(s2)) return s1.length();
 		for(int i=0;i<s1.length()+1;i++){
 			table[i][0]=0;
 		}
@@ -11,45 +30,53 @@ public class LongestCommonSubstring {
 			table[0][j]=0;
 		}
 		int max=0;
-		int max_i=1;
-		int max_j=1;
 		for(int i=1;i<s1.length()+1;i++){
 			for(int j=1;j<s2.length()+1;j++){
 				if(s1.charAt(i-1)==s2.charAt(j-1)){
 					table[i][j]=table[i-1][j-1]+1;
-					if(table[i][j]>max){//this is for even size
-						max=table[i][j];
-						max_i=i;
-						max_j=j;
-					}
+					if(table[i][j]>max) max=table[i][j];
 				}
 				else{
 					table[i][j]=0;
 				}
 			}
 		}
-		return backTrack(s1,s2,table,max_i,max_j);
-		
+		return max;
 	}
-	public static String backTrack(String s1, String s2, int[][]table, int i, int j){
-		if(i==0 || j==0 || table[i][j]==0){
+	/**
+	 * A recursive function to backtrack the table.
+	 * @param i current index for table rows 
+	 * @param j current index for table columns 
+	 * @return LCS
+	 */
+	private String backTrack(int i, int j){
+		if(i==0 || j==0){
 			return "";
 		}
 		else if(s1.charAt(i-1)==s2.charAt(j-1)){
-			return backTrack(s1,s2,table,i-1,j-1)+s1.charAt(i-1);
+			return backTrack(i-1,j-1)+s1.charAt(i-1);
 		}
 		else{
 			return "";
 		}
 	}
-	public static void main(String[] args) {
-		String s1= "abcicbbcdefgagfed"; //plendomic
-		StringBuffer sb= new StringBuffer(s1);
-		sb.reverse();
-		String s2=sb.toString();
-		System.out.println(getLongestCommonSubstring(s1,s2));
-		
-
+	/**
+	 * returns the LongestCommonSubString
+	 */
+	public String toString(){
+		if(equalOrNull(s1) && equalOrNull(s2)) return "";
+		int max=0;
+		int max_i=0;
+		int max_j=0;
+		for(int i=1;i<s1.length()+1;i++){
+			for(int j=1;j<s2.length()+1;j++){
+					if(table[i][j]>max){
+						max=table[i][j];
+						max_i=i;
+						max_j=j;
+					}
+			}
+		}
+		return backTrack(max_i, max_j);
 	}
-
 }

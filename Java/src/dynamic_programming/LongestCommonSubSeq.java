@@ -50,6 +50,7 @@ public class LongestCommonSubSeq {
 	 * returns the LCS
 	 */
 	public String toString(){
+		if(equalOrNull(s1) && equalOrNull(s2)) return "";
 		return backTrack(s1.length(), s2.length());
 	}
 	/**
