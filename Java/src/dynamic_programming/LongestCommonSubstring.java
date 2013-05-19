@@ -12,13 +12,13 @@ public class LongestCommonSubString {
 	 * Needed for dynamic programming algorithm.
 	 */
 	private int [][]table;
-	private boolean equalOrNull(String s){
+	private boolean emptyOrNull(String s){
 		return s==null || s.equals("");
 	}
 	public LongestCommonSubString(String s1,String s2){
 		this.s1=s1;
 		this.s2=s2;
-		if(!(equalOrNull(s1) || equalOrNull(s2) || s1.equals(s2))) //cases we know the edit distance
+		if(!(emptyOrNull(s1) || emptyOrNull(s2) || s1.equals(s2))) //cases we know the edit distance
 			table= new int[s1.length()+1][s2.length()+1]; // a dummy 1st column and dummy 1st row
 	}
 	/**
@@ -26,7 +26,7 @@ public class LongestCommonSubString {
 	 * @return LongestCommonSubString length
 	 */
 	public int calculate(){
-		if(equalOrNull(s1) && equalOrNull(s2)) return 0;
+		if(emptyOrNull(s1) && emptyOrNull(s2)) return 0;
 		else if(s1.equals(s2)) return s1.length();
 		for(int i=0;i<s1.length()+1;i++){
 			table[i][0]=0;
@@ -69,7 +69,7 @@ public class LongestCommonSubString {
 	 * returns the LongestCommonSubString
 	 */
 	public String toString(){
-		if(equalOrNull(s1) && equalOrNull(s2)) return "";
+		if(emptyOrNull(s1) && emptyOrNull(s2)) return "";
 		int max=0;
 		int max_i=0;
 		int max_j=0;

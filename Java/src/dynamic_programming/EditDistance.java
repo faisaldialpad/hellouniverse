@@ -18,13 +18,13 @@ public class EditDistance {
 		if(min>c) min=c;
 		return min;
 	}
-	private boolean equalOrNull(String s){
+	private boolean emptyOrNull(String s){
 		return s==null || s.equals("");
 	}
 	public EditDistance(String s1,String s2){
 		this.s1=s1;
 		this.s2=s2;
-		if(!(equalOrNull(s1) || equalOrNull(s2) || s1.equals(s2))) //cases we know the edit distance
+		if(!(emptyOrNull(s1) || emptyOrNull(s2) || s1.equals(s2))) //cases we know the edit distance
 			table= new int[s1.length()+1][s2.length()+1]; // a dummy 1st column and dummy 1st row
 	}
 
@@ -33,9 +33,9 @@ public class EditDistance {
 	 * @return edit distance
 	 */
 	public int calculate(){
-		if(equalOrNull(s1) && equalOrNull(s2)) return 0;
-		else if(equalOrNull(s1)) return s2.length();
-		else if(equalOrNull(s2)) return s1.length();
+		if(emptyOrNull(s1) && emptyOrNull(s2)) return 0;
+		else if(emptyOrNull(s1)) return s2.length();
+		else if(emptyOrNull(s2)) return s1.length();
 		else if(s1.equals(s2)) return 0;
 		
 		for(int i=0;i<s1.length()+1;i++){
