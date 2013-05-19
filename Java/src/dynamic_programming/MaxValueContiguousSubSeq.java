@@ -3,60 +3,41 @@ package dynamic_programming;
 import java.util.LinkedList;
 
 public class MaxValueContiguousSubSeq {
-	//its a different problem
-	public static int[] maxSequence(int[] input){
-		int curSeqLength=1;
-		int maxSeqLength=1;
-		int startIndex=0;
-		for(int i=1;i<input.length;i++){
-			if(input[i]==input[i-1]+1){
-				curSeqLength++;
-			}
-			else{
-				if(curSeqLength>maxSeqLength){
-					maxSeqLength=curSeqLength;
-					startIndex=i-curSeqLength;
-				}
-				curSeqLength=1;
-			}
-		}
-		if(curSeqLength>maxSeqLength){
-			maxSeqLength=curSeqLength;
-			startIndex=input.length-curSeqLength;
-		}
-		int []output= new int[maxSeqLength];
-		for(int i=0;i<maxSeqLength;i++)
-			output[i]=input[i+startIndex];
-		return output;
+	private int[] seq;
+	/**
+	 * Needed for dynamic programming algorithm.
+	 */
+	private int []table;
+	public MaxValueContiguousSubSeq(int[] seq){
+		this.seq=seq;
+		if(seq!=null && seq.length!=0) 
+			table= new int[seq.length]; 
 	}
-	public static int[] getMaxValueContiguousSubSeq(int[] input){
-		int []table=new int[input.length];
-		table[0]=input[0];
-		for(int i=1;i<input.length;i++){
-			table[i]=Math.max(table[i-1]+input[i], input[i]);
+	private void calculate(){
+		table[0]=seq[0];
+		for(int i=1;i<seq.length;i++){
+			table[i]=Math.max(table[i-1]+seq[i], seq[i]);
 		}
+	}
+	public LinkedList<Integer> getMaxValueContiguousSubSeq(){
+		calculate();
 		int max_i=0;
 		int max=0;
-		for(int i=1;i<input.length;i++){
+		for(int i=0;i<table.length;i++){
 			if(max<table[i]){
 				max=table[i];
 				max_i=i;
 			}
 		}
-		int s=max_i;
-		while(s>0 && table[s]>0) s--;
-		int []output= new int[max_i-s+1];
-		for(int i=s;i<=max_i;i++){
-			output[i-s]=input[i];
+		return backTrack(max_i);
+	}
+	private LinkedList<Integer> backTrack(int i){
+		if(i<0 || table[i]<0)
+			return new LinkedList<Integer>();
+		else{
+			LinkedList<Integer> ret =backTrack(i-1);
+			ret.addFirst(seq[i]);
+			return ret;
 		}
-		return output;
-		
 	}
-	public static void main(String[] args) {
-		int []a=getMaxValueContiguousSubSeq(new int[]{9,1,-2,-3,4,5,-6,4,1,1,-6});
-		int []b=maxSequence(new int[]{9,1,-2,-3,4,5,-6,4,1,1,-6});
-	//	System.out.println(getMaxValueContiguousSubSeq(new int[]{9,1,-2,-3,4,5,-6,4,1,1,-6}).equals();
-
-	}
-
 }
