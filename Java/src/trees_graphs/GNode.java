@@ -5,7 +5,7 @@ import java.util.ArrayList;
 /**
  * A class for Graph Node.
  * Class contributors: Faisal Rahman
- * @author rfaisal
+ * @author Faisal Rahman
  *
  */
 public class GNode<T> {

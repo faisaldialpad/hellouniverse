@@ -4,7 +4,7 @@ import java.util.ArrayList;
 /**
  * A class for Graph.
  * Class contributors: Faisal Rahman
- * @author rfaisal
+ * @author Faisal Rahman
  *
  * @param <T>
  */
