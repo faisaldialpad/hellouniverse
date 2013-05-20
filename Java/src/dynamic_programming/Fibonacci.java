@@ -29,6 +29,8 @@ public class Fibonacci {
 	        table[j]=table[j-1]+table[j-2];
 	}
 	public int get(int i) throws Exception{
+		if(i<0)
+			throw new Exception("Wrong value of i.");
 		if(i>n)
 			throw new Exception("Fibo up to "+i+" is not calculated.");
 		else
