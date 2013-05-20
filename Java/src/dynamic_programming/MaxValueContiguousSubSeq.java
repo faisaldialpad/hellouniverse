@@ -14,10 +14,9 @@ public class MaxValueContiguousSubSeq {
 	private int []table;
 	private int max_i=0;
 	private int max=0;
-	private boolean isCalculated;
+	private boolean isCalculated=false;
 	public MaxValueContiguousSubSeq(int[] seq){
 		this.seq=seq;
-		isCalculated=false;
 		if(seq!=null && seq.length!=0) 
 			table= new int[seq.length]; 
 	}
