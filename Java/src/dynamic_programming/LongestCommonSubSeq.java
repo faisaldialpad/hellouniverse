@@ -1,11 +1,11 @@
 package dynamic_programming;
 /**
- * Calculate the Longest Common SubString between s1 and s2.
+ * Calculate the Longest Common SubSequence (LCS) between s1 and s2.
  * Class Contributors: Faisal Rahman
  * @author Faisal Rahman
  *
  */
-public class LongestCommonSubString {
+public class LongestCommonSubSeq {
 	private String s1;
 	private String s2;
 	/**
@@ -15,15 +15,15 @@ public class LongestCommonSubString {
 	private boolean emptyOrNull(String s){
 		return s==null || s.equals("");
 	}
-	public LongestCommonSubString(String s1,String s2){
+	public LongestCommonSubSeq(String s1,String s2){
 		this.s1=s1;
 		this.s2=s2;
 		if(!(emptyOrNull(s1) || emptyOrNull(s2) || s1.equals(s2))) //cases we know the edit distance
 			table= new int[s1.length()+1][s2.length()+1]; // a dummy 1st column and dummy 1st row
 	}
 	/**
-	 * Calculate the LongestCommonSubString between s1 and s2 by dynamic programming.
-	 * @return LongestCommonSubString length
+	 * Calculate the LCS between s1 and s2 by dynamic programming.
+	 * @return LCS length
 	 */
 	public int calculate(){
 		if(emptyOrNull(s1) && emptyOrNull(s2)) return 0;
@@ -34,19 +34,24 @@ public class LongestCommonSubString {
 		for(int j=0;j<s2.length()+1;j++){
 			table[0][j]=0;
 		}
-		int max=0;
 		for(int i=1;i<s1.length()+1;i++){
 			for(int j=1;j<s2.length()+1;j++){
 				if(s1.charAt(i-1)==s2.charAt(j-1)){
 					table[i][j]=table[i-1][j-1]+1;
-					if(table[i][j]>max) max=table[i][j];
 				}
 				else{
-					table[i][j]=0;
+					table[i][j]=Math.max(table[i-1][j],table[i][j-1]);
 				}
 			}
 		}
-		return max;
+		return table[s1.length()][s2.length()];
+	}
+	/**
+	 * returns the LCS
+	 */
+	public String toString(){
+		if(emptyOrNull(s1) && emptyOrNull(s2)) return "";
+		return backTrack(s1.length(), s2.length());
 	}
 	/**
 	 * A recursive function to backtrack the table.
@@ -62,26 +67,12 @@ public class LongestCommonSubString {
 			return backTrack(i-1,j-1)+s1.charAt(i-1);
 		}
 		else{
-			return "";
-		}
-	}
-	/**
-	 * returns the LongestCommonSubString
-	 */
-	public String toString(){
-		if(emptyOrNull(s1) && emptyOrNull(s2)) return "";
-		int max=0;
-		int max_i=0;
-		int max_j=0;
-		for(int i=1;i<s1.length()+1;i++){
-			for(int j=1;j<s2.length()+1;j++){
-					if(table[i][j]>max){
-						max=table[i][j];
-						max_i=i;
-						max_j=j;
-					}
+			if(table[i][j-1]>table[i-1][j]){
+				return backTrack(i,j-1);
+			}
+			else{
+				return backTrack(i-1,j);
 			}
 		}
-		return backTrack(max_i, max_j);
 	}
 }
