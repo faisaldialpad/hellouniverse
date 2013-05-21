@@ -17,13 +17,6 @@ public class LongestIncreasingSubSeq {
 			path= new int[seq.length];
 		}
 	}
-	public static void backTrack(int[] input,int []path, int i){
-		if(i<0)
-			return;
-		else
-			backTrack(input,path,path[i]);
-		System.out.print(input[i]+" ");
-	}
 	public int[] getLongestIncreasingSubSeq(){
 		if(seq==null || seq.length == 0)
 			return new int[0];
