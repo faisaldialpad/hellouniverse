@@ -6,6 +6,12 @@ package dynamic_programming;
  *
  */
 public class EditDistance {
+	/**
+	 * Costs.
+	 */
+	private static final int c_i=1;
+	private static final int c_d=1;
+	private static final int c_s=1;
 	private String s1;
 	private String s2;
 	/**
@@ -46,9 +52,9 @@ public class EditDistance {
 		}
 		for(int i=1;i<s1.length()+1;i++){
 			for(int j=1;j<s2.length()+1;j++){
-				int dis=s1.charAt(i-1)==s2.charAt(j-1)?0:1;
-				table[i][j]=getMin(1+table[i-1][j], //deletion
-						1+table[i][j-1], //insertion
+				int dis=s1.charAt(i-1)==s2.charAt(j-1)?0:c_s;
+				table[i][j]=getMin(c_d+table[i-1][j], //deletion
+						c_i+table[i][j-1], //insertion
 						dis+table[i-1][j-1]); //substitution
 			}
 		}
