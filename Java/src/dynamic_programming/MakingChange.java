@@ -12,5 +12,4 @@ public class MakingChange extends UnboundedKnapsack {
 			ret[i]=-1;
 		return ret;
 	}
-
 }

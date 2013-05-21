@@ -52,7 +52,7 @@ public class UnboundedKnapsack {
 		table[0]=0;
 		pathWeight[0]=-1;
 		for(int i=1;i<=capacity;i++){
-			int max=0;
+			int max=-Integer.MAX_VALUE;
 			pathWeight[i]=-1;
 			for(int j=0;j<weights.length;j++){
 				if(weights[j]<=i && table[i-weights[j]]+values[j]>max){
