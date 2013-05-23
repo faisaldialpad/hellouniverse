@@ -1,4 +1,4 @@
-package unittest.linkedlists;
+package unittests;
 
 import static org.junit.Assert.*;
 import linkedlists.LNode;

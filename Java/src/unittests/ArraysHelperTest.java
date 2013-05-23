@@ -1,11 +1,10 @@
-package unittest.hashtables_arrays_strings_sort;
+package unittests;
 
 import static org.junit.Assert.*;
 
 import hashtables_arrays_strings_sort.ArraysHelper;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashSet;
 
@@ -34,7 +33,10 @@ public class ArraysHelperTest {
 	@After
 	public void tearDown() throws Exception {
 	}
-
+	@Test
+	public final void defaultfail(){
+		fail("default fail");
+	}
 	@Test
 	public final void testPermuteWithoutDuplicate_boundery() {
 		ArrayList<Integer> list = new ArrayList<Integer>();
@@ -74,7 +76,7 @@ public class ArraysHelperTest {
 	@Test
 	public final void testmaxseq() {
 		int []a= { 74, 63, 7, 8, 9, 10, 11, 12, 78, 2, 21, 22, 23, 25, 79, 78, 76, 77, 71, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 };
-	//	System.out.println(Arrays.toString(a));
+		System.out.println(a);
 	//	System.out.println(Arrays.toString(ArraysHelper.maxSequence(a)));
 	}
 	@Test

@@ -1,4 +1,4 @@
-package unittest.hashtables_arrays_strings_sort;
+package unittests;
 
 import static org.junit.Assert.*;
 import hashtables_arrays_strings_sort.StringHelper;

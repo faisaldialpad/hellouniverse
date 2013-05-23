@@ -2,7 +2,7 @@ package trees_graphs;
 
 import java.util.Stack;
 
-public class Traversal {
+public class TreeTraversal {
 	public static void inOrderWithoutRecursion(TNode<Integer> parent){
 		TNode<Integer> current= parent;
 		Stack<TNode<Integer>> stack =new Stack<TNode<Integer>>();
