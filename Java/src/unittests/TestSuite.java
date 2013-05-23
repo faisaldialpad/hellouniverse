@@ -10,16 +10,22 @@ import org.junit.runners.Suite.SuiteClasses;
 @RunWith(value = Suite.class)
 @SuiteClasses(value = {  
 		ArraysHelperTest.class, 
+		DijkstraTest.class,
 		EditDistanceTest.class,
 		FibonacciTest.class,
+		GNodeTest.class,
+		GraphTest.class,
 		LinkedListHelperTest.class,
-		LNodeTest.class, 
+		LNodeTest.class,
+		LongestCommonSubSeqTest.class,
 		LongestCommonSubStringTest.class,
 		LongestIncreasingSubSeqTest.class,
 		LongestPalindromicSubSeqTest.class,
 		MakingChangeTest.class,
 		MaxValueContiguousSubSeqTest.class,
-		StringHelperTest.class ,
+		StringAddTest.class,
+		StringHelperTest.class,
+		TNodeTest.class,
 		UnboundedKnapsackTest.class
 		})
 public class TestSuite {}
