@@ -5,6 +5,7 @@
 #include<stdio.h>
 
 /**
+* NOT IMPLEMENTED YET
 * Find the first 0 from LSB and swap it with the next 1 
 **/
 int next_smallest(int n) {
