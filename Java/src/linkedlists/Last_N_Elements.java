@@ -14,7 +14,7 @@ public class Last_N_Elements {
 			n--;
 		}
 		if(n>0)
-			return null;
+			return t2;
 		else{
 			while(t1!=null){
 				t1=t1.next;
