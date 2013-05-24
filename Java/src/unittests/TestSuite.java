@@ -9,7 +9,6 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(value = Suite.class)
 @SuiteClasses(value = {  
-		ArraysHelperTest.class, 
 		DijkstraTest.class,
 		EditDistanceTest.class,
 		FibonacciTest.class,
@@ -24,7 +23,9 @@ import org.junit.runners.Suite.SuiteClasses;
 		LongestIncreasingSubSeqTest.class,
 		LongestPalindromicSubSeqTest.class,
 		MakingChangeTest.class,
+		MaxLengthContiguousSequentialIntegersTest.class,
 		MaxValueContiguousSubSeqTest.class,
+		PermutationTest.class,
 		StringAddTest.class,
 		StringHelperTest.class,
 		TNodeTest.class,

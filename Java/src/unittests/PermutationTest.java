@@ -2,7 +2,9 @@ package unittests;
 
 import static org.junit.Assert.*;
 
-import hashtables_arrays_strings_sort.ArraysHelper;
+
+import hashtables_arrays_strings_sort.Permutation;
+
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -15,11 +17,16 @@ import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class ArraysHelperTest {
+public class PermutationTest {
+	
+	@Test
+	public void defaultFail() {
+		fail("Not yet implemented");
+	}
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		assertNotNull(new ArraysHelper());
+		assertNotNull(new Permutation(null));
 	}
 
 	@AfterClass
@@ -40,7 +47,7 @@ public class ArraysHelperTest {
 	@Test
 	public final void testPermuteWithoutDuplicate_boundery() {
 		ArrayList<Integer> list = new ArrayList<Integer>();
-		assertEquals(new HashSet<ArrayList<Integer>>(),ArraysHelper.permuteWithoutDuplicate(list));
+		assertEquals(new HashSet<ArrayList<Integer>>(),new Permutation(list).permuteWithoutDuplicate());
 	}
 	@Test
 	public final void testPermuteWithoutDuplicate_no_duplicate_in_input() {
@@ -53,7 +60,7 @@ public class ArraysHelperTest {
 		Collections.addAll(r2,2,1);
 		result.add(r1);
 		result.add(r2);
-		assertTrue(result.equals(ArraysHelper.permuteWithoutDuplicate(list)));
+		assertTrue(result.equals(new Permutation(list).permuteWithoutDuplicate()));
 	}
 	@Test
 	public final void testPermuteWithoutDuplicate_duplicate_in_input() {
@@ -71,31 +78,9 @@ public class ArraysHelperTest {
 		result.add(r1);
 		result.add(r2);
 		result.add(r3);
-		assertTrue(result.equals(ArraysHelper.permuteWithoutDuplicate(list)));
+		assertTrue(result.equals(new Permutation(list).permuteWithoutDuplicate()));
 	}
-	@Test
-	public final void testmaxseq() {
-		int []a= { 74, 63, 7, 8, 9, 10, 11, 12, 78, 2, 21, 22, 23, 25, 79, 78, 76, 77, 71, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30 };
-		System.out.println(a);
-	//	System.out.println(Arrays.toString(ArraysHelper.maxSequence(a)));
-	}
-	@Test
-	public final void testrotations() {
-		
-		
-		
-		
-		
-		
-		System.out.println(ArraysHelper.rotations(""));
-		System.out.println(ArraysHelper.rotations("s"));
-		System.out.println(ArraysHelper.rotations("sa"));
-		System.out.println(ArraysHelper.rotations("ss"));
-		System.out.println(ArraysHelper.rotations("ByeBye"));
-		System.out.println(ArraysHelper.rotations("StackOverflow"));
-		System.out.println(ArraysHelper.rotations("ssi"));
-		System.out.println(ArraysHelper.rotations("BeyBye"));
-	//	System.out.println(Arrays.toString(ArraysHelper.maxSequence(a)));
-	}
+
+	
 
 }

@@ -36,5 +36,23 @@ public class StringHelperTest {
 	public final void testRunningDuplicate_boundary() {
 		assertEquals("", StringHelper.getRunningDuplicate("", ""));
 	}
+	@Test
+	public final void testrotations() {
+		
+		
+		
+		
+		
+		
+		System.out.println(StringHelper.rotations(""));
+		System.out.println(StringHelper.rotations("s"));
+		System.out.println(StringHelper.rotations("sa"));
+		System.out.println(StringHelper.rotations("ss"));
+		System.out.println(StringHelper.rotations("ByeBye"));
+		System.out.println(StringHelper.rotations("StackOverflow"));
+		System.out.println(StringHelper.rotations("ssi"));
+		System.out.println(StringHelper.rotations("BeyBye"));
+	//	System.out.println(Arrays.toString(ArraysHelper.maxSequence(a)));
+	}
 
 }
