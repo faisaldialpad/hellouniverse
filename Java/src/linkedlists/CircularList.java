@@ -3,13 +3,16 @@ package linkedlists;
 * Class owner: Faisal Rahman
 * Class contributors: Faisal Rahman
 **/
-public class LinkedListHelper{
-    public LinkedListHelper(){}
-	public static boolean isCircular(LNode<Integer> head){
+public class CircularList{
+	LNode<Character> head;
+    public CircularList(LNode<Character> head){
+    	this.head=head;
+    }
+	public boolean isCircular(){
     	if(head==null)
     		return false;
-    	LNode<Integer> slow=head;
-    	LNode<Integer> fast=head;
+    	LNode<Character> slow=head;
+    	LNode<Character> fast=head;
         while(fast.next!=null){
             slow=slow.next;
             fast=fast.next.next;
@@ -19,11 +22,11 @@ public class LinkedListHelper{
         return false;
     }
     
-    public static LNode<Integer> startOfCircle(LNode<Integer> head){
+    public LNode<Character> startOfCircle(){
     	if(head == null)
     		return null;
-    	LNode<Integer> slow=head;
-    	LNode<Integer> fast=head;
+    	LNode<Character> slow=head;
+    	LNode<Character> fast=head;
         while(fast.next!=null){
             slow=slow.next;
             fast=fast.next.next;
@@ -39,7 +42,7 @@ public class LinkedListHelper{
         }
         return slow;
     }
-    public static boolean isCircularAndDuplicate(LNode<Character> head){
+    public boolean isCircularAndDuplicate(){
         int []table= new int[4]; // initialized to 0
         boolean isCircular=false;
         boolean isDuplicate=false;

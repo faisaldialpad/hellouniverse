@@ -4,94 +4,91 @@
 package unittests;
 
 import static org.junit.Assert.*;
+import linkedlists.CircularList;
 import linkedlists.LNode;
-import linkedlists.LinkedListHelper;
-
-import org.junit.After;
-import org.junit.AfterClass;
-import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class LinkedListHelperTest {
-
+public class CircularListTest {
+	private CircularList cl;
 
 	@BeforeClass
 	public static void setUpBeforeClass() throws Exception {
-		assertNotNull(new LinkedListHelper());
+		assertNotNull( new CircularList(null));
 	}
-	@AfterClass
-	public static void tearDownAfterClass() throws Exception {
-	}
-	@Before
-	public void setUp() throws Exception {
-	}
-	@After
-	public void tearDown() throws Exception {
-	}
-
+	
 	
 	@Test
 	public final void t_isCircular_null() {
-		assertFalse(LinkedListHelper.isCircular(null));
+		cl= new CircularList(null);
+		assertFalse(cl.isCircular());
 	}
 	@Test
 	public final void t_isCircular_one_element() {
-		assertFalse(LinkedListHelper.isCircular(new LNode<Integer>(1)));
+		cl= new CircularList(new LNode<Character>('1'));
+		assertFalse(cl.isCircular());
 	}
 	@Test
 	public final void t_isCircular_non_circular() {
-		LNode<Integer> list= new LNode<Integer>(1);
-		list.next=new LNode<Integer>(2);
-		list.next.next=new LNode<Integer>(3);
-		list.next.next.next=new LNode<Integer>(4);
-		list.next.next.next.next=new LNode<Integer>(5);
-		assertFalse(LinkedListHelper.isCircular(list));
+		LNode<Character> list= new LNode<Character>('1');
+		list.next=new LNode<Character>('2');
+		list.next.next=new LNode<Character>('3');
+		list.next.next.next=new LNode<Character>('4');
+		list.next.next.next.next=new LNode<Character>('5');
+		cl= new CircularList(list);
+		assertFalse(cl.isCircular());
 	}
 	@Test
 	public final void t_isCircular_circular() {
-		LNode<Integer> list= new LNode<Integer>(1);
-		list.next=new LNode<Integer>(2);
-		list.next.next=new LNode<Integer>(3);
-		list.next.next.next=new LNode<Integer>(4);
+		LNode<Character> list= new LNode<Character>('1');
+		list.next=new LNode<Character>('2');
+		list.next.next=new LNode<Character>('3');
+		list.next.next.next=new LNode<Character>('4');
 		list.next.next.next.next=list.next;
-		assertTrue(LinkedListHelper.isCircular(list));
+		cl= new CircularList(list);
+		assertTrue(cl.isCircular());
 	}
 	
 	@Test
 	public final void t_startOfCircle_null() {
-		assertNull(LinkedListHelper.startOfCircle(null));
+		cl= new CircularList(null);
+		assertNull(cl.startOfCircle());
 	}
 	@Test
 	public final void t_startOfCircle_one_element() {
-		assertNull(LinkedListHelper.startOfCircle(new LNode<Integer>(1)));
+		cl= new CircularList(new LNode<Character>('1'));
+		assertNull(cl.startOfCircle());
 	}
 	@Test
 	public final void t_startOfCircle_non_circular() {
-		LNode<Integer> list= new LNode<Integer>(1);
-		list.next=new LNode<Integer>(2);
-		list.next.next=new LNode<Integer>(3);
-		list.next.next.next=new LNode<Integer>(4);
-		list.next.next.next.next=new LNode<Integer>(5);
-		assertNull(LinkedListHelper.startOfCircle(list));
+		LNode<Character> list= new LNode<Character>('1');
+		list.next=new LNode<Character>('2');
+		list.next.next=new LNode<Character>('3');
+		list.next.next.next=new LNode<Character>('4');
+		list.next.next.next.next=new LNode<Character>('5');
+		cl= new CircularList(list);
+		assertNull(cl.startOfCircle());
 	}
 	@Test
 	public final void t_startOfCircle_circular() {
-		LNode<Integer> list= new LNode<Integer>(1);
-		list.next=new LNode<Integer>(2);
-		list.next.next=new LNode<Integer>(3);
-		list.next.next.next=new LNode<Integer>(4);
+		LNode<Character> list= new LNode<Character>('1');
+		list.next=new LNode<Character>('2');
+		list.next.next=new LNode<Character>('3');
+		list.next.next.next=new LNode<Character>('4');
 		list.next.next.next.next=list.next;
-		assertEquals(list.next,LinkedListHelper.startOfCircle(list));
+		cl= new CircularList(list);
+		assertEquals(list.next,cl.startOfCircle());
 	}
 	
 	@Test
 	public final void t_isCircularAndDuplicate_null() {
-		assertFalse(LinkedListHelper.isCircularAndDuplicate(null));
+		cl= new CircularList(null);
+		assertFalse(cl.isCircularAndDuplicate());
 	}
 	@Test
 	public final void t_isCircularAndDuplicate_one_element() {
-		assertFalse(LinkedListHelper.isCircularAndDuplicate(new LNode<Character>('1')));
+		cl= new CircularList(new LNode<Character>('1'));
+		assertFalse(cl.isCircularAndDuplicate());
 	}
 	@Test
 	public final void t_isCircularAndDuplicate_non_circular_non_duplicate() {
@@ -100,7 +97,8 @@ public class LinkedListHelperTest {
 		list.next.next=new LNode<Character>('3');
 		list.next.next.next=new LNode<Character>('4');
 		list.next.next.next.next=new LNode<Character>('5');
-		assertFalse(LinkedListHelper.isCircularAndDuplicate(list));
+		cl= new CircularList(list);
+		assertFalse(cl.isCircularAndDuplicate());
 	}
 	@Test
 	public final void t_isCircularAndDuplicate_circular_duplicate_case1() {
@@ -109,7 +107,8 @@ public class LinkedListHelperTest {
 		list.next.next=new LNode<Character>('1');
 		list.next.next.next=new LNode<Character>('4');
 		list.next.next.next.next=list.next;
-		assertTrue(LinkedListHelper.isCircularAndDuplicate(list));
+		cl= new CircularList(list);
+		assertTrue(cl.isCircularAndDuplicate());
 	}
 	@Test
 	public final void t_isCircularAndDuplicate_circular_duplicate_case2() {
@@ -118,7 +117,8 @@ public class LinkedListHelperTest {
 		list.next.next=new LNode<Character>('4');
 		list.next.next.next=new LNode<Character>('4');
 		list.next.next.next.next=list.next;
-		assertTrue(LinkedListHelper.isCircularAndDuplicate(list));
+		cl= new CircularList(list);
+		assertTrue(cl.isCircularAndDuplicate());
 	}
 	@Test
 	public final void t_isCircularAndDuplicate_circular_non_duplicate() {
@@ -127,7 +127,8 @@ public class LinkedListHelperTest {
 		list.next.next=new LNode<Character>('3');
 		list.next.next.next=new LNode<Character>('4');
 		list.next.next.next.next=list.next;
-		assertFalse(LinkedListHelper.isCircularAndDuplicate(list));
+		cl= new CircularList(list);
+		assertFalse(cl.isCircularAndDuplicate());
 	}
 	@Test
 	public final void t_isCircularAndDuplicate_non_circular_duplicate() {
@@ -136,7 +137,8 @@ public class LinkedListHelperTest {
 		list.next.next=new LNode<Character>('3');
 		list.next.next.next=new LNode<Character>('1');
 		list.next.next.next.next=new LNode<Character>('5');
-		assertFalse(LinkedListHelper.isCircularAndDuplicate(list));
+		cl= new CircularList(list);
+		assertFalse(cl.isCircularAndDuplicate());
 	}
 
 }

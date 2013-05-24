@@ -17,7 +17,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		GraphTest.class,
 		Last_N_ElementsTest.class,
 		LinkedListAddTest.class,
-		LinkedListHelperTest.class,
+		CircularListTest.class,
 		LNodeTest.class,
 		LongestCommonSubSeqTest.class,
 		LongestCommonSubStringTest.class,
