@@ -82,7 +82,9 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 3. Write a function that will return true if a circular singly linked list has duplicate values and false if there are no duplicate values or the linked list is not circular. You can assume that the values are ascii characters ranging from 0 to 127.
 4. Add 2 numbers represented by linked lists: each node contains a digit and the digits are reverse order. For example: 123 is represented by 3->2->1 and 905 is represented by 5->0->9 and their addition will be 8->2->0->1 i.e., 1028. You are allowed to traverse each list only once.
 5. Implement an algorithm to find the nth to last element of a singly linked list.
-<!--6. Write an algorithm to remove duplicates from an unsorted linked list.
+
+<!--
+6. Write an algorithm to remove duplicates from an unsorted linked list.
 7. Flatten a `LinkedList<LinkedList<Integer>>`, e.g. `[[6,8],[4]]` should return `[6,8,4]`.
 -->
 
