@@ -74,7 +74,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 1. Write a function which will return the permutations of integers without any duplicates. E.g., `[1 2 2]-->[[1 2 2],[2 2 1],[2 1 2]]`.
 2. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`.
-
+3. Write a string add function. `StringAdd.java`
 
 #### Java/src/linkedlists
 
