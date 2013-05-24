@@ -72,17 +72,17 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 #### Java/hashtables_arrays_strings_sort
 
-1. Write a function which will return the permutations of integers without any duplicates. E.g., `[1 2 2]-->[[1 2 2],[2 2 1],[2 1 2]]`
-2. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`
+1. Write a function which will return the permutations of integers without any duplicates. E.g., `[1 2 2]-->[[1 2 2],[2 2 1],[2 1 2]]`.
+2. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`.
 
 
 #### Java/src/linkedlists
 
-1. How will you detect a corrupt singly linked list (a linked list that has a circle in it, i.e., an arbitrary node's next pointer points to an earlier node)?
-2. Return the starting node of a circle and null if it is not circular.
-3. Write a function that will return true if a circular singly linked list has duplicate values and false if there are no duplicate values or the linked list is not circular. You can assume that the values are ascii characters ranging from 0 to 127.
-4. Add 2 numbers represented by linked lists: each node contains a digit and the digits are reverse order. For example: 123 is represented by 3->2->1 and 905 is represented by 5->0->9 and their addition will be 8->2->0->1 i.e., 1028. You are allowed to traverse each list only once.
-5. Implement an algorithm to find the nth to last element of a singly linked list.
+1. How will you detect a corrupt singly linked list (a linked list that has a circle in it, i.e., an arbitrary node's next pointer points to an earlier node)? `CircularList.java`
+2. Return the starting node of a circle and null if it is not circular. `CircularList.java`
+3. Write a function that will return true if a circular singly linked list has duplicate values and false if there are no duplicate values or the linked list is not circular. You can assume that the values are ascii characters ranging from 0 to 127. `CircularList.java`
+4. Add 2 numbers represented by linked lists: each node contains a digit and the digits are reverse order. For example: 123 is represented by 3->2->1 and 905 is represented by 5->0->9 and their addition will be 8->2->0->1 i.e., 1028. You are allowed to traverse each list only once. `LinkedListAdd.java`
+5. Implement an algorithm to find the nth to last element of a singly linked list. `Last_N_Elements.java`
 
 <!--
 6. Write an algorithm to remove duplicates from an unsorted linked list.
