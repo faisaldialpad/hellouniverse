@@ -15,6 +15,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		FibonacciTest.class,
 		GNodeTest.class,
 		GraphTest.class,
+		Last_N_ElementsTest.class,
 		LinkedListAddTest.class,
 		LinkedListHelperTest.class,
 		LNodeTest.class,
