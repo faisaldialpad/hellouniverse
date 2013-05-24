@@ -5,7 +5,7 @@ package dynamic_programming;
  * @author Faisal Rahman
  *
  */
-public class LongestCommonSubString {
+public class LongestCommonSubstring {
 	private String s1;
 	private String s2;
 	/**
@@ -15,7 +15,7 @@ public class LongestCommonSubString {
 	private boolean emptyOrNull(String s){
 		return s==null || s.equals("");
 	}
-	public LongestCommonSubString(String s1,String s2){
+	public LongestCommonSubstring(String s1,String s2){
 		this.s1=s1;
 		this.s2=s2;
 		if(!(emptyOrNull(s1) || emptyOrNull(s2) || s1.equals(s2))) //cases we know the edit distance
