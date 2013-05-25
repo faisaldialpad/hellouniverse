@@ -9,6 +9,7 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(value = Suite.class)
 @SuiteClasses(value = {  
+		BSTfromSortedArrayTest.class,
 		CircularListTest.class,
 		DijkstraTest.class,
 		EditDistanceTest.class,
@@ -16,6 +17,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		GNodeTest.class,
 		GraphTest.class,
 		IdenticalRotationsTest.class,
+		IsBalancedTreeTest.class,
 		Last_N_ElementsTest.class,
 		LinkedListAddTest.class,
 		LNodeTest.class,

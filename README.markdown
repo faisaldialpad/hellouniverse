@@ -91,6 +91,11 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 4. Add 2 numbers represented by linked lists: each node contains a digit and the digits are reverse order. For example: 123 is represented by 3->2->1 and 905 is represented by 5->0->9 and their addition will be 8->2->0->1 i.e., 1028. You are allowed to traverse each list only once. `LinkedListAdd.java`
 5. Implement an algorithm to find the nth to last element of a singly linked list. `Last_N_Elements.java`
 
+#### Java/src/trees_graphs
+1. Do an in order traversal of a binary tree. Can you do it without using recursion? `TreeTraversal.Java` [unit tests are coming]
+2. Check if a binary tree is balanced or not. A balanced tree is defined to be a tree such that no 2 leaf nodes differ in distance from the root by more than 1. `IsBalancedTree.Java` [unit tests are coming]
+3. Given a sorted (increasing order) array, make a BST with minimal height.
+
 <!--
 6. Write an algorithm to remove duplicates from an unsorted linked list.
 7. Flatten a `LinkedList<LinkedList<Integer>>`, e.g. `[[6,8],[4]]` should return `[6,8,4]`.
