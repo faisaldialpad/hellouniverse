@@ -19,6 +19,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		IdenticalRotationsTest.class,
 		InOrderSuccessorTest.class,
 		IsBalancedTreeTest.class,
+		IsSubTreeTest.class,
 		Last_N_ElementsTest.class,
 		LevelWiseBFSonTreeTest.class,
 		LinkedListAddTest.class,

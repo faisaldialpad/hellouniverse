@@ -10,7 +10,7 @@ public class IsSubTree {
 	public boolean determine(){
 		return determineRecursive(bigTree,smallTree);
 	}
-	public static boolean determineRecursive(TNode<Integer> bigTree,TNode<Integer> smallTree){
+	private static boolean determineRecursive(TNode<Integer> bigTree,TNode<Integer> smallTree){
 		if(smallTree==null) return true;
 		else if(bigTree==null) return false;
 		else if(bigTree.data.equals(smallTree.data))
@@ -18,7 +18,7 @@ public class IsSubTree {
 				return true;
 		return determineRecursive(bigTree.left,smallTree) || determineRecursive(bigTree.right,smallTree);
 	}
-	public static boolean contains(TNode<Integer> bigTree,TNode<Integer> smallTree){
+	private static boolean contains(TNode<Integer> bigTree,TNode<Integer> smallTree){
 		if(smallTree==null) return true;
 		else if(bigTree==null) return false;
 		else if(bigTree.data.equals(smallTree.data)) 
