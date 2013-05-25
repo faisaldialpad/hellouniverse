@@ -9,14 +9,15 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(value = Suite.class)
 @SuiteClasses(value = {  
+		CircularListTest.class,
 		DijkstraTest.class,
 		EditDistanceTest.class,
 		FibonacciTest.class,
 		GNodeTest.class,
 		GraphTest.class,
+		IdenticalRotationsTest.class,
 		Last_N_ElementsTest.class,
 		LinkedListAddTest.class,
-		CircularListTest.class,
 		LNodeTest.class,
 		LongestCommonSubSeqTest.class,
 		LongestCommonSubStringTest.class,
@@ -27,7 +28,6 @@ import org.junit.runners.Suite.SuiteClasses;
 		MaxValueContiguousSubSeqTest.class,
 		PermutationTest.class,
 		StringAddTest.class,
-		StringHelperTest.class,
 		TNodeTest.class,
 		UnboundedKnapsackTest.class
 		})

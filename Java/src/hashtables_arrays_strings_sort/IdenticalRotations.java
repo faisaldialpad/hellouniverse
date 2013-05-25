@@ -1,18 +1,15 @@
 package hashtables_arrays_strings_sort;
 /**
+* Calculate how many rotations of a string is same as the original string.
 * Class owner: Faisal Rahman
 * Class contributors: Faisal Rahman
 **/
-public class StringHelper {
-	public StringHelper(){}
-	public static String getRunningDuplicate(String s, String prefix){
-		if(s.equals("")) return "";
-		char c=s.charAt(0);
-		prefix+=""+c+c;
-		String next=getRunningDuplicate(s.substring(1),prefix);
-		return next.equals("")?prefix:prefix+" "+next;
+public class IdenticalRotations {
+	private String s;
+	public IdenticalRotations(String s){
+		this.s=s;
 	}
-	public static int rotations(String s){
+	public int count(){
 		if(s=="") return 1;
 		int []hash= new int[256];
 		int max=0;
