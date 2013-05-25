@@ -17,6 +17,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		GNodeTest.class,
 		GraphTest.class,
 		IdenticalRotationsTest.class,
+		InOrderSuccessorTest.class,
 		IsBalancedTreeTest.class,
 		Last_N_ElementsTest.class,
 		LevelWiseBFSonTreeTest.class,
@@ -32,6 +33,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		PermutationTest.class,
 		StringAddTest.class,
 		TNodeTest.class,
+		TNodeWithParentTest.class,
 		UnboundedKnapsackTest.class
 		})
 public class TestSuite {}
