@@ -70,11 +70,18 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 
 
-#### Java/hashtables_arrays_strings_sort
+#### Java/src/arrays
 
-1. Write a function which will return the permutations of integers without any duplicates. E.g., `[1 2 2]-->[[1 2 2],[2 2 1],[2 1 2]]`.
-2. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`.
-3. Write a string add function. `StringAdd.java`
+1. Write a function which will return the permutations of integers (with all duplicates). E.g., `[2 2]-->[[2 2],[2 2]]`. `Permutation.java`
+2. Write a function which will return the permutations of integers without any duplicates. E.g., `[1 2 2]-->[[1 2 2],[2 2 1],[2 1 2]]`. `Permutation.java`
+3. Given an array, find the Max Length Contiguous Sequential Integers. e.g., `[3 1 2 5]-->[1 2]`. `MaxLengthContiguousSequentialIntegers.java`
+
+
+
+#### Java/src/strings
+1. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`. `RunningDuplicate.java`
+2. Write a string add function. `StringAdd.java`
+3. Calculate how many rotations of a string is same as the original string. `IdenticalRotations.java`
 
 #### Java/src/linkedlists
 
