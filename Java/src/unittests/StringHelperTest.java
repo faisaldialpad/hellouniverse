@@ -28,14 +28,7 @@ public class StringHelperTest {
 	public void tearDown() throws Exception {
 	}
 
-	@Test
-	public final void testRunningDuplicate_normal() {
-		assertEquals("HH HHee HHeell HHeellll HHeelllloo", StringHelper.getRunningDuplicate("Hello", ""));
-	}
-	@Test
-	public final void testRunningDuplicate_boundary() {
-		assertEquals("", StringHelper.getRunningDuplicate("", ""));
-	}
+	
 	@Test
 	public final void testrotations() {
 		
