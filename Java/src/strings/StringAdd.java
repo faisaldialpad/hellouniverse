@@ -1,4 +1,4 @@
-package hashtables_arrays_strings_sort;
+package strings;
 
 public class StringAdd {
 	private String s1;

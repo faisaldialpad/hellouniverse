@@ -1,4 +1,4 @@
-package hashtables_arrays_strings_sort;
+package strings;
 /**
 * Calculate how many rotations of a string is same as the original string.
 * Class owner: Faisal Rahman

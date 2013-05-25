@@ -1,10 +1,12 @@
 package unittests;
 
 import static org.junit.Assert.*;
-import hashtables_arrays_strings_sort.RunningDuplicate;
+
 
 
 import org.junit.Test;
+
+import strings.RunningDuplicate;
 
 public class RunningDuplicateTest {
 

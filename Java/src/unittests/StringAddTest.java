@@ -1,10 +1,12 @@
 package unittests;
 
 import static org.junit.Assert.*;
-import hashtables_arrays_strings_sort.StringAdd;
+
 
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import strings.StringAdd;
 
 public class StringAddTest {
 	StringAdd sa;

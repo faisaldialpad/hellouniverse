@@ -1,4 +1,4 @@
-package hashtables_arrays_strings_sort;
+package arrays;
 
 public class MaxLengthContiguousSequentialIntegers {
 	private int[] array;

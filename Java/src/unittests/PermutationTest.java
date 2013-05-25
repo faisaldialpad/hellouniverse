@@ -3,7 +3,6 @@ package unittests;
 import static org.junit.Assert.*;
 
 
-import hashtables_arrays_strings_sort.Permutation;
 
 
 import java.util.ArrayList;
@@ -16,6 +15,8 @@ import org.junit.AfterClass;
 import org.junit.Before;
 import org.junit.BeforeClass;
 import org.junit.Test;
+
+import arrays.Permutation;
 
 public class PermutationTest {
 	

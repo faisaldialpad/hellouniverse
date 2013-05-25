@@ -1,4 +1,4 @@
-package hashtables_arrays_strings_sort;
+package arrays;
 import java.util.ArrayList;
 import java.util.HashSet;
 
