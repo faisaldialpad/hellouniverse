@@ -19,6 +19,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		IdenticalRotationsTest.class,
 		IsBalancedTreeTest.class,
 		Last_N_ElementsTest.class,
+		LevelWiseBFSonTreeTest.class,
 		LinkedListAddTest.class,
 		LNodeTest.class,
 		LongestCommonSubSeqTest.class,
