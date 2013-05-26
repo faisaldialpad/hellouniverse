@@ -14,6 +14,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		DijkstraTest.class,
 		EditDistanceTest.class,
 		FibonacciTest.class,
+		FlattenListWithChildTest.class,
 		GNodeTest.class,
 		GraphTest.class,
 		IdenticalRotationsTest.class,
