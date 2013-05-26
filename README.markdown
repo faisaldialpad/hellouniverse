@@ -103,7 +103,6 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 4. Given a binary tree, design an algorithm that will create a list of all the nodes at each depth, i.e., if the tree is of depth `d` then there will be `d` lists. `LevelWiseBFSonTree.java` [unit tests are coming]
 5. Design an algorithm to find the in-order-successor of a given node, i.e., the node that will come next if we do an in-order traversal. Each node has a link to its parent. `InOrderSuccessor.java` [unit tests are coming]
 6. Create an algorithm to determine if a binary tree is a sub-tree of another binary tree. Both trees are very big with millions of nodes. `IsSubTree.java` [unit tests are coming]
-7. Given an integer and a binary tree with each node containing a value. Design an algoritm that find all the paths that will sum up to that integer (a path does not necessarily originate from the root).
 
 <!-- suffix tree -->
 
