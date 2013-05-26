@@ -67,10 +67,9 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 3. Write a function that will return true if a circular singly linked list has duplicate values and false if there are no duplicate values or the linked list is not circular. You can assume that the values are ascii characters ranging from 0 to 127. `CircularList.java`
 4. Add 2 numbers represented by linked lists: each node contains a digit and the digits are reverse order. For example: 123 is represented by 3->2->1 and 905 is represented by 5->0->9 and their addition will be 8->2->0->1 i.e., 1028. You are allowed to traverse each list only once. `LinkedListAdd.java`
 5. Implement an algorithm to find the last n elements of a singly linked list. `Last_N_Elements.java`
-
+6. Suppose a weird singly linked list has a child pointer that can point to a Node i.e., another linked list (which also has a child pointer). Flatten the list. (if a node has a child then the after flatten, the child's last node should point to current's next node and current's next node should point to its child. Remember the child should also be recursively flattened.). `FlattenListWithChild.java`
 <!--
 6. Write an algorithm to remove duplicates from an unsorted linked list.
-7. Flatten a `LinkedList<LinkedList<Integer>>`, e.g. `[[6,8],[4]]` should return `[6,8,4]`.
 -->
 
 ### Stacks and Queues
@@ -92,7 +91,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 <!-- suffix tree -->
 
 ### Dynamic Programming
-#### Java/src/dynamic_programming
+#### Java/src/dynamic_programming/
 1. Write a dynamic programming algorithm to print the nth fibonacci number.`Fibonacci.java`
 2. Given a sequence, find the Contiguous Sub-sequence, sum of which is greater than that of any other Contiguous Sub-sequences. If the input is `{−15,29,−36,3,−22,11,19,−5}` then the output is `{11,19}`.`MaxValueContiguousSubSeq.java`
 3. Given a sequence, find the longest Sub-sequence (not necessarily Contiguous) such that each element is strictly greater than its previous in the sub-sequence. If the input is `{−2,11,−4,13,−3,−5,−1,2}` then the output is `{−4,−3,−1,2}`.
@@ -104,15 +103,15 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 9. Calculate the longest common substring between 2 strings.`LongestCommonSubString.java`
 
 ### Others (Math, Bitwise Operations, File Operations, Threading, etc.)
-#### C/bitwise_operations
+#### C/bitwise_operations/
 1. Add 2 integers without any arithmetic operators. `add_without_any_arithmetic_operator.c`
 2. Write a function to check if an integer is the power of 2. `power_of_two.c`
 
-#### C/math
+#### C/math/
 1. Print first n prime numbers. `n_primes.c`
 2. Print the nth fibonacci number. Ex. `f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, ...`. `nth_fibonacci.c`
 
-#### C/file_operations
+#### C/file_operations/
 1. Print last n words from a file. `print_last_n_words.c`
 
 <!--
