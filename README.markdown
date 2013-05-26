@@ -18,8 +18,10 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 * http://careercup.com . Some of the problems and some of the solution ideas of this projects are taken from this website.
 
 
-### Questions:
-#### C/strings
+## Questions
+
+### Strings
+#### C/strings/
 1. Remove all the duplicate chars of a string. `duplicates_remove.c`
 2. Return the first duplicate char of a string with `O(n)` time. `duplicate_char_first.c`
 3. Remove extra space in a string. Ex: `"(5 spaces)abc(10 spaces)def(1 space)" --> "(1 space)abc(1 space)def(1 space)"`. `extra_space_remove.c`
@@ -32,7 +34,13 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 10. Recursively find the length of a string, the number of upper case, lower case charecters and vowels in a string. `str_len_upper_lower_vowel_count_recursive.c`
 11. Reverse a string. `str_rev.c`
 
-#### C/arrays
+#### Java/src/strings/
+1. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`. `RunningDuplicate.java`
+2. Write a string add function. `StringAdd.java`
+3. Calculate how many rotations of a string is same as the original string. `IdenticalRotations.java`
+
+### Arrays and ArrayLists
+#### C/arrays/
 1. Given a MxN matrix. If a cell is 0 make the entire row and column corresponding to that cell to 0. `matrix_filter_by_zero.c`
 1. Given a NxN pixel image, where each pixel is 4 bytes (therefore the image can be represented by a NxN integer matrix). Rotate by 90 degree in place. `matrix_in_place_rotation.c`
 3. Given a MxN matrix that is sorted in both rows and columns. Find an element in it. The algorithm should run in O(M+N) time. `matrix_linear_search.c`
@@ -42,49 +50,18 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 7. A sequence increases, reach a max and then decreases, like `[45 67 76 88 90 95 47 12 9 7 6 5 4 3 2 1]`. Find the max. (An array sorted in an ascending order and another array sorted in descending order are concatenated together. Find the max. Either array can be empty.). `search_max_in_increasing_then_decreasing_seq.c`
 8. Given an array A and a number n, if the n is in A then return the next bigger number than n. All the other cases return -1. Ex: `A={3,2,7,6},n=1 --> -1, A={3,2,7,6},n=3 --> 7, A={3,2,7,6},n=7 --> -1, A={3,2,7,6},n=2 --> 7`. `search_next_bigger_num.c`
 
-#### C/linkedlists
-1. Implement a singly linked list with `add(int v, int pos)`, `remove(int pos)`, and `print()` functionalities. Write a function to remove a linked list node when you only have access to that node. `singly__add__remove__remove_without_head.c`
-
-
-#### C/stacks_queues
-1. Implement a stack that has `push()`, `pop()`, and `min()`. `min()` gives the current minimum in the stack. All 3 function should be `O(1)` time. `stack_push_pop_min_constant_time.c`
-
-
-#### C/trees_graphs
-1. Implement a tree and a in-order-traversal. Implement a function to return the first common ancestor (fca) of any 2 given values. `tree_inorder_fca.c`
-
-
-#### C/bitwise_operations
-1. Add 2 integers without any arithmetic operators. `add_without_any_arithmetic_operator.c`
-2. Write a function to check if an integer is the power of 2. `power_of_two.c`
-
-
-#### C/math
-1. Print first n prime numbers. `n_primes.c`
-2. Print the nth fibonacci number. Ex. `f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, ...`. `nth_fibonacci.c`
-
-
-#### C/file_operations
-1. Print last n words from a file. `print_last_n_words.c`
-
-
-
-
-#### Java/src/arrays
-
+#### Java/src/arrays/
 1. Write a function which will return the permutations of integers (with all duplicates). E.g., `[2 2]-->[[2 2],[2 2]]`. `Permutation.java`
 2. Write a function which will return the permutations of integers without any duplicates. E.g., `[1 2 2]-->[[1 2 2],[2 2 1],[2 1 2]]`. `Permutation.java`
 3. Given an array, find the Max Length Contiguous Sequential Integers. e.g., `[3 1 2 5]-->[1 2]`. `MaxLengthContiguousSequentialIntegers.java`
 
 
 
-#### Java/src/strings
-1. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`. `RunningDuplicate.java`
-2. Write a string add function. `StringAdd.java`
-3. Calculate how many rotations of a string is same as the original string. `IdenticalRotations.java`
+### LinkedLists
+#### C/linkedlists/
+1. Implement a singly linked list with `add(int v, int pos)`, `remove(int pos)`, and `print()` functionalities. Write a function to remove a linked list node when you only have access to that node. `singly__add__remove__remove_without_head.c`
 
-#### Java/src/linkedlists
-
+#### Java/src/linkedlists/
 1. How will you detect a corrupt singly linked list (a linked list that has a circle in it, i.e., an arbitrary node's next pointer points to an earlier node)? `CircularList.java`
 2. Return the starting node of a circle and null if it is not circular. `CircularList.java`
 3. Write a function that will return true if a circular singly linked list has duplicate values and false if there are no duplicate values or the linked list is not circular. You can assume that the values are ascii characters ranging from 0 to 127. `CircularList.java`
@@ -96,7 +73,15 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 7. Flatten a `LinkedList<LinkedList<Integer>>`, e.g. `[[6,8],[4]]` should return `[6,8,4]`.
 -->
 
-#### Java/src/trees_graphs
+### Stacks and Queues
+#### C/stacks_queues/
+1. Implement a stack that has `push()`, `pop()`, and `min()`. `min()` gives the current minimum in the stack. All 3 function should be `O(1)` time. `stack_push_pop_min_constant_time.c`
+
+### Trees and Graphs
+#### C/trees_graphs/
+1. Implement a tree and a in-order-traversal. Implement a function to return the first common ancestor (fca) of any 2 given values. `tree_inorder_fca.c`
+
+#### Java/src/trees_graphs/
 1. Do an in order traversal of a binary tree. Can you do it without using recursion? `TreeTraversal.Java` [unit tests are coming]
 2. Check if a binary tree is balanced or not. A balanced tree is defined to be a tree such that no 2 leaf nodes differ in distance from the root by more than 1. `IsBalancedTree.Java` [unit tests are coming]
 3. Given a sorted (increasing order) array, make a BST with minimal height.`BSTfromSortedArray.java` [unit tests are coming]
@@ -106,8 +91,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 <!-- suffix tree -->
 
-
-
+### Dynamic Programming
 #### Java/src/dynamic_programming
 1. Write a dynamic programming algorithm to print the nth fibonacci number.`Fibonacci.java`
 2. Given a sequence, find the Contiguous Sub-sequence, sum of which is greater than that of any other Contiguous Sub-sequences. If the input is `{−15,29,−36,3,−22,11,19,−5}` then the output is `{11,19}`.`MaxValueContiguousSubSeq.java`
@@ -118,6 +102,18 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 7. Calculate the longest common sub-sequence between 2 strings. Recall, `ac` is a common sub-sequence between `abc` and `acq`. `LongestCommonSubSeq.java`
 8. Calculate the longest Palindromic sub-sequence of a string, i.e., the longest sub-sequence that is a palindrome. `LongestPalindromicSubSeq.java`
 9. Calculate the longest common substring between 2 strings.`LongestCommonSubString.java`
+
+### Others (Math, Bitwise Operations, File Operations, Threading, etc.)
+#### C/bitwise_operations
+1. Add 2 integers without any arithmetic operators. `add_without_any_arithmetic_operator.c`
+2. Write a function to check if an integer is the power of 2. `power_of_two.c`
+
+#### C/math
+1. Print first n prime numbers. `n_primes.c`
+2. Print the nth fibonacci number. Ex. `f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, ...`. `nth_fibonacci.c`
+
+#### C/file_operations
+1. Print last n words from a file. `print_last_n_words.c`
 
 <!--
 #### Java/3_stacks_queues
