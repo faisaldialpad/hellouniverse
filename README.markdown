@@ -33,6 +33,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 9. Find the length of a string. `str_len.c`
 10. Recursively find the length of a string, the number of upper case, lower case charecters and vowels in a string. `str_len_upper_lower_vowel_count_recursive.c`
 11. Reverse a string. `str_rev.c`
+12. Return the first non-repeating char of a string with `O(n)` time. `non_repeating_char_first.c`
 
 #### Java/src/strings/
 1. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`. `RunningDuplicate.java`
@@ -68,6 +69,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 4. Add 2 numbers represented by linked lists: each node contains a digit and the digits are reverse order. For example: 123 is represented by 3->2->1 and 905 is represented by 5->0->9 and their addition will be 8->2->0->1 i.e., 1028. You are allowed to traverse each list only once. `LinkedListAdd.java`
 5. Implement an algorithm to find the last n elements of a singly linked list. `Last_N_Elements.java`
 6. Suppose a weird singly linked list has a child pointer that can point to a Node i.e., another linked list (which also has a child pointer). Flatten the list. (if a node has a child then the after flatten, the child's last node should point to current's next node and current's next node should point to its child. Remember the child should also be recursively flattened.). `FlattenListWithChild.java`
+
 <!--
 6. Write an algorithm to remove duplicates from an unsorted linked list.
 -->
@@ -88,7 +90,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 4. Given a binary tree, design an algorithm that will create a list of all the nodes at each depth, i.e., if the tree is of depth `d` then there will be `d` lists. `LevelWiseBFSonTree.java` [unit tests are coming]
 5. Design an algorithm to find the in-order-successor of a given node, i.e., the node that will come next if we do an in-order traversal. Each node has a link to its parent. `InOrderSuccessor.java` [unit tests are coming]
 6. Create an algorithm to determine if a binary tree is a sub-tree of another binary tree. Both trees are very big with millions of nodes. `IsSubTree.java` [unit tests are coming]
-7. Write an algorithm to check if a tree is a BST or not. Check for the case that all the nodes in the left subtree must be less than the root and all the node in the right subtree must be greater than the root. For example, if a tree is represented by an array then `[*,4,2,6,1,100,5,7]` is not a BST, but  `[*,4,2,6,1,3,5,7]` is.
+7. Write an algorithm to check if a tree is a BST or not. Check for the case that all the nodes in the left subtree must be less than the root and all the node in the right subtree must be greater than the root. For example, if a tree is represented by an array then `[*,4,2,6,1,100,5,7]` is not a BST, but  `[*,4,2,6,1,3,5,7]` is. `IsBST.java`
 
 <!-- suffix tree -->
 
