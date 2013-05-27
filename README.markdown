@@ -42,6 +42,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 3. Calculate how many rotations of a string is same as the original string. `IdenticalRotations.java`
 4. Reverse a sentence. For example: `"Hello, how are you?"-->"you? are how Hello,"`. Can you also do this in place? `ReverseSentence.java`
 5. Reverse only words in a sentence. For example: `"Hello, how are you?"-->",olleH woh era ?uoy"`. You must do this in place. `ReverseWordsInSentence.java`
+6. Convert an `int` to a `String`. You can assume that the input is within integer limit and it can be negative. `ItoA.java`
 
 ### Arrays and ArrayLists
 #### C/arrays/
