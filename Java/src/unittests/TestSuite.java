@@ -22,6 +22,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		IsBalancedTreeTest.class,
 		IsBSTTest.class,
 		IsSubTreeTest.class,
+		ItoATest.class,
 		Last_N_ElementsTest.class,
 		LevelWiseBFSonTreeTest.class,
 		LinkedListAddTest.class,
