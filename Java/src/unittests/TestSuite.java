@@ -35,9 +35,11 @@ import org.junit.runners.Suite.SuiteClasses;
 		MaxLengthContiguousSequentialIntegersTest.class,
 		MaxValueContiguousSubSeqTest.class,
 		PermutationTest.class,
+		PhoneKeyboardWordsListTest.class,
 		ReverseSentenceTest.class,
 		ReverseWordsInSentenceTest.class,
 		StringAddTest.class,
+		StringPermutationTest.class,
 		TNodeTest.class,
 		TNodeWithParentTest.class,
 		UnboundedKnapsackTest.class

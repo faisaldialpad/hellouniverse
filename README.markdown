@@ -43,6 +43,8 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 4. Reverse a sentence. For example: `"Hello, how are you?"-->"you? are how Hello,"`. Can you also do this in place? `ReverseSentence.java`
 5. Reverse only words in a sentence. For example: `"Hello, how are you?"-->",olleH woh era ?uoy"`. You must do this in place. `ReverseWordsInSentence.java`
 6. Convert an `int` to a `String`. You can assume that the input is within integer limit and it can be negative. `ItoA.java`
+7. Write a function that returns all the possible combinations of a string.E.g., `aab-->[aab,aba,baa]` `StringPermutation.java`
+8. Write a function that takes a phone number, and returns all possibilities of words possible with that phone number by the phone key board. For example, if `8662665` is one such phone number then `TOOCOOL` is one of the possibilities. `PhoneKeyboardWordsList.java`
 
 ### Arrays and ArrayLists
 #### C/arrays/
