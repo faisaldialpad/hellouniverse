@@ -80,6 +80,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 #### C/trees_graphs/
 1. Implement a tree and a in-order-traversal. Implement a function to return the first common ancestor (fca) of any 2 given nodes. `tree_inorder_fca.c`
 2. Implement a tree and a in-order-traversal. Assuming the tree is a Binary Search Tree, implement a function to return the first common ancestor (fca) of any 2 given nodes. For this problem you can assume that both values exist in the tree, so no need to check for those cases. `bst_inorder_fca.c`
+
 #### Java/src/trees_graphs/
 1. Do an in order traversal of a binary tree. Can you do it without using recursion? `TreeTraversal.Java` [unit tests are coming]
 2. Check if a binary tree is balanced or not. A balanced tree is defined to be a tree such that no 2 leaf nodes differ in distance from the root by more than 1. `IsBalancedTree.Java` [unit tests are coming]
@@ -87,6 +88,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 4. Given a binary tree, design an algorithm that will create a list of all the nodes at each depth, i.e., if the tree is of depth `d` then there will be `d` lists. `LevelWiseBFSonTree.java` [unit tests are coming]
 5. Design an algorithm to find the in-order-successor of a given node, i.e., the node that will come next if we do an in-order traversal. Each node has a link to its parent. `InOrderSuccessor.java` [unit tests are coming]
 6. Create an algorithm to determine if a binary tree is a sub-tree of another binary tree. Both trees are very big with millions of nodes. `IsSubTree.java` [unit tests are coming]
+7. Write an algorithm to check if a tree is a BST or not. Check for the case that all the nodes in the left subtree must be less than the root and all the node in the right subtree must be greater than the root. For example, if a tree is represented by an array then `[*,4,2,6,1,100,5,7]` is not a BST, but  `[*,4,2,6,1,3,5,7]` is.
 
 <!-- suffix tree -->
 
