@@ -34,6 +34,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 10. Recursively find the length of a string, the number of upper case, lower case charecters and vowels in a string. `str_len_upper_lower_vowel_count_recursive.c`
 11. Reverse a string. `str_rev.c`
 12. Return the first non-repeating char of a string with `O(n)` time. `non_repeating_char_first.c`
+13. Write a function that takes 2 strings and removes everything from 1st string that exists in 2nd string. For example, `remove("asdadasewss","aeiou");` removes all the vowels. `remove_from_2nd_string.c`
 
 #### Java/src/strings/
 1. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`. `RunningDuplicate.java`
