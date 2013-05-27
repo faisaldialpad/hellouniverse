@@ -40,6 +40,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 1. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`. `RunningDuplicate.java`
 2. Write a string add function. `StringAdd.java`
 3. Calculate how many rotations of a string is same as the original string. `IdenticalRotations.java`
+4. Reverse a sentence. For example: `"Hello, how are you?"-->"you? are how Hello,"`. Can you also do this in place? `ReverseSentence.java`
 
 ### Arrays and ArrayLists
 #### C/arrays/
