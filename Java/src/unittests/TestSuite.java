@@ -13,6 +13,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		CircularListTest.class,
 		DijkstraTest.class,
 		EditDistanceTest.class,
+		EvenFibonacciSumTest.class,
 		FibonacciTest.class,
 		FlattenListWithChildTest.class,
 		GNodeTest.class,
