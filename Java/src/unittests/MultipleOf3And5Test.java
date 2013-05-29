@@ -2,9 +2,10 @@ package unittests;
 
 import static org.junit.Assert.*;
 
+import math.MultipleOf3And5;
+
 import org.junit.Test;
 
-import project_euler.MultipleOf3And5;
 
 public class MultipleOf3And5Test {
 

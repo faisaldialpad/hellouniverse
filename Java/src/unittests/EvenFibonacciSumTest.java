@@ -2,9 +2,10 @@ package unittests;
 
 import static org.junit.Assert.*;
 
+import math.EvenFibonacciSum;
+
 import org.junit.Test;
 
-import project_euler.EvenFibonacciSum;
 
 public class EvenFibonacciSumTest {
 

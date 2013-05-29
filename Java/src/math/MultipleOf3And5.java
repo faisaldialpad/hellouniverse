@@ -1,4 +1,4 @@
-package project_euler;
+package math;
 
 public class MultipleOf3And5 {
 	private int max;

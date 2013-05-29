@@ -1,4 +1,4 @@
-package project_euler;
+package math;
 
 import java.util.ArrayList;
 
