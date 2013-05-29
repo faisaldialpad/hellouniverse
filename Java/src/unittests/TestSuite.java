@@ -45,6 +45,8 @@ import org.junit.runners.Suite.SuiteClasses;
 		StringPermutationTest.class,
 		TNodeTest.class,
 		TNodeWithParentTest.class,
+		TreeTraversalTest.class,
+		TrieTest.class,
 		UnboundedKnapsackTest.class
 		})
 public class TestSuite {}
