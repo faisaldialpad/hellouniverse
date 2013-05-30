@@ -20,6 +20,8 @@ import org.junit.runners.Suite.SuiteClasses;
 		FlattenListWithChildTest.class,
 		GNodeTest.class,
 		GraphTest.class,
+		HeapTest.class,
+		HeapSortTest.class,
 		IdenticalRotationsTest.class,
 		InOrderSuccessorTest.class,
 		IsBalancedTreeTest.class,

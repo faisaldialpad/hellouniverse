@@ -13,6 +13,9 @@ public class Heap {
 				tree.add(i);
 		buildHeap();
 	}
+	public boolean isEmpty(){
+		return tree.isEmpty();
+	}
 	public void insert(int num){
 		tree.add(num);
 		bubble_up(tree.size()-1);

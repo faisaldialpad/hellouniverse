@@ -101,6 +101,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 9. Given a graph `g` with each node containing an integer, find a value in the graph using the BFS algorithm. `BFS.java` [unit tests are coming]
 10. Given a graph `g` with each node containing an integer, find a value in the graph using the DFS algorithm. `DFS.java` [unit tests are coming]
 11. Design a min binary heap data structure with add, removeMin, getMin functions. `Heap.java`
+12. Design HeapSort algorithm using the heap created in Question 11. `HeapSort.java`
 
 <!-- suffix tree -->
 
