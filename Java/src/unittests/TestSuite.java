@@ -9,8 +9,10 @@ import org.junit.runners.Suite.SuiteClasses;
 
 @RunWith(value = Suite.class)
 @SuiteClasses(value = {  
+		BFSTest.class,
 		BSTfromSortedArrayTest.class,
 		CircularListTest.class,
+		DFSTest.class,
 		DijkstraTest.class,
 		EditDistanceTest.class,
 		EvenFibonacciSumTest.class,

@@ -98,7 +98,8 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 6. Create an algorithm to determine if a binary tree is a sub-tree of another binary tree. Both trees are very big with millions of nodes. `IsSubTree.java` [unit tests are coming]
 7. Write an algorithm to check if a tree is a BST or not. Check for the case that all the nodes in the left subtree must be less than the root and all the node in the right subtree must be greater than the root. For example, if a tree is represented by an array then `[*,4,2,6,1,100,5,7]` is not a BST, but  `[*,4,2,6,1,3,5,7]` is. `IsBST.java`
 8. A Trie is a prefex tree of created by string. Implement the `get(String key)` and `put(int value, String key)` methods of a trie, so that it is similar to a `HashMap<String>`. `Trie.java`
-9. Given a graph `g` with each node containing an integer, find a value in the graph using the BFS algorithm.
+9. Given a graph `g` with each node containing an integer, find a value in the graph using the BFS algorithm. `BFS.java` [unit tests are coming]
+10. Given a graph `g` with each node containing an integer, find a value in the graph using the DFS algorithm. `DFS.java` [unit tests are coming]
 
 <!-- suffix tree -->
 
