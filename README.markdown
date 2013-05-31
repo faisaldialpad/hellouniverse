@@ -13,11 +13,10 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 ## Recognition
 
-* **Brian Kernighan** and **Dennis Ritchie**. Some of the problems and some of the solutions of this projects are taken from their book.
-* **Brian Dean**. For this website: http://people.csail.mit.edu/bdean/6.046/dp/
-* Project Euler. http://projecteuler.net/
-* http://careercup.com . Some of the problems and some of the solution ideas of this projects are taken from this website.
-
+* **Brian Kernighan**, **Dennis Ritchie**: Some problems (and the solutions) are from the K&R book.
+* **Brian Dean**. Some Dynamic programming problems. http://people.csail.mit.edu/bdean/6.046/dp/
+* **Project Euler**. Some math problems. http://projecteuler.net/
+* **CareerCup**. Some actual interview questions. http://careercup.com
 
 ## Questions
 
