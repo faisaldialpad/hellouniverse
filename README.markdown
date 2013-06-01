@@ -83,6 +83,8 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 ### Stacks and Queues
 #### C/stacks_queues/
 1. Implement a stack that has `push()`, `pop()`, and `min()`. `min()` gives the current minimum in the stack. All 3 function should be `O(1)` time. `stack_push_pop_min_constant_time.c`
+#### Java/src/stacks_queues/
+1. Implement a queue with a linked list with `insert()`, `remove()`, and `isEmpty()` functions, all of which should operate in O(n) time.
 
 ### Trees and Graphs
 #### C/trees_graphs/
