@@ -1,6 +1,7 @@
 package trees_graphs;
 
-import java.util.ArrayList;
+
+import stacks_queues.Queue;
 
 public class BFS {
 	private Graph<Integer> g;
@@ -11,15 +12,15 @@ public class BFS {
 		for(GNode<Integer> n:g.nodes){
 			n.status=GNodeStatus.UNVISITED;
 		}
-		ArrayList<GNode<Integer>> queue= new ArrayList<GNode<Integer>>();
-		queue.add(g.nodes.get(0));
+		Queue<GNode<Integer>> queue= new Queue<GNode<Integer>>();
+		queue.insert(g.nodes.get(0));
 		while(!queue.isEmpty()){
-			GNode<Integer> n = queue.remove(queue.size()-1);
+			GNode<Integer> n = queue.remove();
 			n.status=GNodeStatus.VISITING;
 			if(n.value==a) return true;
 			for(GNode<Integer> n1:n.neighbours){
 				if(n1.status == GNodeStatus.UNVISITED){
-					queue.add(n1);
+					queue.insert(n1);
 				}
 			}
 		}
