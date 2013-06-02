@@ -40,6 +40,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		MakingChangeTest.class,
 		MaxLengthContiguousSequentialIntegersTest.class,
 		MaxValueContiguousSubSeqTest.class,
+		MergeSortTest.class,
 		MultipleOf3And5Test.class,
 		PermutationTest.class,
 		PhoneKeyboardWordsListTest.class,
