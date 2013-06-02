@@ -76,10 +76,8 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 4. Add 2 numbers represented by linked lists: each node contains a digit and the digits are reverse order. For example: 123 is represented by 3->2->1 and 905 is represented by 5->0->9 and their addition will be 8->2->0->1 i.e., 1028. You are allowed to traverse each list only once. `LinkedListAdd.java`
 5. Implement an algorithm to find the last n elements of a singly linked list. `Last_N_Elements.java`
 6. Suppose a weird singly linked list has a child pointer that can point to a Node i.e., another linked list (which also has a child pointer). Flatten the list. (if a node has a child then the after flatten, the child's last node should point to current's next node and current's next node should point to its child. Remember the child should also be recursively flattened.). `FlattenListWithChild.java`
+7. Write an algorithm to remove duplicates from an unsorted linked list. `RemoveDuplicates.java` [unit tests are coming]
 
-<!--
-6. Write an algorithm to remove duplicates from an unsorted linked list.
--->
 
 ### Stacks and Queues
 #### C/stacks_queues/

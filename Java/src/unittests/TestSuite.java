@@ -46,6 +46,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		PhoneKeyboardWordsListTest.class,
 		QueueTest.class,
 		QuickSortTest.class,
+		RemoveDuplicatesTest.class,
 		ReverseSentenceTest.class,
 		ReverseWordsInSentenceTest.class,
 		SelectionAlgorithmTest.class,
