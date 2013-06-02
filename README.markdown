@@ -62,7 +62,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 2. Write a function which will return the permutations of integers without any duplicates. E.g., `[1 2 2]-->[[1 2 2],[2 2 1],[2 1 2]]`. `Permutation.java`
 3. Given an array, find the Max Length Contiguous Sequential Integers. e.g., `[3 1 2 5]-->[1 2]`. `MaxLengthContiguousSequentialIntegers.java`
 4. Given an array, sort it using quick sort. Also, implement a in-place quick sort. `QuickSort.java`
-
+5. Given an array, sort it using merge sort. `MergeSort.java`
 
 ### LinkedLists
 #### C/linkedlists/
