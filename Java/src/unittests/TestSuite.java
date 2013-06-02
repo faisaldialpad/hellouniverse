@@ -48,6 +48,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		QuickSortTest.class,
 		ReverseSentenceTest.class,
 		ReverseWordsInSentenceTest.class,
+		SelectionAlgorithmTest.class,
 		StringAddTest.class,
 		StringPermutationTest.class,
 		TNodeTest.class,
