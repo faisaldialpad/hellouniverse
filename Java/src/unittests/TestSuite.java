@@ -43,6 +43,8 @@ import org.junit.runners.Suite.SuiteClasses;
 		MultipleOf3And5Test.class,
 		PermutationTest.class,
 		PhoneKeyboardWordsListTest.class,
+		QueueTest.class,
+		QuickSortTest.class,
 		ReverseSentenceTest.class,
 		ReverseWordsInSentenceTest.class,
 		StringAddTest.class,
