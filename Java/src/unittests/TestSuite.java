@@ -24,6 +24,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		HeapSortTest.class,
 		IdenticalRotationsTest.class,
 		InOrderSuccessorTest.class,
+		IntersectingLinkedListTest.class,
 		IsBalancedTreeTest.class,
 		IsBSTTest.class,
 		IsSubTreeTest.class,
