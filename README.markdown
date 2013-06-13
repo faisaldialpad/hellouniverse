@@ -4,9 +4,12 @@
 The Hello Universe is a project with a collection of fun and thought provoking programming problems. You are welcome to use this project to analyze and grow your core programming skills. This project focuses less on good programming practices (that's why sometimes you will see codes like `c>=65 && c<=65+26` instead of `isupper(c)`), but more on the problem itself, the right data structures for the problem, the best algorithm to use in terms of time and space complexities. These types of questions are most common in first year programming courses and programming interviews, but solving these problems are necessary skills for a good programmer. The primary languages for this project is C and Java. If I need to use existing data structures, I will probably be using Java, and for simple problems I will probably be using C. Please feel free to improve upon my code.
 
 ## Contributing
+#### Where can you contribute as a starter?
+If you go through the Java/src/unittests folder you will see that some of the tests are not implemented (there is a default fail). It means that although I think that the algorithm is correct, but I did not fully test it. To find these tests you can just run the TestSuite.java and the tests that fails are not implemented. You can start contributing to this project by writing those tests. Just make sure that you work on one class at a time and when you are satisfied with that class you can send a pull request.
 
+#### How to contribute
 1. Fork it
-2. Create your feature branch (`git checkout -b my-new-feature`)
+2. Create your feature branch (`git checkout -b my-new-feature`). 
 3. Contribute and Commit your changes (`git commit -am 'Added some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
