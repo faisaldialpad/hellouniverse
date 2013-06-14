@@ -14,12 +14,13 @@ int is_anagram(const char* s1,const char* s2){
 	while(*s1) hash[*s1++]++;
 	while(*s2) hash[*s2++]--;
 	for(i=0;i<128;i++)
-		if(hash[i]) return 0;
+		if(hash[i]) 
+			return 0;
 	return 1;
 }
 
 /**
-* USAGE: ./a.out string1 
+* USAGE: ./a.out string1 string2
 **/
 int main(int argc, char *argv[]){
 	if(argc<3) return 1;
