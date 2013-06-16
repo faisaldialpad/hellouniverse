@@ -53,6 +53,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		SelectionAlgorithmTest.class,
 		StringAddTest.class,
 		StringPermutationTest.class,
+		SubsetTest.class,
 		TNodeTest.class,
 		TNodeWithParentTest.class,
 		TreeTraversalTest.class,
