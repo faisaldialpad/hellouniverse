@@ -5,7 +5,8 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 ## Contributing
 #### Where can you contribute as a starter?
-If you go through the Java/src/unittests folder you will see that some of the tests are not implemented (there is a default fail). It means that although I think that the algorithm is correct, but I did not fully test it. To find these tests you can just run the TestSuite.java and the tests that fails are not implemented. You can start contributing to this project by writing those tests. Just make sure that you work on one class at a time and when you are satisfied with that class you can send a pull request.
+1. If you go through the Java/src/unittests folder you will see that some of the tests are not implemented (there is a default fail). It means that although I think that the algorithm is correct, but I did not fully test it. To find these tests you can just run the TestSuite.java and the tests that fails are not implemented. You can start contributing to this project by writing those tests. Just make sure that you work on one class at a time and when you are satisfied with that class you can send a pull request.
+2. Go to the section "Problems not yet implemented". Start implementing those. If you use C or Java, then I will add your contribution to this project. 
 
 #### How to contribute
 1. Fork it
@@ -20,6 +21,11 @@ If you go through the Java/src/unittests folder you will see that some of the te
 * **Brian Dean**. Some Dynamic programming problems. http://people.csail.mit.edu/bdean/6.046/dp/
 * **Project Euler**. Some math problems. http://projecteuler.net/
 * **CareerCup**. Some actual interview questions. http://careercup.com
+
+## Problems not yet implemented
+1. Given a linked list which contains only values 0,1 and 2. Provide an efficient solution to sort the list. Values inside the nodes should not be changed. Only pointer manipulation is allowed. [Idea: 1. variation of bucket sort 2. In place is also possible]
+2.Given 2 tree nodes, how will you determine if there is a path between them? [Idea: check if one node is the child of another (by bfs/dfs or any of the traversal)]
+3.
 
 ## Questions
 
