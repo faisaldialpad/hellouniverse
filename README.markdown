@@ -67,6 +67,7 @@ If you go through the Java/src/unittests folder you will see that some of the te
 4. Given an array, sort it using quick sort. Also, implement a in-place quick sort. `QuickSort.java`
 5. Given an array, sort it using merge sort. `MergeSort.java`
 6. Given an array of size `n`, find the `m`th smallest element (aka implement the selection algorithm). `SelectionAlgorithm.java`
+7. Given a set, find all the subsets. `Subset.java`
 
 ### LinkedLists
 #### C/linkedlists/
