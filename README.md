@@ -151,4 +151,4 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 #### Java/5_file_operations
 #### Java/6_threading
 -->
-
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
