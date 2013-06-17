@@ -115,6 +115,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 10. Given a graph `g` with each node containing an integer, find a value in the graph using the DFS algorithm. `DFS.java` [unit tests are coming]
 11. Design a min binary heap data structure with add, removeMin, getMin functions. `Heap.java`
 12. Design HeapSort algorithm using the heap created in Question 11. `HeapSort.java`
+13. If a Tree Node of a BST have only left and right child pointer but no parent pointer. Write a iterator for the BST with `next()` function that returns the next node (in order successor) of the current node. When the iterator is initialized with the root of the BST the current node (the first node) becomes the left most node of the tree. `InOrderBSTIterator.java`
 
 
 ### Dynamic Programming
