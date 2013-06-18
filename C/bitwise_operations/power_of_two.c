@@ -3,7 +3,7 @@
 * Problem contributors: Faisal Rahman
 **/
 #include<stdio.h>
-
+#include<math.h>
 int power_of_2(int n) {
     return (n&(n-1))==0;
 }

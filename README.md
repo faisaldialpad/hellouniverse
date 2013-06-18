@@ -75,6 +75,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 5. Given an array, sort it using merge sort. `MergeSort.java`
 6. Given an array of size `n`, find the `m`th smallest element (aka implement the selection algorithm). `SelectionAlgorithm.java`
 7. Given a set, find all the subsets. `Subset.java`
+8. Given a series of integers. How we find a pair of numbers that sums to 1000. `ComplementPair.java` 
 
 ### LinkedLists
 #### C/linkedlists/
