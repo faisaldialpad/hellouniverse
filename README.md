@@ -90,6 +90,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 7. Write an algorithm to remove duplicates from an unsorted linked list. `RemoveDuplicates.java` [unit tests are coming]
 8. Write a program that checks if 2 singly linkedlists intersect or not. You can assume both of the lists does not have any cycle. `IntersectingLinkedList.java` 
 9. Write a program that returns the intersecting node of 2 singly linkedlists and null otherwise. You can assume both of the lists does not have any cycle. `IntersectingLinkedList.java` 
+10. Reverse a linked list. `ReverseList.java`
 
 ### Stacks and Queues
 #### C/stacks_queues/
