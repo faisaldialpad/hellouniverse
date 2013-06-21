@@ -56,6 +56,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 7. Write a function that returns all the possible combinations of a string.E.g., `aab-->[aab,aba,baa]` `StringPermutation.java`
 8. Write a function that takes a phone number, and returns all possibilities of words possible with that phone number by the phone key board. For example, if `8662665` is one such phone number then `TOOCOOL` is one of the possibilities. `PhoneKeyboardWordsList.java`
 9. Write a simple regular expression matcher. * Matches with 0 or more instances of any character or set of characters, and ? Matches with any one character. For example, "g*k?" and "geeks" matches. `SimpleRegEx.java`
+10. Write a simple regular expression matcher. a* means 0 or more a characters =>{}, a, aa, ,aaaa, aaaaa, etc, and .* means => zero or more characters of anything => {}, siasv98, sdif239047, 9384fievfi etc. `KindOfSimpleRegEx.java`
 
 ### Arrays and ArrayLists
 #### C/arrays/
