@@ -12,6 +12,7 @@ import org.junit.runners.Suite.SuiteClasses;
 		BFSTest.class,
 		BSTfromSortedArrayTest.class,
 		CircularListTest.class,
+		DancingSentenceTest.class,
 		DFSTest.class,
 		DijkstraTest.class,
 		EditDistanceTest.class,
