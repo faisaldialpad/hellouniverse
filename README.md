@@ -81,6 +81,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 6. Given an array of size `n`, find the `m`th smallest element (aka implement the selection algorithm). `SelectionAlgorithm.java`
 7. Given a set, find all the subsets. `Subset.java`
 8. Given a series of integers. How we find a pair of numbers that sums to 1000. `ComplementPair.java` 
+9. Given an array containing time required to perform tasks. If 2 persons starts performing from both end of the array, how many tasks will each person perform? Link: http://codeforces.com/problemset/problem/6/C , `Codeforces6C.java` 
 
 ### LinkedLists
 #### C/linkedlists/
