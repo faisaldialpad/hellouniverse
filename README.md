@@ -60,6 +60,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 9. Write a simple regular expression matcher. * Matches with 0 or more instances of any character or set of characters, and ? Matches with any one character. For example, "g*k?" and "geeks" matches. `SimpleRegEx.java`
 10. Write a simple regular expression matcher. a* means 0 or more a characters =>{}, a, aa, ,aaaa, aaaaa, etc, and .* means => zero or more characters of anything => {}, siasv98, sdif239047, 9384fievfi etc. `KindOfSimpleRegEx.java`
 11. A sentence is called dancing if its first letter is uppercase and the case of each subsequent letter is the opposite of the previous letter. Spaces should be ignored when determining the case of a letter. For example, "A b Cd" is a dancing sentence. Given a sentence, convert it to dancing. `DancingSentence.java`
+12. Rearrange letters of the given string so that it becomes a palindrome. Each character in baseString will be an uppercase letter ('A'-'Z'). `PalindromeMaker.java`
 
 ### Arrays and ArrayLists
 #### C/arrays/
