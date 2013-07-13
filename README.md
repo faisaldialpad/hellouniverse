@@ -35,37 +35,47 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 ## Questions
 
 ### Strings
-#### C/strings/
-1. Remove all the duplicate chars of a string. `duplicates_remove.c`
-2. Return the first duplicate char of a string with `O(n)` time. `duplicate_char_first.c`
-3. Remove extra space in a string. Ex: `"(5 spaces)abc(10 spaces)def(1 space)" --> "(1 space)abc(1 space)def(1 space)"`. `extra_space_remove.c`
-4. Detect if 2 strings are anagrams of each other or not with `O(n)` time. `is_anagram.c`
-5. Detect if one string is a substring of another string or not. Using `isSubstring()` method only, check if 2 strings are rotations of each other or not. `is_substring_is_rotation.c`
-6. Replace each space of a string with `%20`. `space_encode.c`
-7. Concat two strings and save the result to the first string. `str_cat.c`
-8. Copy a source string to a destination string. `str_cpy.c`
-9. Find the length of a string. `str_len.c`
-10. Recursively find the length of a string, the number of upper case, lower case charecters and vowels in a string. `str_len_upper_lower_vowel_count_recursive.c`
-11. Reverse a string. `str_rev.c`
+1. Reverse a string. 
+    * Link: http://hellouniverseproblems.wordpress.com/2013/07/13/string-1/
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/str_rev.c
+2. Remove all the duplicate chars of a string. `duplicates_remove.c`
+    * Link: 
+    * Solutions:
+3. Return the first duplicate char of a string with `O(n)` time. `duplicate_char_first.c`
+    * Link: 
+    * Solutions:
+4. Remove extra space in a string. Ex: `"(5 spaces)abc(10 spaces)def(1 space)" --> "(1 space)abc(1 space)def(1 space)"`. `extra_space_remove.c`
+    * Link: 
+    * Solutions:
+5. Detect if 2 strings are anagrams of each other or not with `O(n)` time. `is_anagram.c`
+    * Link: 
+    * Solutions:
+6. Detect if one string is a substring of another string or not. Using `isSubstring()` method only, check if 2 strings are rotations of each other or not. `is_substring_is_rotation.c`
+    * Link: 
+    * Solutions:
+7. Replace each space of a string with `%20`. `space_encode.c`
+8. Concat two strings and save the result to the first string. `str_cat.c`
+9. Copy a source string to a destination string. `str_cpy.c`
+10. Find the length of a string. `str_len.c`
+11. Recursively find the length of a string, the number of upper case, lower case charecters and vowels in a string. `str_len_upper_lower_vowel_count_recursive.c`
+
 12. Return the first non-repeating char of a string with `O(n)` time. `non_repeating_char_first.c`
 13. Write a function that takes 2 strings and removes everything from 1st string that exists in 2nd string. For example, `remove("asdadasewss","aeiou");` removes all the vowels. `remove_from_2nd_string.c`
+14. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`. `RunningDuplicate.java`
+15. Write a string add function. `StringAdd.java`
+16. Calculate how many rotations of a string is same as the original string. `IdenticalRotations.java`
+17. Reverse a sentence. For example: `"Hello, how are you?"-->"you? are how Hello,"`. Can you also do this in place? `ReverseSentence.java`
+18. Reverse only words in a sentence. For example: `"Hello, how are you?"-->",olleH woh era ?uoy"`. You must do this in place. `ReverseWordsInSentence.java`
+19. Convert an `int` to a `String`. You can assume that the input is within integer limit and it can be negative. `ItoA.java`
+20. Write a function that returns all the possible combinations of a string.E.g., `aab-->[aab,aba,baa]` `StringPermutation.java`
+21. Write a function that takes a phone number, and returns all possibilities of words possible with that phone number by the phone key board. For example, if `8662665` is one such phone number then `TOOCOOL` is one of the possibilities. `PhoneKeyboardWordsList.java`
+22. Write a simple regular expression matcher. * Matches with 0 or more instances of any character or set of characters, and ? Matches with any one character. For example, "g*k?" and "geeks" matches. `SimpleRegEx.java`
+23. Write a simple regular expression matcher. a* means 0 or more a characters =>{}, a, aa, ,aaaa, aaaaa, etc, and .* means => zero or more characters of anything => {}, siasv98, sdif239047, 9384fievfi etc. `KindOfSimpleRegEx.java`
+24. A sentence is called dancing if its first letter is uppercase and the case of each subsequent letter is the opposite of the previous letter. Spaces should be ignored when determining the case of a letter. For example, "A b Cd" is a dancing sentence. Given a sentence, convert it to dancing. `DancingSentence.java`
+25. Rearrange letters of the given string so that it becomes a palindrome. Each character in baseString will be an uppercase letter ('A'-'Z'). `PalindromeMaker.java`
+26. A series of brackets is complete if we can pair off each left bracket '[' with a right bracket ']' that occurs later in the series. Given a String text add the minimal number of brackets to the beginning and/or end of text to make it complete. E.g., "]["-->"[][]". `CompletingBrackets.java`
+27. Write a simple Spam Detector. The rules http://community.topcoder.com/stat?c=problem_statement&pm=2229 . `SimpleSpamDetector.java`
 
-#### Java/src/strings/
-1. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`. `RunningDuplicate.java`
-2. Write a string add function. `StringAdd.java`
-3. Calculate how many rotations of a string is same as the original string. `IdenticalRotations.java`
-4. Reverse a sentence. For example: `"Hello, how are you?"-->"you? are how Hello,"`. Can you also do this in place? `ReverseSentence.java`
-5. Reverse only words in a sentence. For example: `"Hello, how are you?"-->",olleH woh era ?uoy"`. You must do this in place. `ReverseWordsInSentence.java`
-6. Convert an `int` to a `String`. You can assume that the input is within integer limit and it can be negative. `ItoA.java`
-7. Write a function that returns all the possible combinations of a string.E.g., `aab-->[aab,aba,baa]` `StringPermutation.java`
-8. Write a function that takes a phone number, and returns all possibilities of words possible with that phone number by the phone key board. For example, if `8662665` is one such phone number then `TOOCOOL` is one of the possibilities. `PhoneKeyboardWordsList.java`
-9. Write a simple regular expression matcher. * Matches with 0 or more instances of any character or set of characters, and ? Matches with any one character. For example, "g*k?" and "geeks" matches. `SimpleRegEx.java`
-10. Write a simple regular expression matcher. a* means 0 or more a characters =>{}, a, aa, ,aaaa, aaaaa, etc, and .* means => zero or more characters of anything => {}, siasv98, sdif239047, 9384fievfi etc. `KindOfSimpleRegEx.java`
-11. A sentence is called dancing if its first letter is uppercase and the case of each subsequent letter is the opposite of the previous letter. Spaces should be ignored when determining the case of a letter. For example, "A b Cd" is a dancing sentence. Given a sentence, convert it to dancing. `DancingSentence.java`
-12. Rearrange letters of the given string so that it becomes a palindrome. Each character in baseString will be an uppercase letter ('A'-'Z'). `PalindromeMaker.java`
-13. A series of brackets is complete if we can pair off each left bracket '[' with a right bracket ']' that occurs later in the series. Given a String text add the minimal number of brackets to the beginning and/or end of text to make it complete. E.g., "]["-->"[][]". `CompletingBrackets.java`
-14. Write a simple Spam Detector. The rules http://community.topcoder.com/stat?c=problem_statement&pm=2229 . `SimpleSpamDetector.java`
-15. Given an int array of digits (0-9). Build an integer with the minimum number of factors, using each of the digits exactly once (count all factors, not just the prime factors). If more than one solution, return the smallest. `FewestFactors.java`
 
 ### Arrays and ArrayLists
 #### C/arrays/
@@ -88,6 +98,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 7. Given a set, find all the subsets. `Subset.java`
 8. Given a series of integers. How we find a pair of numbers that sums to 1000. `ComplementPair.java` 
 9. Given an array containing time required to perform tasks. If 2 persons starts performing from both end of the array, how many tasks will each person perform? Link: http://codeforces.com/problemset/problem/6/C , `Codeforces6C.java` 
+10.Given an int array of digits (0-9). Build an integer with the minimum number of factors, using each of the digits exactly once (count all factors, not just the prime factors). If more than one solution, return the smallest. `FewestFactors.java`
 
 ### LinkedLists
 #### C/linkedlists/
