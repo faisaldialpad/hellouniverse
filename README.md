@@ -170,7 +170,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 17. Given an array containing time required to perform tasks. If 2 persons starts performing from both end of the array, how many tasks will each person perform?  
     * Link: http://codeforces.com/problemset/problem/6/C
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/Codeforces6C.java
-18.Given an int array of digits (0-9). Build an integer with the minimum number of factors, using each of the digits exactly once (count all factors, not just the prime factors). If more than one solution, return the smallest. 
+18. Given an int array of digits (0-9). Build an integer with the minimum number of factors, using each of the digits exactly once (count all factors, not just the prime factors). If more than one solution, return the smallest. 
     * Link: http://community.topcoder.com/stat?c=problem_statement&pm=5886
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/FewestFactors.java
 
@@ -218,113 +218,114 @@ The Hello Universe is a project with a collection of fun and thought provoking p
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/stacks_queues/Queue.java
 
 ### Trees and Graphs
-1. Implement a tree and a in-order-traversal. Implement a function to return the first common ancestor (fca) of any 2 given nodes. `tree_inorder_fca.c`
+1. Implement a tree and a in-order-traversal. Implement a function to return the first common ancestor (fca) of any 2 given nodes. 
     * Link: 
-    * Solutions:
-2. Implement a tree and a in-order-traversal. Assuming the tree is a Binary Search Tree, implement a function to return the first common ancestor (fca) of any 2 given nodes. For this problem you can assume that both values exist in the tree, so no need to check for those cases. `bst_inorder_fca.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/trees_graphs/tree_inorder_fca.c
+2. Implement a tree and a in-order-traversal. Assuming the tree is a Binary Search Tree, implement a function to return the first common ancestor (fca) of any 2 given nodes. For this problem you can assume that both values exist in the tree, so no need to check for those cases. 
     * Link: 
-    * Solutions:
-3. Do an in order traversal of a binary tree. Can you do it without using recursion? `TreeTraversal.Java` [unit tests are coming]
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/trees_graphs/bst_inorder_fca.c
+3. Do an in order traversal of a binary tree. Can you do it without using recursion?  [unit tests are coming]
     * Link: 
-    * Solutions:
-4. Check if a binary tree is balanced or not. A balanced tree is defined to be a tree such that no 2 leaf nodes differ in distance from the root by more than 1. `IsBalancedTree.Java` [unit tests are coming]
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/TreeTraversal.java
+4. Check if a binary tree is balanced or not. A balanced tree is defined to be a tree such that no 2 leaf nodes differ in distance from the root by more than 1.  [unit tests are coming]
     * Link: 
-    * Solutions:
-5. Given a sorted (increasing order) array, make a BST with minimal height.`BSTfromSortedArray.java` [unit tests are coming]
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/IsBalancedTree.java
+5. Given a sorted (increasing order) array, make a BST with minimal height. [unit tests are coming]
     * Link: 
-    * Solutions:
-6. Given a binary tree, design an algorithm that will create a list of all the nodes at each depth, i.e., if the tree is of depth `d` then there will be `d` lists. `LevelWiseBFSonTree.java` [unit tests are coming]
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/BSTfromSortedArray.java
+6. Given a binary tree, design an algorithm that will create a list of all the nodes at each depth, i.e., if the tree is of depth `d` then there will be `d` lists.  [unit tests are coming]
     * Link: 
-    * Solutions:
-7. Design an algorithm to find the in-order-successor of a given node, i.e., the node that will come next if we do an in-order traversal. Each node has a link to its parent. `InOrderSuccessor.java` [unit tests are coming]
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/LevelWiseBFSonTree.java
+7. Design an algorithm to find the in-order-successor of a given node, i.e., the node that will come next if we do an in-order traversal. Each node has a link to its parent.  [unit tests are coming]
     * Link: 
-    * Solutions:
-8. Create an algorithm to determine if a binary tree is a sub-tree of another binary tree. Both trees are very big with millions of nodes. `IsSubTree.java` [unit tests are coming]
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/InOrderSuccessor.java
+8. Create an algorithm to determine if a binary tree is a sub-tree of another binary tree. Both trees are very big with millions of nodes.  [unit tests are coming]
     * Link: 
-    * Solutions:
-9. Write an algorithm to check if a tree is a BST or not. Check for the case that all the nodes in the left subtree must be less than the root and all the node in the right subtree must be greater than the root. For example, if a tree is represented by an array then `[*,4,2,6,1,100,5,7]` is not a BST, but  `[*,4,2,6,1,3,5,7]` is. `IsBST.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/IsSubTree.java
+9. Write an algorithm to check if a tree is a BST or not. Check for the case that all the nodes in the left subtree must be less than the root and all the node in the right subtree must be greater than the root. For example, if a tree is represented by an array then `[*,4,2,6,1,100,5,7]` is not a BST, but  `[*,4,2,6,1,3,5,7]` is. 
     * Link: 
-    * Solutions:
-10. A Trie is a prefex tree of created by string. Implement the `get(String key)` and `put(int value, String key)` methods of a trie, so that it is similar to a `HashMap<String>`. `Trie.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/IsBST.java
+10. A Trie is a prefex tree of created by string. Implement the `get(String key)` and `put(int value, String key)` methods of a trie, so that it is similar to a `HashMap<String>`. 
     * Link: 
-    * Solutions:
-11. Given a graph `g` with each node containing an integer, find a value in the graph using the BFS algorithm. `BFS.java` [unit tests are coming]
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/Trie.java
+11. Given a graph `g` with each node containing an integer, find a value in the graph using the BFS algorithm.  [unit tests are coming]
     * Link: 
-    * Solutions:
-12. Given a graph `g` with each node containing an integer, find a value in the graph using the DFS algorithm. `DFS.java` [unit tests are coming]
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/BFS.java
+12. Given a graph `g` with each node containing an integer, find a value in the graph using the DFS algorithm.  [unit tests are coming]
     * Link: 
-    * Solutions:
-13. Design a min binary heap data structure with add, removeMin, getMin functions. `Heap.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/DFS.java
+13. Design a min binary heap data structure with add, removeMin, getMin functions. 
     * Link: 
-    * Solutions:
-14. Design HeapSort algorithm using the heap created in Question 11. `HeapSort.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/Heap.java
+14. Design HeapSort algorithm using the heap created in Question 11. 
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/HeapSort.java
 15. If a Tree Node of a BST have only left and right child pointer but no parent pointer. Write a iterator for the BST with `next()` function that returns the next node (in order successor) of the current node. When the iterator is initialized with the root of the BST the current node (the first node) becomes the left most node of the tree. `InOrderBSTIterator.java`
-
+    * Link: 
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/InOrderBSTIterator.java
 
 ### Dynamic Programming
-1. Write a dynamic programming algorithm to print the nth fibonacci number.`Fibonacci.java`
+1. Write a dynamic programming algorithm to print the nth fibonacci number.
     * Link: 
-    * Solutions:
-2. Given a sequence, find the Contiguous Sub-sequence, sum of which is greater than that of any other Contiguous Sub-sequences. If the input is `{−15,29,−36,3,−22,11,19,−5}` then the output is `{11,19}`.`MaxValueContiguousSubSeq.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/dynamic_programming/Fibonacci.java
+2. Given a sequence, find the Contiguous Sub-sequence, sum of which is greater than that of any other Contiguous Sub-sequences. If the input is `{−15,29,−36,3,−22,11,19,−5}` then the output is `{11,19}`.
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/dynamic_programming/MaxValueContiguousSubSeq.java
 3. Given a sequence, find the longest Sub-sequence (not necessarily Contiguous) such that each element is strictly greater than its previous in the sub-sequence. If the input is `{−2,11,−4,13,−3,−5,−1,2}` then the output is `{−4,−3,−1,2}`.
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/dynamic_programming/LongestIncreasingSubSeq.java
 4. There is a knapsack of capacity `C` and there are there are `n` items with weights `w1,w2,...,wn` and values `v1,v2,...,vn`. Assume `C,w1,w2,...,wn` are strictly positive integers and there are infinitely many of each items, i.e., unbounded.  Determine the number of each item to include in the knapsack so that the total weight is less than or equal to the knapsack capacity and the total value is maximized.
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/dynamic_programming/UnboundedKnapsack.java
 5. Given `n` types of coin denominations of values `c1<c2<...<cn` (all integers). Assume `c1=1` , so it is always possible to make change for any amount of money `C`. Give an algorithm which makes change for an amount of money `C` with as few coins as possible.
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/dynamic_programming/MakingChange.java
 6. Given two strings `A` and `B`, we want to transform `A` into `B` with a minimum number of operations of the following types: delete a character from `A` , insert a character into `A` , or change some character in  `A` into a new character. The minimal number of such operations required to transform  `A` into  `B` is called the edit distance between  `A` and `B`.
     * Link: 
-    * Solutions:
-7. Calculate the longest common sub-sequence between 2 strings. Recall, `ac` is a common sub-sequence between `abc` and `acq`. `LongestCommonSubSeq.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/dynamic_programming/EditDistance.java
+7. Calculate the longest common sub-sequence between 2 strings. Recall, `ac` is a common sub-sequence between `abc` and `acq`. 
     * Link: 
-    * Solutions:
-8. Calculate the longest Palindromic sub-sequence of a string, i.e., the longest sub-sequence that is a palindrome. `LongestPalindromicSubSeq.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/dynamic_programming/LongestCommonSubSeq.java
+8. Calculate the longest Palindromic sub-sequence of a string, i.e., the longest sub-sequence that is a palindrome. 
     * Link: 
-    * Solutions:
-9. Calculate the longest common substring between 2 strings.`LongestCommonSubString.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/dynamic_programming/LongestPalindromicSubSeq.java
+9. Calculate the longest common substring between 2 strings.
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/dynamic_programming/LongestCommonSubstring.java
 
 ### Bitwise Operations
-1. Add 2 integers without any arithmetic operators. `add_without_any_arithmetic_operator.c`
+1. Add 2 integers without any arithmetic operators.
     * Link: 
-    * Solutions:
-2. Write a function to check if an integer is the power of 2. `power_of_two.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/bitwise_operations/add_without_any_arithmetic_operator.c
+2. Write a function to check if an integer is the power of 2. 
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/bitwise_operations/power_of_two.c
 
 ### Math
-1. Print first n prime numbers. `n_primes.c`
+1. Print first n prime numbers. 
     * Link: 
-    * Solutions:
-2. Print the nth fibonacci number. Ex. `f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, ...`. `nth_fibonacci.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/math/n_primes.c
+2. Print the nth fibonacci number. Ex. `f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, ...`. 
     * Link: 
-    * Solutions:
-3. If we list all the natural numbers below 10 that are multiples of `3` or `5`, we get `3`, `5`, `6` and `9`. The sum of these multiples is `23`. Find the sum of all the multiples of 3 or 5 below a number `n`. `MultipleOf3And5.java`
-    * Link: 
-    * Solutions:
-4. Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with `1` and `2`, the first `10` terms will be: `1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...`. By considering the terms in the Fibonacci sequence whose values do not exceed a number `n`, find the sum of the even-valued terms. `EvenFibonacciSum.java`
-    * Link: 
-    * Solutions:
-5. The prime factors of `13195` are `5`, `7`, `13` and `29`. What is the largest prime factor of the number `n` (`n` can be long int)? `LargestPrimeFactor.java`
-    * Link: 
-    * Solutions:
-6. We must pay D dollars with p1 and p2 dollar bills. So, we want to overpay as little as possible. Return the minimum  dollars greater than or equal to D. Assume that we have an infinite supply of both p1 and p2 dollar bills. `AmountApproximation.java`
-    * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/math/nth_fibonacci.c
+3. If we list all the natural numbers below 10 that are multiples of `3` or `5`, we get `3`, `5`, `6` and `9`. The sum of these multiples is `23`. Find the sum of all the multiples of 3 or 5 below a number `n`. 
+    * Link: http://projecteuler.net/problem=1
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/MultipleOf3And5.java
+4. Each new term in the Fibonacci sequence is generated by adding the previous two terms. By starting with `1` and `2`, the first `10` terms will be: `1, 2, 3, 5, 8, 13, 21, 34, 55, 89, ...`. By considering the terms in the Fibonacci sequence whose values do not exceed a number `n`, find the sum of the even-valued terms. 
+    * Link: http://projecteuler.net/problem=2
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/EvenFibonacciSum.java
+5. The prime factors of `13195` are `5`, `7`, `13` and `29`. What is the largest prime factor of the number `n` (`n` can be long int)? 
+    * Link: http://projecteuler.net/problem=3
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/LargestPrimeFactor.java
+6. We must pay D dollars with p1 and p2 dollar bills. So, we want to overpay as little as possible. Return the minimum  dollars greater than or equal to D. Assume that we have an infinite supply of both p1 and p2 dollar bills. 
+    * Link: http://community.topcoder.com/stat?c=problem_statement&pm=4845
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/AmountApproximation.java
 
 
 ### File Operations
 1. Print last n words from a file. `print_last_n_words.c`
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/file_operations/print_last_n_words.c
 
 ### Threading
 
