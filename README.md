@@ -38,45 +38,45 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 1. Reverse a string. 
     * Link: http://hellouniverseproblems.wordpress.com/2013/07/13/string-1/
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/str_rev.c
-2. Remove all the duplicate chars of a string. `duplicates_remove.c`
+2. Remove all the duplicate chars of a string.
     * Link: 
-    * Solutions:
-3. Return the first duplicate char of a string with `O(n)` time. `duplicate_char_first.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/duplicates_remove.c
+3. Return the first duplicate char of a string with `O(n)` time.
     * Link: 
-    * Solutions:
-4. Remove extra space in a string. Ex: `"(5 spaces)abc(10 spaces)def(1 space)" --> "(1 space)abc(1 space)def(1 space)"`. `extra_space_remove.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/duplicate_char_first.c
+4. Remove extra space in a string. Ex: `"(5 spaces)abc(10 spaces)def(1 space)" --> "(1 space)abc(1 space)def(1 space)"`. 
     * Link: 
-    * Solutions:
-5. Detect if 2 strings are anagrams of each other or not with `O(n)` time. `is_anagram.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/extra_space_remove.c
+5. Detect if 2 strings are anagrams of each other or not with `O(n)` time. 
     * Link: 
-    * Solutions:
-6. Detect if one string is a substring of another string or not. Using `isSubstring()` method only, check if 2 strings are rotations of each other or not. `is_substring_is_rotation.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/is_anagram.c
+6. Detect if one string is a substring of another string or not. Using `isSubstring()` method only, check if 2 strings are rotations of each other or not. 
     * Link: 
-    * Solutions:
-7. Replace each space of a string with `%20`. `space_encode.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/is_substring_is_rotation.c
+7. Replace each space of a string with `%20`. 
     * Link: 
-    * Solutions:
-8. Concat two strings and save the result to the first string. `str_cat.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/space_encode.c
+8. Concat two strings and save the result to the first string. 
     * Link: 
-    * Solutions:
-9. Copy a source string to a destination string. `str_cpy.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/str_cat.c
+9. Copy a source string to a destination string. 
     * Link: 
-    * Solutions:
-10. Find the length of a string. `str_len.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/str_cpy.c
+10. Find the length of a string. 
     * Link: 
-    * Solutions:
-11. Recursively find the length of a string, the number of upper case, lower case charecters and vowels in a string. `str_len_upper_lower_vowel_count_recursive.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/str_len.c
+11. Recursively find the length of a string, the number of upper case, lower case charecters and vowels in a string. 
     * Link: 
-    * Solutions:
-12. Return the first non-repeating char of a string with `O(n)` time. `non_repeating_char_first.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/str_len_upper_lower_vowel_count_recursive.c
+12. Return the first non-repeating char of a string with `O(n)` time. 
     * Link: 
-    * Solutions:
-13. Write a function that takes 2 strings and removes everything from 1st string that exists in 2nd string. For example, `remove("asdadasewss","aeiou");` removes all the vowels. `remove_from_2nd_string.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/non_repeating_char_first.c
+13. Write a function that takes 2 strings and removes everything from 1st string that exists in 2nd string. For example, `remove("asdadasewss","aeiou");` removes all the vowels. 
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/remove_from_2nd_string.c
 14. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`. `RunningDuplicate.java`
     * Link: 
-    * Solutions:
+    * Solutions: 
 15. Write a string add function. `StringAdd.java`
     * Link: 
     * Solutions:
