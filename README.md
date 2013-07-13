@@ -65,6 +65,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 12. Rearrange letters of the given string so that it becomes a palindrome. Each character in baseString will be an uppercase letter ('A'-'Z'). `PalindromeMaker.java`
 13. A series of brackets is complete if we can pair off each left bracket '[' with a right bracket ']' that occurs later in the series. Given a String text add the minimal number of brackets to the beginning and/or end of text to make it complete. E.g., "]["-->"[][]". `CompletingBrackets.java`
 14. Write a simple Spam Detector. The rules http://community.topcoder.com/stat?c=problem_statement&pm=2229 . `SimpleSpamDetector.java`
+15. Given an int array of digits (0-9). Build an integer with the minimum number of factors, using each of the digits exactly once (count all factors, not just the prime factors). If more than one solution, return the smallest. `FewestFactors.java`
 
 ### Arrays and ArrayLists
 #### C/arrays/
