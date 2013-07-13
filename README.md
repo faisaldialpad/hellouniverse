@@ -74,148 +74,148 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 13. Write a function that takes 2 strings and removes everything from 1st string that exists in 2nd string. For example, `remove("asdadasewss","aeiou");` removes all the vowels. 
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/remove_from_2nd_string.c
-14. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`. `RunningDuplicate.java`
+14. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`. 
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/RunningDuplicate.java
 15. Write a string add function. `StringAdd.java`
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/StringAdd.java
-16. Calculate how many rotations of a string is same as the original string. `IdenticalRotations.java`
+16. Calculate how many rotations of a string is same as the original string. 
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/IdenticalRotations.java
-17. Reverse a sentence. For example: `"Hello, how are you?"-->"you? are how Hello,"`. Can you also do this in place? `ReverseSentence.java`
+17. Reverse a sentence. For example: `"Hello, how are you?"-->"you? are how Hello,"`. Can you also do this in place? 
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/ReverseSentence.java
-18. Reverse only words in a sentence. For example: `"Hello, how are you?"-->",olleH woh era ?uoy"`. You must do this in place. `ReverseWordsInSentence.java`
+18. Reverse only words in a sentence. For example: `"Hello, how are you?"-->",olleH woh era ?uoy"`. You must do this in place. 
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/ReverseWordsInSentence.java
-19. Convert an `int` to a `String`. You can assume that the input is within integer limit and it can be negative. `ItoA.java`
+19. Convert an `int` to a `String`. You can assume that the input is within integer limit and it can be negative. 
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/ItoA.java
-20. Write a function that returns all the possible combinations of a string.E.g., `aab-->[aab,aba,baa]` `StringPermutation.java`
+20. Write a function that returns all the possible combinations of a string.E.g., `aab-->[aab,aba,baa]` 
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/StringPermutation.java
-21. Write a function that takes a phone number, and returns all possibilities of words possible with that phone number by the phone key board. For example, if `8662665` is one such phone number then `TOOCOOL` is one of the possibilities. `PhoneKeyboardWordsList.java`
+21. Write a function that takes a phone number, and returns all possibilities of words possible with that phone number by the phone key board. For example, if `8662665` is one such phone number then `TOOCOOL` is one of the possibilities. 
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/PhoneKeyboardWordsList.java
-22. Write a simple regular expression matcher. * Matches with 0 or more instances of any character or set of characters, and ? Matches with any one character. For example, "g*k?" and "geeks" matches. `SimpleRegEx.java`
+22. Write a simple regular expression matcher. * Matches with 0 or more instances of any character or set of characters, and ? Matches with any one character. For example, "g*k?" and "geeks" matches. 
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/SimpleRegEx.java
-23. Write a simple regular expression matcher. a* means 0 or more a characters =>{}, a, aa, ,aaaa, aaaaa, etc, and .* means => zero or more characters of anything => {}, siasv98, sdif239047, 9384fievfi etc. `KindOfSimpleRegEx.java`
+23. Write a simple regular expression matcher. a* means 0 or more a characters =>{}, a, aa, ,aaaa, aaaaa, etc, and .* means => zero or more characters of anything => {}, siasv98, sdif239047, 9384fievfi etc. 
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/KindOfSimpleRegEx.java
-24. A sentence is called dancing if its first letter is uppercase and the case of each subsequent letter is the opposite of the previous letter. Spaces should be ignored when determining the case of a letter. For example, "A b Cd" is a dancing sentence. Given a sentence, convert it to dancing. `DancingSentence.java`
+24. A sentence is called dancing if its first letter is uppercase and the case of each subsequent letter is the opposite of the previous letter. Spaces should be ignored when determining the case of a letter. For example, "A b Cd" is a dancing sentence. Given a sentence, convert it to dancing. 
     * Link: http://community.topcoder.com/stat?c=problem_statement&pm=5950&rd=8076
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/DancingSentence.java
-25. Rearrange letters of the given string so that it becomes a palindrome. Each character in baseString will be an uppercase letter ('A'-'Z'). `PalindromeMaker.java`
+25. Rearrange letters of the given string so that it becomes a palindrome. Each character in baseString will be an uppercase letter ('A'-'Z'). 
     * Link: http://community.topcoder.com/stat?c=problem_statement&pm=5881&rd=8071
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/PalindromeMaker.java
-26. A series of brackets is complete if we can pair off each left bracket '[' with a right bracket ']' that occurs later in the series. Given a String text add the minimal number of brackets to the beginning and/or end of text to make it complete. E.g., "]["-->"[][]". `CompletingBrackets.java`
+26. A series of brackets is complete if we can pair off each left bracket '[' with a right bracket ']' that occurs later in the series. Given a String text add the minimal number of brackets to the beginning and/or end of text to make it complete. E.g., "]["-->"[][]". 
     * Link: http://community.topcoder.com/stat?c=problem_statement&pm=5977
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/CompletingBrackets.java
-27. Write a simple Spam Detector. `SimpleSpamDetector.java`
+27. Write a simple Spam Detector. 
     * Link: http://community.topcoder.com/stat?c=problem_statement&pm=2229
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/SimpleSpamDetector.java
 
 
 ### Arrays and ArrayLists
-1. Given a MxN matrix. If a cell is 0 make the entire row and column corresponding to that cell to 0. `matrix_filter_by_zero.c`
+1. Given a MxN matrix. If a cell is 0 make the entire row and column corresponding to that cell to 0. 
     * Link: 
-    * Solutions:
-2. Given a NxN pixel image, where each pixel is 4 bytes (therefore the image can be represented by a NxN integer matrix). Rotate by 90 degree in place. `matrix_in_place_rotation.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/arrays/matrix_filter_by_zero.c
+2. Given a NxN pixel image, where each pixel is 4 bytes (therefore the image can be represented by a NxN integer matrix). Rotate by 90 degree in place. 
     * Link: 
-    * Solutions:
-3. Given a MxN matrix that is sorted in both rows and columns. Find an element in it. The algorithm should run in O(M+N) time. `matrix_linear_search.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/arrays/matrix_in_place_rotation.c
+3. Given a MxN matrix that is sorted in both rows and columns. Find an element in it. The algorithm should run in O(M+N) time. 
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/arrays/matrix_linear_search.c
 4. Find a specific integer in a sorted array (binary search). `search_binary.c`
     * Link: 
-    * Solutions:
-5. Find a specific integer in a sorted (in increasing order) array that is rotated unknown number of times. The algorithm should run in `log(n)` time. Ex.  `Arr=[45 67 76 88 90 95 1 5 6 9 12 37], n=6 -->8`. `search_binary_rotated_sorted_array.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/arrays/search_binary.c
+5. Find a specific integer in a sorted (in increasing order) array that is rotated unknown number of times. The algorithm should run in `log(n)` time. Ex.  `Arr=[45 67 76 88 90 95 1 5 6 9 12 37], n=6 -->8`. 
     * Link: 
-    * Solutions:
-6. Given an array of integers such that each element is either +1 or -1 to its preceding element. Find 1st occurrence of a given number in that array without using linear search.Ex. `Arr=[1 2 1 2 3 4 5 6 7 6 5 4 5 6 7 8 9],n=7-->8`. `search_element_in_a_stepwise_array.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/arrays/search_binary_rotated_sorted_array.c
+6. Given an array of integers such that each element is either +1 or -1 to its preceding element. Find 1st occurrence of a given number in that array without using linear search.Ex. `Arr=[1 2 1 2 3 4 5 6 7 6 5 4 5 6 7 8 9],n=7-->8`. 
     * Link: 
-    * Solutions:
-7. A sequence increases, reach a max and then decreases, like `[45 67 76 88 90 95 47 12 9 7 6 5 4 3 2 1]`. Find the max. (An array sorted in an ascending order and another array sorted in descending order are concatenated together. Find the max. Either array can be empty.). `search_max_in_increasing_then_decreasing_seq.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/arrays/search_element_in_a_stepwise_array.c
+7. A sequence increases, reach a max and then decreases, like `[45 67 76 88 90 95 47 12 9 7 6 5 4 3 2 1]`. Find the max. (An array sorted in an ascending order and another array sorted in descending order are concatenated together. Find the max. Either array can be empty.). 
     * Link: 
-    * Solutions:
-8. Given an array A and a number n, if the n is in A then return the next bigger number than n. All the other cases return -1. Ex: `A={3,2,7,6},n=1 --> -1, A={3,2,7,6},n=3 --> 7, A={3,2,7,6},n=7 --> -1, A={3,2,7,6},n=2 --> 7`. `search_next_bigger_num.c`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/arrays/search_max_in_increasing_then_decreasing_seq.c
+8. Given an array A and a number n, if the n is in A then return the next bigger number than n. All the other cases return -1. Ex: `A={3,2,7,6},n=1 --> -1, A={3,2,7,6},n=3 --> 7, A={3,2,7,6},n=7 --> -1, A={3,2,7,6},n=2 --> 7`. 
     * Link: 
-    * Solutions:
-9. Write a function which will return the permutations of integers (with all duplicates). E.g., `[2 2]-->[[2 2],[2 2]]`. `Permutation.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/arrays/search_next_bigger_num.c
+9. Write a function which will return the permutations of integers (with all duplicates). E.g., `[2 2]-->[[2 2],[2 2]]`. 
     * Link: 
-    * Solutions:
-10. Write a function which will return the permutations of integers without any duplicates. E.g., `[1 2 2]-->[[1 2 2],[2 2 1],[2 1 2]]`. `Permutation.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/Permutation.java
+10. Write a function which will return the permutations of integers without any duplicates. E.g., `[1 2 2]-->[[1 2 2],[2 2 1],[2 1 2]]`. 
     * Link: 
-    * Solutions:
-11. Given an array, find the Max Length Contiguous Sequential Integers. e.g., `[3 1 2 5]-->[1 2]`. `MaxLengthContiguousSequentialIntegers.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/Permutation.java
+11. Given an array, find the Max Length Contiguous Sequential Integers. e.g., `[3 1 2 5]-->[1 2]`.
     * Link: 
-    * Solutions:
-12. Given an array, sort it using quick sort. Also, implement a in-place quick sort. `QuickSort.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/MaxLengthContiguousSequentialIntegers.java
+12. Given an array, sort it using quick sort. Also, implement a in-place quick sort. 
     * Link: 
-    * Solutions:
-13. Given an array, sort it using merge sort. `MergeSort.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/QuickSort.java
+13. Given an array, sort it using merge sort. 
     * Link: 
-    * Solutions:
-14. Given an array of size `n`, find the `m`th smallest element (aka implement the selection algorithm). `SelectionAlgorithm.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/MergeSort.java
+14. Given an array of size `n`, find the `m`th smallest element (aka implement the selection algorithm). 
     * Link: 
-    * Solutions:
-15. Given a set, find all the subsets. `Subset.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/SelectionAlgorithm.java
+15. Given a set, find all the subsets. 
     * Link: 
-    * Solutions:
-16. Given a series of integers. How we find a pair of numbers that sums to 1000. `ComplementPair.java` 
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/Subset.java
+16. Given a series of integers. How we find a pair of numbers that sums to 1000.  
     * Link: 
-    * Solutions:
-17. Given an array containing time required to perform tasks. If 2 persons starts performing from both end of the array, how many tasks will each person perform? `Codeforces6C.java` 
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/ComplementPair.java
+17. Given an array containing time required to perform tasks. If 2 persons starts performing from both end of the array, how many tasks will each person perform?  
     * Link: http://codeforces.com/problemset/problem/6/C
-    * Solutions:
-18.Given an int array of digits (0-9). Build an integer with the minimum number of factors, using each of the digits exactly once (count all factors, not just the prime factors). If more than one solution, return the smallest. `FewestFactors.java`
-    * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/Codeforces6C.java
+18.Given an int array of digits (0-9). Build an integer with the minimum number of factors, using each of the digits exactly once (count all factors, not just the prime factors). If more than one solution, return the smallest. 
+    * Link: http://community.topcoder.com/stat?c=problem_statement&pm=5886
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/FewestFactors.java
 
 ### LinkedLists
-1. Implement a singly linked list with `add(int v, int pos)`, `remove(int pos)`, and `print()` functionalities. Write a function to remove a linked list node when you only have access to that node. `singly__add__remove__remove_without_head.c`
+1. Implement a singly linked list with `add(int v, int pos)`, `remove(int pos)`, and `print()` functionalities. Write a function to remove a linked list node when you only have access to that node. 
     * Link: 
-    * Solutions:
-2. How will you detect a corrupt singly linked list (a linked list that has a circle in it, i.e., an arbitrary node's next pointer points to an earlier node)? `CircularList.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/linkedlists/singly__add__remove__remove_without_head.c
+2. How will you detect a corrupt singly linked list (a linked list that has a circle in it, i.e., an arbitrary node's next pointer points to an earlier node)? 
     * Link: 
-    * Solutions:
-3. Return the starting node of a circle and null if it is not circular. `CircularList.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/CircularList.java
+3. Return the starting node of a circle and null if it is not circular. 
     * Link: 
-    * Solutions:
-4. Write a function that will return true if a circular singly linked list has duplicate values and false if there are no duplicate values or the linked list is not circular. You can assume that the values are ascii characters ranging from 0 to 127. `CircularList.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/CircularList.java
+4. Write a function that will return true if a circular singly linked list has duplicate values and false if there are no duplicate values or the linked list is not circular. You can assume that the values are ascii characters ranging from 0 to 127. 
     * Link: 
-    * Solutions:
-5. Add 2 numbers represented by linked lists: each node contains a digit and the digits are reverse order. For example: 123 is represented by 3->2->1 and 905 is represented by 5->0->9 and their addition will be 8->2->0->1 i.e., 1028. You are allowed to traverse each list only once. `LinkedListAdd.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/CircularList.java
+5. Add 2 numbers represented by linked lists: each node contains a digit and the digits are reverse order. For example: 123 is represented by 3->2->1 and 905 is represented by 5->0->9 and their addition will be 8->2->0->1 i.e., 1028. You are allowed to traverse each list only once. 
     * Link: 
-    * Solutions:
-6. Implement an algorithm to find the last n elements of a singly linked list. `Last_N_Elements.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/LinkedListAdd.java
+6. Implement an algorithm to find the last n elements of a singly linked list. 
     * Link: 
-    * Solutions:
-7. Suppose a weird singly linked list has a child pointer that can point to a Node i.e., another linked list (which also has a child pointer). Flatten the list. (if a node has a child then the after flatten, the child's last node should point to current's next node and current's next node should point to its child. Remember the child should also be recursively flattened.). `FlattenListWithChild.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/Last_N_Elements.java
+7. Suppose a weird singly linked list has a child pointer that can point to a Node i.e., another linked list (which also has a child pointer). Flatten the list. (if a node has a child then the after flatten, the child's last node should point to current's next node and current's next node should point to its child. Remember the child should also be recursively flattened.). 
     * Link: 
-    * Solutions:
-8. Write an algorithm to remove duplicates from an unsorted linked list. `RemoveDuplicates.java` [unit tests are coming]
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/FlattenListWithChild.java
+8. Write an algorithm to remove duplicates from an unsorted linked list.  [unit tests are coming]
     * Link: 
-    * Solutions:
-9. Write a program that checks if 2 singly linkedlists intersect or not. You can assume both of the lists does not have any cycle. `IntersectingLinkedList.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/RemoveDuplicates.java
+9. Write a program that checks if 2 singly linkedlists intersect or not. You can assume both of the lists does not have any cycle. 
     * Link: 
-    * Solutions:
-10. Write a program that returns the intersecting node of 2 singly linkedlists and null otherwise. You can assume both of the lists does not have any cycle. `IntersectingLinkedList.java` 
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/IntersectingLinkedList.java
+10. Write a program that returns the intersecting node of 2 singly linkedlists and null otherwise. You can assume both of the lists does not have any cycle. 
     * Link: 
-    * Solutions:
-11. Reverse a linked list. `ReverseList.java`
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/IntersectingLinkedList.java
+11. Reverse a linked list.
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/ReverseList.java
 
 ### Stacks and Queues
-1. Implement a stack that has `push()`, `pop()`, and `min()`. `min()` gives the current minimum in the stack. All 3 function should be `O(1)` time. `stack_push_pop_min_constant_time.c`
+1. Implement a stack that has `push()`, `pop()`, and `min()`. `min()` gives the current minimum in the stack. All 3 function should be `O(1)` time. 
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/stacks_queues/stack_push_pop_min_constant_time.c
 2. Implement a queue with a linked list with `insert()`, `remove()`, and `isEmpty()` functions, all of which should operate in O(1) time.
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/stacks_queues/Queue.java
 
 ### Trees and Graphs
 1. Implement a tree and a in-order-traversal. Implement a function to return the first common ancestor (fca) of any 2 given nodes. `tree_inorder_fca.c`
