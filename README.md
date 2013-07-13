@@ -63,6 +63,8 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 10. Write a simple regular expression matcher. a* means 0 or more a characters =>{}, a, aa, ,aaaa, aaaaa, etc, and .* means => zero or more characters of anything => {}, siasv98, sdif239047, 9384fievfi etc. `KindOfSimpleRegEx.java`
 11. A sentence is called dancing if its first letter is uppercase and the case of each subsequent letter is the opposite of the previous letter. Spaces should be ignored when determining the case of a letter. For example, "A b Cd" is a dancing sentence. Given a sentence, convert it to dancing. `DancingSentence.java`
 12. Rearrange letters of the given string so that it becomes a palindrome. Each character in baseString will be an uppercase letter ('A'-'Z'). `PalindromeMaker.java`
+13. A series of brackets is complete if we can pair off each left bracket '[' with a right bracket ']' that occurs later in the series. Given a String text add the minimal number of brackets to the beginning and/or end of text to make it complete. E.g., "]["-->"[][]". `CompletingBrackets.java`
+14. Write a simple Spam Detector. The rules http://community.topcoder.com/stat?c=problem_statement&pm=2229 . `SimpleSpamDetector.java`
 
 ### Arrays and ArrayLists
 #### C/arrays/

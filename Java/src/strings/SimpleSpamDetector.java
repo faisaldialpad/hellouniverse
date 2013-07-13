@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 
 public class SimpleSpamDetector {
+	
 	public static boolean doesDuplicatingMatch(String s,int s_i, int s_j, String p,int p_i, int p_j){
 		if(p_j-p_i>s_j-s_i) //if pattern is larger than the original string
 			return false;
@@ -72,4 +73,34 @@ public class SimpleSpamDetector {
 			count++;
 		return count;
 	}
+	/*//inefficient but easy to understand. 
+	public static boolean doesDuplicatingMatch(String s,String p){
+		if(p.length()>s.length()) //if pattern is larger than the original string
+			return false;
+		else if(s.length()==0 && p.length()==0) //if both empty
+			return true;
+		else if(s.length()==0 || p.length()==0) //if one empty
+			return false;
+		else if(Character.toLowerCase(s.charAt(0)) == Character.toLowerCase(p.charAt(0)))
+			return doesDuplicatingMatch(s.substring(1),p.substring(1))
+							||doesDuplicatingMatch(s.substring(1),p);
+		else
+			return false;
+	}
+	public static int countKeywords(String subjectLine, String[] keywords){
+		String[] words=subjectLine.split(" ");
+		int count=0;
+		for(String s:words){
+			if(s!=""){
+				for(String p:keywords){
+					if(doesDuplicatingMatch(s,p)){
+						count++;
+						break;
+					}
+				}
+			}
+		}
+		return count;
+	}
+	*/
 }
