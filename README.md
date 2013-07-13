@@ -76,46 +76,46 @@ The Hello Universe is a project with a collection of fun and thought provoking p
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/strings/remove_from_2nd_string.c
 14. Write a recursive function that will take a string and duplicate each char in each iteration (running duplicate). E.g., `Hello-->HH HHee HHeell HHeellll HHeelllloo`. `RunningDuplicate.java`
     * Link: 
-    * Solutions: 
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/RunningDuplicate.java
 15. Write a string add function. `StringAdd.java`
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/StringAdd.java
 16. Calculate how many rotations of a string is same as the original string. `IdenticalRotations.java`
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/IdenticalRotations.java
 17. Reverse a sentence. For example: `"Hello, how are you?"-->"you? are how Hello,"`. Can you also do this in place? `ReverseSentence.java`
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/ReverseSentence.java
 18. Reverse only words in a sentence. For example: `"Hello, how are you?"-->",olleH woh era ?uoy"`. You must do this in place. `ReverseWordsInSentence.java`
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/ReverseWordsInSentence.java
 19. Convert an `int` to a `String`. You can assume that the input is within integer limit and it can be negative. `ItoA.java`
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/ItoA.java
 20. Write a function that returns all the possible combinations of a string.E.g., `aab-->[aab,aba,baa]` `StringPermutation.java`
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/StringPermutation.java
 21. Write a function that takes a phone number, and returns all possibilities of words possible with that phone number by the phone key board. For example, if `8662665` is one such phone number then `TOOCOOL` is one of the possibilities. `PhoneKeyboardWordsList.java`
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/PhoneKeyboardWordsList.java
 22. Write a simple regular expression matcher. * Matches with 0 or more instances of any character or set of characters, and ? Matches with any one character. For example, "g*k?" and "geeks" matches. `SimpleRegEx.java`
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/SimpleRegEx.java
 23. Write a simple regular expression matcher. a* means 0 or more a characters =>{}, a, aa, ,aaaa, aaaaa, etc, and .* means => zero or more characters of anything => {}, siasv98, sdif239047, 9384fievfi etc. `KindOfSimpleRegEx.java`
     * Link: 
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/KindOfSimpleRegEx.java
 24. A sentence is called dancing if its first letter is uppercase and the case of each subsequent letter is the opposite of the previous letter. Spaces should be ignored when determining the case of a letter. For example, "A b Cd" is a dancing sentence. Given a sentence, convert it to dancing. `DancingSentence.java`
-    * Link: 
-    * Solutions:
+    * Link: http://community.topcoder.com/stat?c=problem_statement&pm=5950&rd=8076
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/DancingSentence.java
 25. Rearrange letters of the given string so that it becomes a palindrome. Each character in baseString will be an uppercase letter ('A'-'Z'). `PalindromeMaker.java`
-    * Link: 
-    * Solutions:
+    * Link: http://community.topcoder.com/stat?c=problem_statement&pm=5881&rd=8071
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/PalindromeMaker.java
 26. A series of brackets is complete if we can pair off each left bracket '[' with a right bracket ']' that occurs later in the series. Given a String text add the minimal number of brackets to the beginning and/or end of text to make it complete. E.g., "]["-->"[][]". `CompletingBrackets.java`
-    * Link: 
-    * Solutions:
+    * Link: http://community.topcoder.com/stat?c=problem_statement&pm=5977
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/CompletingBrackets.java
 27. Write a simple Spam Detector. `SimpleSpamDetector.java`
     * Link: http://community.topcoder.com/stat?c=problem_statement&pm=2229
-    * Solutions:
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/SimpleSpamDetector.java
 
 
 ### Arrays and ArrayLists
