@@ -320,6 +320,16 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 6. We must pay D dollars with p1 and p2 dollar bills. So, we want to overpay as little as possible. Return the minimum  dollars greater than or equal to D. Assume that we have an infinite supply of both p1 and p2 dollar bills. 
     * Link: http://community.topcoder.com/stat?c=problem_statement&pm=4845
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/AmountApproximation.java
+7. Calculate the Greatest common divisor (gcd) and Least common multiple (lcm) of n numbers. 
+    * Link: http://projecteuler.net/problem=5
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/math/gcd_lcm.c
+8. A palindromic number reads the same both ways. The largest palindrome made from the product of two 2-digit numbers is 9009 = 91 × 99. Find the largest palindrome made from the product of two n-digit numbers.
+    * Link: http://projecteuler.net/problem=4
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/math/largest_palindrome_product.c
+9. Given a number n, find the sum of the digits in the number n! (n factorial).
+    * Link: http://projecteuler.net/problem=20
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/FactorialDigitSum.java
+
 
 
 ### File Operations
