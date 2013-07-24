@@ -332,6 +332,9 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 9. Given a number n, find the sum of the digits in the number n! (n factorial).
     * Link: http://projecteuler.net/problem=20
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/FactorialDigitSum.java
+10. Find the difference between the sum of the squares of the first n natural numbers and the square of the sum.
+    * Link: http://projecteuler.net/problem=6
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/SumSquareDiff.java
 
 
 
