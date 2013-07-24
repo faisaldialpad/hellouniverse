@@ -173,6 +173,9 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 18. Given an int array of digits (0-9). Build an integer with the minimum number of factors, using each of the digits exactly once (count all factors, not just the prime factors). If more than one solution, return the smallest. 
     * Link: http://community.topcoder.com/stat?c=problem_statement&pm=5886
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/FewestFactors.java
+19. There is one friendly number and N unfriendly numbers. Find how many numbers are there which exactly divide the friendly number, but does not divide any of the unfriendly numbers.
+    * Link: https://www.hackerrank.com/challenges/unfriendly-numbers
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/UnfriendlyNumbers.java
 
 ### LinkedLists
 1. Implement a singly linked list with `add(int v, int pos)`, `remove(int pos)`, and `print()` functionalities. Write a function to remove a linked list node when you only have access to that node. 
