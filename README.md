@@ -335,6 +335,9 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 10. Find the difference between the sum of the squares of the first n natural numbers and the square of the sum.
     * Link: http://projecteuler.net/problem=6
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/SumSquareDiff.java
+11. Find the greatest product of m consecutive digits in the n-digit number given as a string.
+    * Link: http://projecteuler.net/problem=8
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/LargestProductOf_m_ConsecutiveDigits.java
 
 
 
