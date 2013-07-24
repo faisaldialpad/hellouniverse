@@ -338,6 +338,12 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 11. Find the greatest product of m consecutive digits in the n-digit number given as a string.
     * Link: http://projecteuler.net/problem=8
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/LargestProductOf_m_ConsecutiveDigits.java
+12. Find the sum of all the primes below n.
+    * Link: http://projecteuler.net/problem=10
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/SumOfPrimes.java
+13. A Pythagorean triplet is a set of three natural numbers, a < b < c, for which, a^2 + b^2 = c^2. Given n, find the Pythagorean triplet for which a + b + c = n, return abc. If none exists return 0.
+    * Link: http://projecteuler.net/problem=9
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/SpecialPythagoreanTripletProd.java
 
 
 
