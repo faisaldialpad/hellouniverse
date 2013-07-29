@@ -305,7 +305,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/bitwise_operations/power_of_two.c
 3. Given two numbers, A and B, how many bits are there, in total, between A and B inclusive, when numbers are represented as 2's complement.
     * Link: https://www.hackerrank.com/challenges/2s-complement
-    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/math/total_bits_between_numbers.c
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/bitwise_operations/total_bits_between_numbers.c
 
 ### Math
 1. Print first n prime numbers. 
