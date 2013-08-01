@@ -116,6 +116,15 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 27. Write a simple Spam Detector. 
     * Link: http://community.topcoder.com/stat?c=problem_statement&pm=2229
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/SimpleSpamDetector.java
+28. The similarity of strings A and B is the max length of common prefixes of both. For example, the similarity of strings “abc” and “abd” is 2, while the similarity of strings “aaa” and “aaab” is 3. Calculate the sum of similarities of a string S with each of it’s suffixes. ("aab" has suffixes "aab", "ab", "b").  
+    * Link: https://www.hackerrank.com/challenges/string-similarity
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/StringSimilarity.java
+29. Given an array of html as strings, print all the tags separated by ; lexicographically. Omit duplicates.
+    * Link: https://www.hackerrank.com/challenges/detect-html-tags
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/HTMLTagsDetection.java
+30. A new identification number is given for every Citizen of the Country Utopia and it has the following format. The string must begin with between 0 and 3 (inclusive) lowercase letters. Immediately following the letters, there must be a sequence of digits. The length of this segment must be between 2 and 8, both inclusive. Immediately following the numbers, there must be atleast 3 uppercase letters.Find out if a given identification number is valid or not. 
+    * Link: https://www.hackerrank.com/challenges/utopian-identification-number
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/UtopianIdentificationNumber.java
 
 
 ### Arrays and ArrayLists
