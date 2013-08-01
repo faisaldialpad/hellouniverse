@@ -11,7 +11,7 @@ public class LargestPrimeFactorTest {
 	@Test
 	public void testCalculate() {
 		assertEquals(29, new LargestPrimeFactor(13195).calculate());
-		System.out.println(new LargestPrimeFactor(600851475143L).calculate());
+		assertEquals(6857,new LargestPrimeFactor(600851475143L).calculate());
 	}
 
 }

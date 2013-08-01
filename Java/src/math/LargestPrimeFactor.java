@@ -7,11 +7,11 @@ public class LargestPrimeFactor {
 		this.num=num;
 	}
 	public long calculate(){
-		long i=(long) Math.sqrt(num);
-		while(i>1){
-			if(num%i==0 && isPrime(i)) return i;
-			i--;
-		}
+		for(long i=1;i<=num/2;i++)
+			if(num%i==0)
+				if(isPrime(num/i)) 
+					return num/i;
+			
 		return 1;
 	}
 	private static boolean isPrime(long num){
