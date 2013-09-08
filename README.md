@@ -356,6 +356,11 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 13. A Pythagorean triplet is a set of three natural numbers, a < b < c, for which, a^2 + b^2 = c^2. Given n, find the Pythagorean triplet for which a + b + c = n, return abc. If none exists return 0.
     * Link: http://projecteuler.net/problem=9
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/SpecialPythagoreanTripletProd.java
+    
+14. A simple codechef problem called Splitting Candies. Look at the link for more info.
+    * Link: http://www.codechef.com/AUG13/problems/SPCANDY/
+    * Blog Post: http://algoexplode.wordpress.com/2013/09/08/codechef-problem-spcandy/
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/SplittingCandies.java
 
 
 
