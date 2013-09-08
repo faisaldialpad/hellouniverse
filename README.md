@@ -361,6 +361,16 @@ The Hello Universe is a project with a collection of fun and thought provoking p
     * Link: http://www.codechef.com/AUG13/problems/SPCANDY/
     * Blog Post: http://algoexplode.wordpress.com/2013/09/08/codechef-problem-spcandy/
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/SplittingCandies.java
+    
+15. A simple codechef problem called Hello Hello. Look at the link for more info.
+    * Link: http://www.codechef.com/AUG13/problems/HELLO/
+    * Blog Post: http://algoexplode.wordpress.com/2013/09/08/hello-hello-codechef-problem/
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/HelloHello.java
+    
+16. A simple codechef problem called Little Elephant and Lemonade. Look at the link for more info.
+    * Link: http://www.codechef.com/AUG13/problems/LELEMON
+    * Blog Post: http://algoexplode.wordpress.com/2013/09/08/little-elephant-and-lemonade-codechef-problem-lelemon/
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/LittleElephantLemonade.java
 
 
 
