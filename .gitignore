@@ -3,6 +3,7 @@
 *.out
 *~
 *.class
+input.txt
 
 # Package Files #
 *.jar
@@ -11,3 +12,5 @@
 *.djunitplugin
 *.ser
 *.settings
+Java/bin/
+Java/jcoverage.ser
