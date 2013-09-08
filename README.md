@@ -371,6 +371,10 @@ The Hello Universe is a project with a collection of fun and thought provoking p
     * Link: http://www.codechef.com/AUG13/problems/LELEMON
     * Blog Post: http://algoexplode.wordpress.com/2013/09/08/little-elephant-and-lemonade-codechef-problem-lelemon/
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/LittleElephantLemonade.java
+    
+17. Calculate the value of Pi using only random number generator (Monte Carlo Simulation).
+    * Link: 
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/math/MonteCarloPi.java
 
 
 
