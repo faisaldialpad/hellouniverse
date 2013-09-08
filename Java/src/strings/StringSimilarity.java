@@ -1,10 +1,9 @@
 package strings;
-
+/*
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
-
 import java.util.Scanner;
-
+*/
 public class StringSimilarity {
 	/**
 	 * This one runs faster
@@ -42,7 +41,7 @@ public class StringSimilarity {
 				return i;
 		return len;
 	}
-
+/*
    public static void main(String[] args) throws FileNotFoundException {
 	    final long startTime = System.currentTimeMillis();
 	   	System.setIn(new FileInputStream("/Users/rfaisal/github/hellouniverse/Java/src/strings/input.txt"));
@@ -54,5 +53,5 @@ public class StringSimilarity {
 		}
 		final long endTime = System.currentTimeMillis();
 		System.out.println("Total execution time: " + (endTime - startTime) );
-	}
+	}*/
 }
