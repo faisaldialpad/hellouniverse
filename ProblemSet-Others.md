@@ -1,5 +1,13 @@
 # Problem Set
 
+## Other Problem Sets
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Arrays-ArrayLists.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Bitwise-Math.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Dynamic-Programming.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-LinkedLists.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-String.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Trees-Graphs.md
+
 ## Stacks and Queues
 1. Implement a stack that has `push()`, `pop()`, and `min()`. `min()` gives the current minimum in the stack. All 3 function should be `O(1)` time. 
     * Link: 
