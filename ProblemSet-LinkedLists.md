@@ -1,5 +1,13 @@
 # Problem Set
 
+## Other Problem Sets
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Arrays-ArrayLists.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Bitwise-Math.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Dynamic-Programming.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Others.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-String.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Trees-Graphs.md
+
 ## LinkedLists
 1. Implement a singly linked list with `add(int v, int pos)`, `remove(int pos)`, and `print()` functionalities. Write a function to remove a linked list node when you only have access to that node. 
     * Link: 
