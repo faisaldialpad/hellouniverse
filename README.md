@@ -34,6 +34,12 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 
 ## Questions
 
-
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Arrays-ArrayLists.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Bitwise-Math.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Dynamic-Programming.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-LinkedLists.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Others.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-String.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Trees-Graphs.md
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
