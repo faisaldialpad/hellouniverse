@@ -1,5 +1,14 @@
 # Problem Set
 
+## Other Problem Sets
+
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Bitwise-Math.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Dynamic-Programming.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-LinkedLists.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Others.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-String.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Trees-Graphs.md
+
 ## Arrays and ArrayLists
 1. Given a MxN matrix. If a cell is 0 make the entire row and column corresponding to that cell to 0. 
     * Link: 
