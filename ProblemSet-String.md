@@ -1,5 +1,13 @@
 # Problem Set
 
+## Other Problem Sets
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Arrays-ArrayLists.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Bitwise-Math.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Dynamic-Programming.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-LinkedLists.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Others.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Trees-Graphs.md
+
 ## Strings
 1. Reverse a string. 
     * Link: http://hellouniverseproblems.wordpress.com/2013/07/13/string-1/
