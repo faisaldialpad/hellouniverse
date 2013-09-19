@@ -18,6 +18,7 @@ public class CompletingBracketsTest {
 		assertEquals("[[]]", CompletingBrackets.complete("[["));
 		assertEquals("[][]", CompletingBrackets.complete("]["));
 		assertEquals("[[[[]]]]", CompletingBrackets.complete("[[[[]]]]"));
+		assertEquals("[[[[[[[[[[[[[[[[[]]]]]]]][][]][[]]][]]]]]]][]][[]][]", CompletingBrackets.complete("]]]]]]]][][]][[]]][]]]]]]][]][[]]["));
 	}
 
 }

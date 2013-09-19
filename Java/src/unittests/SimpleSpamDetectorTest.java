@@ -15,7 +15,7 @@ public class SimpleSpamDetectorTest {
 		assertEquals(3, SimpleSpamDetector.countKeywords("in debbtt againn and aAgain and AGAaiIN", new String[]{"AGAIN","again","Again","again"}));
 		assertEquals(3, SimpleSpamDetector.countKeywords("PlAyy ThEE Lottto     get Loottoo feever", new String[]{"play","lotto","lottery","looser"}));
 		assertEquals(0, SimpleSpamDetector.countKeywords("                                   ", new String[]{"empty","space","does","not","match"}));
-	
+		assertEquals(0, SimpleSpamDetector.countKeywords("", new String[]{"nothing", "nada", "zip", "nil", "squat", "vaccuum"}));
 	}
 
 }
