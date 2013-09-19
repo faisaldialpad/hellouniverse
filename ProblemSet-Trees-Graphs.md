@@ -1,5 +1,13 @@
 # Problem Set
 
+## Other Problem Sets
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Arrays-ArrayLists.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Bitwise-Math.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Dynamic-Programming.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-LinkedLists.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-Others.md
+* https://github.com/rfaisal/hellouniverse/blob/master/ProblemSet-String.md
+
 ## Trees and Graphs
 1. Implement a tree and a in-order-traversal. Implement a function to return the first common ancestor (fca) of any 2 given nodes. 
     * Link: 
