@@ -67,5 +67,8 @@
 19. There is one friendly number and N unfriendly numbers. Find how many numbers are there which exactly divide the friendly number, but does not divide any of the unfriendly numbers.
     * Link: https://www.hackerrank.com/challenges/unfriendly-numbers
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/UnfriendlyNumbers.java
+20. Find the sum of k smallest number without the (k-1)th smallest number from an array of n numbers. There are no duplicates.
+    * Link: http://community.topcoder.com/stat?c=problem_statement&pm=12112
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/LittleElephantAndBooks.java
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
