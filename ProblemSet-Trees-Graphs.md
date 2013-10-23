@@ -54,5 +54,8 @@
 15. If a Tree Node of a BST have only left and right child pointer but no parent pointer. Write a iterator for the BST with `next()` function that returns the next node (in order successor) of the current node. When the iterator is initialized with the root of the BST the current node (the first node) becomes the left most node of the tree. `InOrderBSTIterator.java`
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/InOrderBSTIterator.java
+16. Given a binary tree, print boundary nodes of the binary tree Anti-Clockwise starting from the root.
+    * Link: http://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/BoundaryTraversal.java
     
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
