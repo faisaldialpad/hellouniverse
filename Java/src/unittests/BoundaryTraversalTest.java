@@ -34,9 +34,7 @@ public class BoundaryTraversalTest {
 	}
 	@Test
 	public void testPerform_normal_1() {
-
 		TNode<Integer> r= new TNode<Integer>(20);
-
 		r.left= new TNode<Integer>(8);
 		r.left.left= new TNode<Integer>(4);
 		r.left.right= new TNode<Integer>(12);
