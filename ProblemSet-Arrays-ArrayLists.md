@@ -70,5 +70,8 @@
 20. Find the sum of k smallest numbers without the (k-1)th smallest number from an array of n numbers. There are no duplicates.
     * Link: http://community.topcoder.com/stat?c=problem_statement&pm=12112
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/LittleElephantAndBooks.java
+21. Consider a mxn matrix and any random cell as the start. The next cell is the cell diagonal (wrapping allowed). Write a function to check if it is possible to visit all the cells of the matrix.
+    * Link: http://community.topcoder.com/stat?c=problem_statement&pm=12811
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/FoxAndClassroom.java
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
