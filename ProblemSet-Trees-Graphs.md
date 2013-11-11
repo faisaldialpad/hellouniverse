@@ -57,5 +57,8 @@
 16. Given a binary tree, print boundary nodes of the binary tree Anti-Clockwise starting from the root.
     * Link: http://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/BoundaryTraversal.java
+17. Given a binary tree, extract the leaves and put them in a doubly linked list (You can use your tree node as the doubly linked list). Also, put a logic to trim the original tree of the leaves.
+    * Link: http://www.geeksforgeeks.org/connect-leaves-doubly-linked-list/
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/BTLeavesToDLL.java
     
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
