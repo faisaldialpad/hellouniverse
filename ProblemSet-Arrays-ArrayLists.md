@@ -73,5 +73,10 @@
 21. Consider a mxn matrix and any random cell as the start. The next cell is the cell diagonal (wrapping allowed). Write a function to check if it is possible to visit all the cells of the matrix.
     * Link: http://community.topcoder.com/stat?c=problem_statement&pm=12811
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/FoxAndClassroom.java
+22. Move all zeros to the end of the array.
+    * Link: http://www.geeksforgeeks.org/move-zeroes-end-array/
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/MoveZerosToEnd.java
+
+
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
