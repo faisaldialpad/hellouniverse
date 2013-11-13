@@ -60,5 +60,8 @@
 17. Given a binary tree, extract the leaves and put them in a doubly linked list (You can use your tree node as the doubly linked list). Also, put a logic to trim the original tree of the leaves.
     * Link: http://www.geeksforgeeks.org/connect-leaves-doubly-linked-list/
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/BTLeavesToDLL.java
-    
+18. Given two arrays and we will make 2 Binary Search Tree (BST) from each array by calling the `add` method. We need to tell whether two BSTs will be identical or not without actually constructing the tree.
+    * Link: http://www.geeksforgeeks.org/check-for-identical-bsts-without-building-the-trees/
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/IsSameBST.java
+
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
