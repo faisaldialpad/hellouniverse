@@ -29,7 +29,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 4. Find the post order successor for a given node. [Idea: if the current node is a right child then its parent is the post order successor, else leftmost of parent's right child]
 5. Iteratively do a pre order traversal of a tree. [Idea: You will need a stack] 
 6. Iteratively do a post order traversal of a tree. [Idea: You will need 2 stacks] 
-7. Given 2 arrays.Imagine you are making bst from each array.u need to tell whether 2 bsts will be identical or not without actually constructing the tree. Ex: 1 2 3 and 1 3 2 will construct the same tree. [Idea: The 1st element is the root, elements less that root will be in the left subtree and elements grater than root will be in the right subtree]
+
 
 
 ## Questions
