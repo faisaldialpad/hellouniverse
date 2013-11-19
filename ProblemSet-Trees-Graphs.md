@@ -13,10 +13,10 @@
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/trees_graphs/tree_inorder_fca.c
 2. Implement a tree and a in-order-traversal. Assuming the tree is a Binary Search Tree, implement a function to return the first common ancestor (fca) of any 2 given nodes. For this problem you can assume that both values exist in the tree, so no need to check for those cases. 
-    * Link: 
+    * Link: http://www.geeksforgeeks.org/lowest-common-ancestor-in-a-binary-search-tree/
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/trees_graphs/bst_inorder_fca.c
 3. Do an in order traversal of a binary tree. Can you do it without using recursion?  [unit tests are coming]
-    * Link: 
+    * Link: http://www.geeksforgeeks.org/inorder-tree-traversal-without-recursion/
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/TreeTraversal.java
 4. Check if a binary tree is balanced or not. A balanced tree is defined to be a tree such that no 2 leaf nodes differ in distance from the root by more than 1.  [unit tests are coming]
     * Link: 
