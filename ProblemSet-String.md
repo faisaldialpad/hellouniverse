@@ -100,4 +100,7 @@
     * Link: https://www.hackerrank.com/challenges/utopian-identification-number
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/UtopianIdentificationNumber.java
 
+31. Implement the KMP algorithm.
+    * Link: http://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/
+    * Solution: 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
