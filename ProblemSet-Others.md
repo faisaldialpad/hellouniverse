@@ -15,6 +15,10 @@
 2. Implement a queue with a linked list with `insert()`, `remove()`, and `isEmpty()` functions, all of which should operate in O(1) time.
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/stacks_queues/Queue.java
+3. Implement a queue 2 stacks.
+    * Link: 
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/stacks_queues/QueueWith2Stacks.java
+
 
 
 ## File Operations

@@ -43,4 +43,8 @@
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/ReverseList.java
     
+12. Center of a linked list.
+    * Link: 
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/LinkedListCenter.java
+    
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
