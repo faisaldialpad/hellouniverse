@@ -5,6 +5,7 @@
 #include<stdio.h>
 #include<stdlib.h>
 #include<math.h>
+#include<time.h>
 
 /**
 * if p is prime or not.
@@ -19,45 +20,60 @@ int is_prime(int p){
 	return 1;
 }
 
+int nth_prime_method_1(int n){
+	clock_t begin, end;
+	begin = clock();
+	int i=1;
+	int count=0;
+	while(count<n){
+		if(is_prime(i)){
+			count++;
+		}
+		i++;
+	}
+	end = clock();
+	printf("\nMethod 1: %d (time: %lu)",i - 1, end - begin);
+}
+//Method: Sieve of Eratosthenes
+int nth_prime_method_2(int n){
+	clock_t begin, end;
+	int i;
+	begin = clock();
+	int upper_bound = 4 * n * log(n); // since the nth prime is apporx. nlogn. need to find a tighter upper bound
+	int *table = calloc(upper_bound, sizeof(int));
+	int p=2;
+	int last_prime = p;
+	int count =1;
+	while(count<n){
+		i=2;
+		while(i*p < upper_bound){
+			table[i*p] = 1;
+			i++;
+		}
+		p++;
+		while(p<upper_bound){
+			if(table[p] == 0) {
+				last_prime = p;
+				count++;//found a new prime
+				break;
+			}
+			p++;
+		}
+	}
+	free(table);
+	end = clock();
+	printf("\nMethod 2: %d (time: %lu)",last_prime, end - begin);
+}
+
+
 /**
 * USAGE: ./a.out 5
 * the nth prime 
 **/
 int main(int argc, char *argv[]){
 	if(argc<2) return 1;
-	int total = atoi(argv[1]);
-	int i=1;
-	int count=0;
-	printf("\nOriginal: ");
-	while(count<total){
-		if(is_prime(i)){
-			//printf("%d ",i);
-			count++;
-		}
-		i++;
-	}
-	printf("%d ",i - 1);
-        // method 2
-	printf("\nOptimized: ");
-        int* prime_arr = malloc(total*sizeof(int));
-        prime_arr[0] = 2;
-        count = 1;
-	i = 3;
-        while(count<total){
-		int flag =0;
-		for(int j=0;j<count;j++){
-			if(i%prime_arr[j] == 0){
-				flag =1; 
-				break;
-			}		
-		}
-		if(flag == 0){ 
-			//printf("%d ",i);
-			prime_arr[count] = i;	
-			count++;
-		}
-		i++;
-	}
-	printf("%d ",prime_arr[count-1]);
+	int n = atoi(argv[1]);
+	nth_prime_method_1(n);
+	nth_prime_method_2(n);
 	return 0;
 }
