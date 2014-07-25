@@ -39,7 +39,7 @@ int nth_prime_method_2(int n){
 	clock_t begin, end;
 	int i;
 	begin = clock();
-	int upper_bound = 4 * n * log(n); // since the nth prime is apporx. nlogn. need to find a tighter upper bound
+	int upper_bound = 4 * n * log(n); // since the nth prime is apporx. nlogn. TODO: find a tighter upper bound
 	int *table = calloc(upper_bound, sizeof(int));
 	int p=2;
 	int last_prime = p;
