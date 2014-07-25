@@ -20,7 +20,7 @@
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/bitwise_operations/total_bits_between_numbers.c
 
 ## Math
-1. Print first n prime numbers. 
+1. Print  nth prime numbers. 
     * Link: http://projecteuler.net/problem=7
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/C/math/n_primes.c
 2. Print the nth fibonacci number. Ex. `f(0)=0, f(1)=1, f(2)=1, f(3)=2, f(4)=3, f(5)=5, ...`. 
