@@ -64,4 +64,16 @@
     * Link: http://www.geeksforgeeks.org/check-for-identical-bsts-without-building-the-trees/
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/IsSameBST.java
 
+19. Given a tree do a preorder traversal of the tree (both recursively and iteratively).
+    * Link: 
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/PreOrderTraversal.java
+
+20. Given a tree do a postorder traversal of the tree (both recursively and iteratively).
+    * Link: 
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/PostOrderTraversal.java
+
+21. Given a tree do a inorder traversal of the tree (both recursively and iteratively).
+    * Link: 
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/InOrderTraversal.java
+
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
