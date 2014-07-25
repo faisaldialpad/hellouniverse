@@ -27,8 +27,7 @@ The Hello Universe is a project with a collection of fun and thought provoking p
 2. Given 2 tree nodes, how will you determine if there is a path between them? [Idea: check if one node is the child of another (by bfs/dfs or any of the traversal)]
 3. Find the pre order succcessor for a given node. [Idea: If the node has a left child then that's the preorder successor, else go up until you find a node that IS the left child, the right child of its parent is the preorder successor]
 4. Find the post order successor for a given node. [Idea: if the current node is a right child then its parent is the post order successor, else leftmost of parent's right child]
-5. Iteratively do a pre order traversal of a tree. [Idea: You will need a stack] 
-6. Iteratively do a post order traversal of a tree. [Idea: You will need 2 stacks] 
+
 
 
 
