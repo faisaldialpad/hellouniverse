@@ -5,6 +5,7 @@ public class IsBalancedTree {
 	public IsBalancedTree(TNode<Integer> root) {
 		this.root=root;
 	}
+	//this is not correct. We have to check if both sub trees are also balanced or not
 	public boolean check(){
 		return (maxHeight(root)-minHeight(root))<=1;
 	}
