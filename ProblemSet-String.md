@@ -106,5 +106,7 @@
 
 32. Print all the permutations of a string.
     * Link:
-	* Solution: 
+    * Solution: https://github.com/rfaisal/hellouniverse/blob/master/CSharp/HelloUniverse/StringPermutation.cs
+    * Tests: https://github.com/rfaisal/hellouniverse/blob/master/CSharp/HelloUniverse.Tests/StringPermutationTests.cs
+
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
