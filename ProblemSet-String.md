@@ -103,4 +103,8 @@
 31. Implement the KMP algorithm.
     * Link: http://www.geeksforgeeks.org/searching-for-patterns-set-2-kmp-algorithm/
     * Solution: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/KMP.java
+
+32. Print all the permutations of a string.
+    * Link:
+	* Solution: 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
