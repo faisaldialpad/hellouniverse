@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Diagnostics;
+﻿using HelloUniverse.Helpers;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using HelloUniverse.Helpers;
+
 namespace HelloUniverse
 {
     public class StringPermutation
