@@ -1,40 +1,32 @@
-﻿using HelloUniverse.Helpers;
-using System.Linq;
+﻿using System.Linq;
+using System.Collections.Generic;
 
 namespace HelloUniverse
 {
     public class StringPermutation
     {
-        private string _str;
-        private IOutput _output;
-        public StringPermutation(string str, IOutput output)
+        public static IList<string> Permute(string str)
         {
-            _str = str;
-            _output = output;
+            var result = new List<string>();
+            Permute(str, 0, str.Length - 1, result);
+            return result;
         }
 
-        /// <summary>
-        /// Changes the string, so performs the opearation on a copy
-        /// </summary>
-        public void PrintPermutations()
-        {
-            var str = string.Copy(_str);
-            Permute(str, 0, str.Length - 1);
-        }
-        private void Permute(string s, int start, int end)
+        private static void Permute(string s, int start, int end, IList<string> result)
         {
             if(start >= end)
             {
-                _output.WriteLine(s);
+                result.Add(s);
                 return;
             }
             for(var i= start; i <= end; i++)
             {
                 var swapped = Swap(s, start, i);
-                Permute(swapped, start+1, end);
+                Permute(swapped, start+1, end, result);
             }
         }
-        private string Swap(string s, int i, int j)
+
+        private static string Swap(string s, int i, int j)
         {
             var arr = s.ToArray();
             var t = arr[i];
