@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using HelloUniverse.Helpers;
 
-namespace HelloUniverse.Tests.Helpers
+namespace HelloUniverseCore.Tests.Helpers
 {
     public class TestOutput : IOutput
     {
