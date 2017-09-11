@@ -7,6 +7,10 @@ namespace HelloUniverse
     {
         public static IList<string> Permute(string str)
         {
+            if(str == null)
+            {
+                return new List<string> { null };
+            }
             var result = new List<string>();
             Permute(str, 0, str.Length - 1, result);
             return result;

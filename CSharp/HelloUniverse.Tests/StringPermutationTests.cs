@@ -8,6 +8,14 @@ namespace HelloUniverse.Tests
 	public class StringPermutationTests
 	{
 		[Test]
+		public void PrintPermutations_PermuteNull()
+		{
+			var output = StringPermutation.Permute(null);
+			Assert.AreEqual(1, output.Count);
+			Assert.AreEqual(null, output[0]);
+		}
+
+		[Test]
 		public void PrintPermutations_PermuteEmpty()
 		{
             var output = StringPermutation.Permute(string.Empty);
