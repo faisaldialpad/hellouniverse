@@ -34,10 +34,10 @@
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/IsSubTree.java
 9. Write an algorithm to check if a tree is a BST or not. Check for the case that all the nodes in the left subtree must be less than the root and all the node in the right subtree must be greater than the root. For example, if a tree is represented by an array then `[*,4,2,6,1,100,5,7]` is not a BST, but  `[*,4,2,6,1,3,5,7]` is. 
-    * Link: 
+    * Tags: Amazon
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/IsBST.java
 10. A Trie is a prefex tree of created by string. Implement the `get(String key)` and `put(int value, String key)` methods of a trie, so that it is similar to a `HashMap<String>`. 
-    * Link: 
+    * Tags: Microsoft
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/Trie.java
 11. Given a graph `g` with each node containing an integer, find a value in the graph using the BFS algorithm.  [unit tests are coming]
     * Link: 
@@ -52,9 +52,10 @@
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/HeapSort.java
 15. If a Tree Node of a BST have only left and right child pointer but no parent pointer. Write a iterator for the BST with `next()` function that returns the next node (in order successor) of the current node. When the iterator is initialized with the root of the BST the current node (the first node) becomes the left most node of the tree. `InOrderBSTIterator.java`
-    * Link: 
+    * Tags: Google
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/InOrderBSTIterator.java
 16. Given a binary tree, print boundary nodes of the binary tree Anti-Clockwise starting from the root.
+    * Tags: Amazon
     * Link: http://www.geeksforgeeks.org/boundary-traversal-of-binary-tree/
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/trees_graphs/BoundaryTraversal.java
 17. Given a binary tree, extract the leaves and put them in a doubly linked list (You can use your tree node as the doubly linked list). Also, put a logic to trim the original tree of the leaves.

@@ -105,7 +105,7 @@
     * Solution: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/strings/KMP.java
 
 32. Print all the permutations of a string.
-    * Link:
+    * Tags: Microsoft
     * Solution: https://github.com/rfaisal/hellouniverse/blob/master/CSharp/HelloUniverse/StringPermutation.cs
     * Tests: https://github.com/rfaisal/hellouniverse/blob/master/CSharp/HelloUniverse.Tests/StringPermutationTests.cs
 
