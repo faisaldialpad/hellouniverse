@@ -3,11 +3,11 @@ using System.Collections.Generic;
 
 namespace HelloUniverse
 {
-    public class StringPermutation
+    public static class StringPermutation
     {
         public static IList<string> Permute(string str)
         {
-            if(str == null)
+            if (str == null)
             {
                 return new List<string> { null };
             }
@@ -18,15 +18,15 @@ namespace HelloUniverse
 
         private static void Permute(string s, int start, int end, IList<string> result)
         {
-            if(start >= end)
+            if (start >= end)
             {
                 result.Add(s);
                 return;
             }
-            for(var i= start; i <= end; i++)
+            for (var i = start; i <= end; i++)
             {
                 var swapped = Swap(s, start, i);
-                Permute(swapped, start+1, end, result);
+                Permute(swapped, start + 1, end, result);
             }
         }
 
