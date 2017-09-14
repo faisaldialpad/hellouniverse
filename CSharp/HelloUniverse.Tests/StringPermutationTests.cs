@@ -4,7 +4,7 @@ using NUnit.Framework;
 
 namespace HelloUniverse.Tests
 {
-    [TestFixture]
+	[TestFixture]
 	public class StringPermutationTests
 	{
 		[Test]
@@ -18,7 +18,7 @@ namespace HelloUniverse.Tests
 		[Test]
 		public void PrintPermutations_PermuteEmpty()
 		{
-            var output = StringPermutation.Permute(string.Empty);
+			var output = StringPermutation.Permute(string.Empty);
 			Assert.AreEqual(1, output.Count);
 			Assert.AreEqual(string.Empty, output[0]);
 		}
