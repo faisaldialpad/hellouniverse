@@ -22,8 +22,10 @@
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/CircularList.java
 5. Add 2 numbers represented by linked lists: each node contains a digit and the digits are reverse order. For example: 123 is represented by 3->2->1 and 905 is represented by 5->0->9 and their addition will be 8->2->0->1 i.e., 1028. You are allowed to traverse each list only once. 
-    * Link: 
+    * Links: https://leetcode.com/problems/add-two-numbers/description/
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/LinkedListAdd.java
+    * Tests: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/unittests/LinkedListAddTest.java
+    * Tags: leetcode
 6. Implement an algorithm to find the last n elements of a singly linked list. 
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/linkedlists/Last_N_Elements.java
