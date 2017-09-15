@@ -33,6 +33,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LongestPalindromicSubstringTests.cs" />
     <Compile Include="LongestNonRepeatingSubstringTests.cs" />
     <Compile Include="StringPermutationTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

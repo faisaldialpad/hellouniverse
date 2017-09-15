@@ -43,6 +43,7 @@
     <Compile Include="Common\BTreeNode.cs" />
     <Compile Include="Common\TreeNode.cs" />
     <Compile Include="LongestNonRepeatingSubstring.cs" />
+    <Compile Include="LongestPalindromicSubstring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringPermutation.cs" />
   </ItemGroup>

@@ -27,13 +27,21 @@
 6. Given two strings `A` and `B`, we want to transform `A` into `B` with a minimum number of operations of the following types: delete a character from `A` , insert a character into `A` , or change some character in  `A` into a new character. The minimal number of such operations required to transform  `A` into  `B` is called the edit distance between  `A` and `B`.
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/dynamic_programming/EditDistance.java
+
 7. Calculate the longest common sub-sequence between 2 strings. Recall, `ac` is a common sub-sequence between `abc` and `acq`. 
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/dynamic_programming/LongestCommonSubSeq.java
 8. Calculate the longest Palindromic sub-sequence of a string, i.e., the longest sub-sequence that is a palindrome. 
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/dynamic_programming/LongestPalindromicSubSeq.java
-9. Calculate the longest common substring between 2 strings.
+
+9. Calculate the longest Palindromic substring of a string, i.e., the longest substring that is a palindrome. 
+    * Tags: Leetcode
+	* Links: https://leetcode.com/problems/longest-palindromic-substring/description/
+	* Solution: https://github.com/rfaisal/hellouniverse/blob/master/CSharp/HelloUniverse/LongestPalindromicSubstring.cs
+	* Tests: https://github.com/rfaisal/hellouniverse/blob/master/CSharp/HelloUniverse.Tests/LongestPalindromicSubstringTests.cs
+
+10. Calculate the longest common substring between 2 strings.
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/dynamic_programming/LongestCommonSubstring.java
     
