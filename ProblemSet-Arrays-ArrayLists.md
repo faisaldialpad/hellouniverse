@@ -76,6 +76,12 @@
 22. Move all zeros to the end of the array.
     * Link: http://www.geeksforgeeks.org/move-zeroes-end-array/
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/arrays/MoveZerosToEnd.java
+23. 3Sum problem. Given an array S of n integers, are there elements a, b, c in S such that a + b + c = 0? Find all unique triplets in the array which gives the sum of zero. The solution set must not contain duplicate triplets.Given a series of integers. How we find a pair of numbers that sums to 1000.  
+    * Links: https://leetcode.com/problems/3sum/description/
+    * Tags: Leetcode
+    * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/CSharp/HelloUniverse/ThreeSum.cs
+    * Tests: https://github.com/rfaisal/hellouniverse/blob/master/CSharp/HelloUniverse.Tests/ThreeSumTests.cs
+
 
 
 
