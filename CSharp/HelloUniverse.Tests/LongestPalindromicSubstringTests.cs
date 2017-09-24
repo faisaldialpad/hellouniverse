@@ -44,7 +44,6 @@ namespace HelloUniverse.Tests
                     new TestCaseData(new FindDelegate(LongestPalindromicSubstring.FindDynamicProgramming)).SetName(
                         nameof(LongestPalindromicSubstring.FindDynamicProgramming));
             }
-
         }
     }
 }

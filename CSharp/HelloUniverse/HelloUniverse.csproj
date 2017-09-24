@@ -46,6 +46,7 @@
     <Compile Include="StringPermutation.cs" />
     <Compile Include="ThreeSum.cs" />
     <Compile Include="ZigzagConversion.cs" />
+    <Compile Include="InOrderTraversal.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
