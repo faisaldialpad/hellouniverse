@@ -6,9 +6,9 @@ public class IsBST {
 		this.root=root;
 	}
 	public boolean check(){
-		return checkRecursive(root,Integer.MAX_VALUE,Integer.MIN_VALUE);
+		return checkRecursive(root,Long.MAX_VALUE,Long.MIN_VALUE);
 	}
-	private static boolean checkRecursive(TNode<Integer> root, int max, int min){
+	private static boolean checkRecursive(TNode<Integer> root, long max, long min){
 		if(root ==null) return true;
 		return root.data<max && root.data>min && 
 				checkRecursive(root.left,root.data,min) && checkRecursive(root.right,max,root.data);
