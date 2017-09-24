@@ -40,8 +40,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Common\BTreeNode.cs" />
-    <Compile Include="Common\TreeNode.cs" />
     <Compile Include="LongestNonRepeatingSubstring.cs" />
     <Compile Include="LongestPalindromicSubstring.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
