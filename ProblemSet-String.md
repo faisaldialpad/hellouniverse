@@ -115,4 +115,8 @@
 	* Solution: https://github.com/rfaisal/hellouniverse/blob/master/CSharp/HelloUniverse/LongestNonRepeatingSubstring.cs
 	* Tests: https://github.com/rfaisal/hellouniverse/blob/master/CSharp/HelloUniverse.Tests/LongestNonRepeatingSubstringTests.cs
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+34. ZigZag Conversion
+    * Tags: Leetcode
+    * Links: https://leetcode.com/problems/zigzag-conversion/description/
+    * Solution: https://github.com/rfaisal/hellouniverse/blob/master/CSharp/HelloUniverse/ZigzagConversion.cs
+    * Tests: https://github.com/rfaisal/hellouniverse/blob/master/CSharp/HelloUniverse.Tests/ZigzagConversionTests.cs

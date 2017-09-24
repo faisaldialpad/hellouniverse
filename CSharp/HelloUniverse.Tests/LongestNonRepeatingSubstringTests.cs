@@ -7,6 +7,7 @@ using NUnit.Framework;
 
 namespace HelloUniverse.Tests
 {
+    [TestFixture]
     public class LongestNonRepeatingSubstringTests
     {
         [Test]

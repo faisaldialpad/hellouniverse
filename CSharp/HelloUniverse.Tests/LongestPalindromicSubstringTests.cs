@@ -7,6 +7,7 @@ using NUnit.Framework;
 
 namespace HelloUniverse.Tests
 {
+    [TestFixture]
     public class LongestPalindromicSubstringTests
     {
         public delegate string FindDelegate(string str);
