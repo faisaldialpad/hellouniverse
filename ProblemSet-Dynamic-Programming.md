@@ -45,4 +45,3 @@
     * Link: 
     * Solutions: https://github.com/rfaisal/hellouniverse/blob/master/Java/src/dynamic_programming/LongestCommonSubstring.java
     
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/rfaisal/hellouniverse/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
