@@ -5,6 +5,9 @@ import static org.junit.Assert.*;
 import org.junit.Before;
 import org.junit.Test;
 
+import trees_graphs.IsBalancedTree;
+import trees_graphs.TNode;
+
 public class IsBalancedTreeTest {
 
 	@Before
@@ -12,13 +15,25 @@ public class IsBalancedTreeTest {
 	}
 
 	@Test
-	public void testIsBalancedTree() {
-		fail("Not yet implemented");
+	public void testAllRight() {
+		TNode<Integer> root = new TNode<Integer>(8);
+		root.right = new TNode<Integer>(9);
+		root.right.right = new TNode<Integer>(10);
+		assertFalse(IsBalancedTree.check(root));
+	}
+	
+	@Test
+	public void testAllLeft() {
+		TNode<Integer> root = new TNode<Integer>(8);
+		root.left = new TNode<Integer>(9);
+		root.left.left = new TNode<Integer>(10);
+		assertFalse(IsBalancedTree.check(root));
 	}
 
 	@Test
 	public void testCheck() {
-		fail("Not yet implemented");
+		assertTrue(IsBalancedTree.check(null));
+		assertTrue(IsBalancedTree.check(new TNode<Integer>(8)));
 	}
 
 }
