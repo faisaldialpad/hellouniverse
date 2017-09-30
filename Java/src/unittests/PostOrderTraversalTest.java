@@ -4,7 +4,6 @@ import static org.junit.Assert.*;
 
 import org.junit.Test;
 
-import trees_graphs.InOrderTraversal;
 import trees_graphs.PostOrderTraversal;
 import trees_graphs.PreOrderTraversal;
 import trees_graphs.TNode;
