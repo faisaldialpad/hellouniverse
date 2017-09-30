@@ -45,6 +45,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringPermutation.cs" />
     <Compile Include="ThreeSum.cs" />
+    <Compile Include="TreeFromPreorderInorder.cs" />
     <Compile Include="ZigzagConversion.cs" />
     <Compile Include="InOrderTraversal.cs" />
     <Compile Include="SymmetricTree.cs" />
