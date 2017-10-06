@@ -42,6 +42,7 @@
   <ItemGroup>
     <Compile Include="LongestNonRepeatingSubstring.cs" />
     <Compile Include="LongestPalindromicSubstring.cs" />
+    <Compile Include="Math\IntRevarsal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringPermutation.cs" />
     <Compile Include="ThreeSum.cs" />

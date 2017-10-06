@@ -21,7 +21,7 @@ namespace HelloUniverse
                 if (!set.Contains(str[end]))
                 {
                     set.Add(str[end]);
-                    maxLength = Math.Max(maxLength, end - start + 1);
+                    maxLength = System.Math.Max(maxLength, end - start + 1);
                     end++;
                 }
                 else
