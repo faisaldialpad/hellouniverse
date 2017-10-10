@@ -40,6 +40,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LinkedLists\RemoveCurrentNodeFromLinkedList.cs" />
+    <Compile Include="LinkedLists\PalindromeLinkedList.cs" />
+    <Compile Include="LinkedLists\RemoveValuesFromLinkedList.cs" />
+    <Compile Include="LinkedLists\RemoveDuplicatesInSortedList.cs" />
+    <Compile Include="LinkedLists\Merge2SortedLists.cs" />
     <Compile Include="LinkedLists\RemoveNthFromTheEnd.cs" />
     <Compile Include="LongestNonRepeatingSubstring.cs" />
     <Compile Include="LongestPalindromicSubstring.cs" />
