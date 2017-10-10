@@ -13,7 +13,7 @@ public class CircularList{
     		return false;
     	LNode<Character> slow=head;
     	LNode<Character> fast=head;
-        while(fast.next!=null){
+        while(fast!= null && fast.next!=null){
             slow=slow.next;
             fast=fast.next.next;
             if(slow==fast)
