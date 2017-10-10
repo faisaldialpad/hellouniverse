@@ -4,11 +4,7 @@
     {
         public static ListNode RemoveDuplicate(ListNode list)
         {
-            if (list == null)
-            {
-                return null;
-            }
-
+            //null check not needed
             var temp = list;
             while (temp != null)
             {
@@ -25,7 +21,26 @@
             return list;
         }
 
-       
+        public static ListNode RemoveDuplicateOptimized(ListNode list)
+        {
+            //null check not needed
+            var temp = list;
+            while (temp?.next != null) //both temp and next not null
+            {
+                if (temp.val == temp.next.val)
+                {
+                    temp.next = temp.next.next; // keep temp and only remove next
+                }
+                else
+                {
+                    temp = temp.next;
+                }
+            }
+
+            return list;
+        }
+
+
 
         public class ListNode
         {
