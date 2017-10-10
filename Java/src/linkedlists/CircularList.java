@@ -27,13 +27,13 @@ public class CircularList{
     		return null;
     	LNode<Character> slow=head;
     	LNode<Character> fast=head;
-        while(fast.next!=null){
+        while(fast!= null && fast.next!=null){
             slow=slow.next;
             fast=fast.next.next;
             if(slow==fast)
                 break;
         }
-        if(fast.next==null) // checks if it breaks because of the end of while, if so there is no circle
+        if(fast== null || fast.next==null) // checks if it breaks because of the end of while, if so there is no circle
             return null;
         fast=head;// used fast, since we no longer need it
         while(slow!=fast){
