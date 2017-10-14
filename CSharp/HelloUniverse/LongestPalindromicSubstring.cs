@@ -79,7 +79,7 @@ namespace HelloUniverse
 
         private static bool IsPalindrome(string str, int startIndex, int endIndex)
         {
-            int midIndex = (int)Math.Ceiling((double)(endIndex + startIndex)/2);
+            int midIndex = (int)System.Math.Ceiling((double)(endIndex + startIndex)/2);
             for (var i = startIndex; i < midIndex; i++)
             {
                 if (str[i] != str[endIndex + startIndex - i]) // important

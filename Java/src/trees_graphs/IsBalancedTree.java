@@ -1,26 +1,36 @@
 package trees_graphs;
 
 public class IsBalancedTree {
-	private TNode<Integer> root;
-	public IsBalancedTree(TNode<Integer> root) {
-		this.root=root;
+	public static boolean check(TNode<Integer> root) {
+		return checkRecursive(root).isBalanced;
 	}
-	//this is not correct. We have to check if both sub trees are also balanced or not
-	public boolean check(){
-		return (maxHeight(root)-minHeight(root))<=1;
-	}
-	/**
-	 * Maximum height of a leaf
-	 * @param root
-	 * @return
-	 */
-	private static int maxHeight(TNode<Integer> root){
-		if(root==null) return 0;
-		return Math.max(maxHeight(root.left), maxHeight(root.right))+1;
-	}
-	private static int minHeight(TNode<Integer> root){
-		if(root==null) return 0;
-		return Math.min(minHeight(root.left), minHeight(root.right))+1;
-	}
+	private static BalancedHeightPair checkRecursive(TNode<Integer> root){
+		if(root == null) {
+			return new BalancedHeightPair(0, true);
+		}
+		
+		BalancedHeightPair leftCheck = checkRecursive(root.left);
+		if(!leftCheck.isBalanced) {
+			return leftCheck;
+		}
+		
+		BalancedHeightPair rightCheck = checkRecursive(root.right);
+		if(!rightCheck.isBalanced) {
+			return rightCheck;
+		}
+		
+		return new BalancedHeightPair(
+				Math.max(leftCheck.height, rightCheck.height) + 1, 
+				Math.abs(leftCheck.height - rightCheck.height) <= 1);
+	}	
+}
 
+class BalancedHeightPair{
+	public int height;
+	public boolean isBalanced;
+	
+	public BalancedHeightPair(int height, boolean isBalanced) {
+		this.height = height;
+		this.isBalanced = isBalanced;
+	}
 }

@@ -53,13 +53,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BinaryTreeSerializer.cs" />
+    <Compile Include="LinkedLists\RemoveCurrentNodeFromLinkedList.cs" />
+    <Compile Include="LinkedLists\PalindromeLinkedList.cs" />
+    <Compile Include="LinkedLists\RemoveValuesFromLinkedList.cs" />
+    <Compile Include="LinkedLists\RemoveDuplicatesInSortedList.cs" />
+    <Compile Include="LinkedLists\Merge2SortedLists.cs" />
+    <Compile Include="LinkedLists\RemoveNthFromTheEnd.cs" />
     <Compile Include="LongestNonRepeatingSubstring.cs" />
     <Compile Include="LongestPalindromicSubstring.cs" />
+    <Compile Include="Math\Atoi.cs" />
+    <Compile Include="Math\IntRevarsal.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="StringPermutation.cs" />
+    <Compile Include="Strings\ValidParentheses.cs" />
     <Compile Include="ThreeSum.cs" />
+    <Compile Include="TreeFromPreorderInorder.cs" />
     <Compile Include="ZigzagConversion.cs" />
     <Compile Include="InOrderTraversal.cs" />
+    <Compile Include="SymmetricTree.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
