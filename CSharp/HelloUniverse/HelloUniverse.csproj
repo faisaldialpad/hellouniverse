@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="LinkedLists\LinkedListSort.cs" />
     <Compile Include="BinaryTreeSerializer.cs" />
+    <Compile Include="LinkedLists\OddEvenList.cs" />
     <Compile Include="LinkedLists\RemoveCurrentNodeFromLinkedList.cs" />
     <Compile Include="LinkedLists\PalindromeLinkedList.cs" />
     <Compile Include="LinkedLists\RemoveValuesFromLinkedList.cs" />
