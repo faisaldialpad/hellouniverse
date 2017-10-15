@@ -36,6 +36,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="LinkedLists\CopyListWithRandomPointerTests.cs" />
     <Compile Include="LinkedLists\OddEvenListTests.cs" />
     <Compile Include="LinkedLists\LinkedListSortTests.cs" />
     <Compile Include="BinaryTreeSerializerTests.cs" />
