@@ -37,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="LinkedLists\LinkedListSortTests.cs" />
+    <Compile Include="BinaryTreeSerializerTests.cs" />
     <Compile Include="LinkedLists\RemoveNthFromTheEndTests.cs" />
     <Compile Include="LongestPalindromicSubstringTests.cs" />
     <Compile Include="LongestNonRepeatingSubstringTests.cs" />

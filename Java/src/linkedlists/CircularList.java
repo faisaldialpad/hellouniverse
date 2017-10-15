@@ -13,6 +13,8 @@ public class CircularList{
     		return false;
     	LNode<Character> slow=head;
     	LNode<Character> fast=head;
+	// in leet code following is done: while (slow != fast) { if (fast == null || fast.next == null) { return false; } ...}
+	// our approach is correct too.
         while(fast!= null && fast.next!=null){
             slow=slow.next;
             fast=fast.next.next;
