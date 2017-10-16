@@ -55,6 +55,7 @@
     <Compile Include="LinkedLists\CopyListWithRandomPointer.cs" />
     <Compile Include="LinkedLists\LinkedListSort.cs" />
     <Compile Include="BinaryTreeSerializer.cs" />
+    <Compile Include="LinkedLists\MergeKSortedLists.cs" />
     <Compile Include="LinkedLists\OddEvenList.cs" />
     <Compile Include="LinkedLists\RemoveCurrentNodeFromLinkedList.cs" />
     <Compile Include="LinkedLists\PalindromeLinkedList.cs" />
