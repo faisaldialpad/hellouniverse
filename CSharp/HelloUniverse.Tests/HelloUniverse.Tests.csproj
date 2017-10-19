@@ -36,6 +36,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Graphs\CourseScheduleTests.cs" />
     <Compile Include="LinkedLists\MergeKSortedListsTests.cs" />
     <Compile Include="LinkedLists\CopyListWithRandomPointerTests.cs" />
     <Compile Include="LinkedLists\OddEvenListTests.cs" />
