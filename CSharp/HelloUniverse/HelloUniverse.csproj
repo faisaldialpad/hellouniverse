@@ -52,6 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Graph\AlienOrderTopologicalSort.cs" />
     <Compile Include="LinkedLists\CopyListWithRandomPointer.cs" />
     <Compile Include="LinkedLists\LinkedListSort.cs" />
     <Compile Include="BinaryTreeSerializer.cs" />
