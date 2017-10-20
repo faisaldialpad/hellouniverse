@@ -53,6 +53,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Graph\AlienOrderTopologicalSort.cs" />
+    <Compile Include="Graphs\CourseSchedule.cs" />
     <Compile Include="LinkedLists\CopyListWithRandomPointer.cs" />
     <Compile Include="LinkedLists\LinkedListSort.cs" />
     <Compile Include="BinaryTreeSerializer.cs" />
@@ -80,6 +81,7 @@
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
