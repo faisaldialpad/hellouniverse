@@ -52,7 +52,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Graph\AlienOrderTopologicalSort.cs" />
+    <Compile Include="Graphs\AlienOrderTopologicalSort.cs" />
     <Compile Include="Graphs\CourseSchedule.cs" />
     <Compile Include="LinkedLists\CopyListWithRandomPointer.cs" />
     <Compile Include="LinkedLists\LinkedListSort.cs" />

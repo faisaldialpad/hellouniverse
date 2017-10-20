@@ -1,4 +1,4 @@
-﻿using HelloUniverse.Graph;
+﻿using HelloUniverse.Graphs;
 using NUnit.Framework;
 using NUnit.Framework.Internal;
 
