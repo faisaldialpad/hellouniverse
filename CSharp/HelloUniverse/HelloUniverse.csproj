@@ -54,6 +54,7 @@
   <ItemGroup>
     <Compile Include="Graphs\AlienOrderTopologicalSort.cs" />
     <Compile Include="Graphs\CourseSchedule.cs" />
+    <Compile Include="Graphs\LongestIncreasingPathInMatrix.cs" />
     <Compile Include="LinkedLists\CopyListWithRandomPointer.cs" />
     <Compile Include="LinkedLists\LinkedListSort.cs" />
     <Compile Include="BinaryTreeSerializer.cs" />

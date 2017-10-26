@@ -37,6 +37,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Graphs\AlienOrderTopologicalSortTests.cs" />
+    <Compile Include="Graphs\LongestIncreasingPathInMatrixTests.cs" />
     <Compile Include="Graphs\CourseScheduleTests.cs" />
     <Compile Include="LinkedLists\MergeKSortedListsTests.cs" />
     <Compile Include="LinkedLists\CopyListWithRandomPointerTests.cs" />
