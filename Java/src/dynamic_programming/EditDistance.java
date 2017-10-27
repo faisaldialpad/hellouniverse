@@ -58,6 +58,6 @@ public class EditDistance {
 						dis+table[i-1][j-1]); //substitution
 			}
 		}
-		return table[s1.length()-1][s2.length()-1];
+		return table[s1.length()][s2.length()];
 	}
 }
