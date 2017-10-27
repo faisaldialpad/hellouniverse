@@ -47,6 +47,7 @@ namespace HelloUniverse.Strings
             var stack = new Stack<char>();
             foreach (var c in s)
             {
+                //for a lot of parenthesis this can be done by a map
                 if (c == '(')
                 {
                     stack.Push(')');
