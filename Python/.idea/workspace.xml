@@ -11,11 +11,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="test_fizz_buzz.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="test_fizz_buzz.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/arrays/test_fizz_buzz.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="168">
               <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#29#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fizz_buzz.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/dev/arrays/fizz_buzz.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="intersection.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/dev/maps/intersection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_intersection.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/tests/maps/test_intersection.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#0#29#0" expanded="true" />
               </folding>
@@ -38,6 +70,10 @@
         <option value="$PROJECT_DIR$/dev/fizz_buzz.py" />
         <option value="$PROJECT_DIR$/tests/test_fizz_buzz.py" />
         <option value="$PROJECT_DIR$/tests/strings/test_fizz_buzz.py" />
+        <option value="$PROJECT_DIR$/tests/maps/test_intersection_with_dup.py" />
+        <option value="$PROJECT_DIR$/dev/maps/intersection_with_dup.py" />
+        <option value="$PROJECT_DIR$/dev/maps/intersection.py" />
+        <option value="$PROJECT_DIR$/tests/maps/test_intersection.py" />
       </list>
     </option>
   </component>
@@ -83,6 +119,12 @@
             <path>
               <item name="Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="dev" type="462c0819:PsiDirectoryNode" />
+              <item name="maps" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -90,6 +132,12 @@
               <item name="Python" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
               <item name="arrays" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Python" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="maps" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -100,7 +148,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/tests/maps" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -121,6 +169,20 @@
     </option>
   </component>
   <component name="RunManager" selected="Python tests.Unittests in tests">
+    <configuration name="Unittests for tests.maps.test_intersection.TestIntersection.test_intersect" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/maps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;tests.maps.test_intersection.TestIntersection.test_intersect&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
     <configuration name="Unittests in arrays" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -149,6 +211,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/arrays/test_fizz_buzz.py&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
+    <configuration name="Unittests in test_intersection.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/tests/maps" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="Python" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/tests/maps/test_intersection.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration name="Unittests in tests" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -163,16 +239,20 @@
       <option name="_new_target" value="&quot;$PROJECT_DIR$/tests&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
-    <list size="3">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in test_fizz_buzz.py" />
       <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in tests" />
       <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in arrays" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in test_intersection.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests for tests.maps.test_intersection.TestIntersection.test_intersect" />
     </list>
     <recent_temporary>
-      <list size="3">
+      <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in tests" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in arrays" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests in test_fizz_buzz.py" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Unittests in test_intersection.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.Unittests for tests.maps.test_intersection.TestIntersection.test_intersect" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.Unittests in arrays" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in test_fizz_buzz.py" />
       </list>
     </recent_temporary>
   </component>
@@ -190,20 +270,17 @@
     <servers />
   </component>
   <component name="TestHistory">
+    <history-entry file="Unittests_for_test_intersection_with_dup_TestIntersectionWithDup_test_intersect - 2017.11.01 at 23h 09m 07s.xml">
+      <configuration name="Unittests for test_intersection_with_dup.TestIntersectionWithDup.test_intersect" configurationId="tests" />
+    </history-entry>
     <history-entry file="Unittests_in_strings - 2017.10.31 at 23h 43m 29s.xml">
       <configuration name="Unittests in strings" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_fizz_buzz_py - 2017.10.31 at 23h 33m 33s.xml">
-      <configuration name="Unittests in test_fizz_buzz.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_intersection_py - 2017.11.01 at 23h 19m 38s.xml">
+      <configuration name="Unittests in test_intersection.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_test_fizz_buzz_py - 2017.10.31 at 23h 37m 34s.xml">
-      <configuration name="Unittests in test_fizz_buzz.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_fizz_buzz_py - 2017.10.31 at 23h 39m 09s.xml">
-      <configuration name="Unittests in test_fizz_buzz.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_fizz_buzz_py - 2017.10.31 at 23h 39m 40s.xml">
-      <configuration name="Unittests in test_fizz_buzz.py" configurationId="tests" />
+    <history-entry file="Unittests_in_test_intersection_with_dup_py - 2017.11.01 at 23h 03m 27s.xml">
+      <configuration name="Unittests in test_intersection_with_dup.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_tests - 2017.10.31 at 23h 43m 11s.xml">
       <configuration name="Unittests in tests" configurationId="tests" />
@@ -214,14 +291,25 @@
     <history-entry file="Unittests_in_tests - 2017.10.31 at 23h 49m 04s.xml">
       <configuration name="Unittests in tests" configurationId="tests" />
     </history-entry>
+    <history-entry file="Unittests_in_tests - 2017.11.01 at 23h 14m 08s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2017.11.01 at 23h 14m 56s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_tests - 2017.11.01 at 23h 19m 42s.xml">
+      <configuration name="Unittests in tests" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="288" y="62" width="1400" height="990" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2496382" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -233,7 +321,6 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -254,18 +341,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dev/arrays/fizz_buzz.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/arrays/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/arrays/fizz_buzz.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="12" lean-forward="false" selection-start-line="8" selection-start-column="12" selection-end-line="8" selection-end-column="12" />
           <folding />
         </state>
       </provider>
@@ -277,6 +364,24 @@
           <folding>
             <element signature="e#0#29#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/maps/test_intersection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dev/maps/intersection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="37" column="29" lean-forward="true" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+          <folding />
         </state>
       </provider>
     </entry>
