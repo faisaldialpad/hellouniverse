@@ -55,7 +55,6 @@ namespace HelloUniverse.Strings
             result.Append(countDigits % 2 == 0 ? '0' : '1');
 
             Add(a, b, indexA - 1, indexB - 1, carry, result);
-
         }
     }
 }
