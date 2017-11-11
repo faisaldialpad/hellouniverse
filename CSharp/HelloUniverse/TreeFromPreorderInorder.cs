@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace HelloUniverse
 {
@@ -30,45 +27,35 @@ namespace HelloUniverse
             {
                 throw new Exception("Length of both arrays must be same");
             }
+            var inOrderMap = new Dictionary<int, int>();
+            for (var i = 0; i < inorder.Length; i++)
+            {
+                inOrderMap.Add(inorder[i], i);
+            }
 
-            return BuildTree(preorder, inorder, 0, preorder.Length - 1, 0, inorder.Length - 1);
+
+            return BuildTree(preorder, 0, preorder.Length -1, inOrderMap, 0, inorder.Length - 1);
         }
-        private static TreeNode BuildTree(int[] preorder, int[] inorder, int sPre, int ePre, int sIn, int eIn)
+        private static TreeNode BuildTree(int[] preorder, int preStart, int preEnd, Dictionary<int, int> inOrderMap, int inStart, int inEnd)
         {
-            if (sPre > ePre || sIn > eIn)
+            if (preStart > preEnd || inStart > inEnd)
             {
                 return null;
             }
 
-            var root = new TreeNode(preorder[sPre]);
-            var set = new HashSet<int>();
-            var rootPositionInOrder = 0;
-            for (var i = sIn; i <= eIn; i++)
-            {
-                if (inorder[i] == preorder[sPre])
-                {
-                    rootPositionInOrder = i;
-                    break;
-                }
+            var root = new TreeNode(preorder[preStart]);
+            var rootPositionInOrder = inOrderMap[root.val];
+            var numsLeft = rootPositionInOrder - inStart;
 
-                set.Add(inorder[i]);
-            }
-
-            var leftPreEnd = sPre + 1;
-            while (leftPreEnd <= ePre && set.Contains(preorder[leftPreEnd]))
-            {
-                leftPreEnd++;
-            }
-            
-            root.left = BuildTree(preorder, inorder, sPre+1, leftPreEnd - 1, sIn, rootPositionInOrder - 1);
-            root.right = BuildTree(preorder, inorder, leftPreEnd, ePre, rootPositionInOrder + 1, eIn);
+            root.left = BuildTree(preorder, preStart+1, preStart + numsLeft, inOrderMap, inStart, rootPositionInOrder - 1);
+            root.right = BuildTree(preorder, preStart + numsLeft + 1, preEnd, inOrderMap, rootPositionInOrder + 1, inEnd);
 
             return root;
         }
 
         /*
-         // easy to understand solution
-          public TreeNode BuildTree(int[] preorder, int[] inorder)
+        // easy to understand solution
+        public TreeNode BuildTree(int[] preorder, int[] inorder)
         {
             if (preorder == null || preorder.Length == 0 || inorder == null || inorder.Length == 0)
             {
@@ -123,8 +110,6 @@ namespace HelloUniverse
 
             return root;
         }
-         
-         
-         */
+        */
     }
 }
