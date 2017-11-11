@@ -6,8 +6,8 @@ namespace HelloUniverse.Tests.Math
     [TestFixture]
     public class AtoiTests
     {
-        [TestCase]
-        public void CornerCases()
+        [Test]
+        public void AtoiTests_CornerCases()
         {
             Assert.AreEqual(0, Atoi.Convert(null));
             Assert.AreEqual(0, Atoi.Convert(""));
@@ -21,20 +21,20 @@ namespace HelloUniverse.Tests.Math
             Assert.AreEqual(-1, Atoi.Convert("-1"));
         }
 
-        [TestCase]
-        public void NormalCases()
+        [Test]
+        public void AtoiTests_NormalCases()
         {
             Assert.AreEqual(1234567, Atoi.Convert("1234567"));
             Assert.AreEqual(1234567, Atoi.Convert("+1234567"));
             Assert.AreEqual(-1234567, Atoi.Convert("-1234567"));
             Assert.AreEqual(34567, Atoi.Convert("0034567"));
-            Assert.AreEqual(1234567, Atoi.Convert("+123dsds4567"));
+            Assert.AreEqual(123, Atoi.Convert("+123dsds4567"));
         }
 
-        [TestCase]
-        public void OverflowCases()
+        [Test]
+        public void AtoiTests_OverflowCases()
         {
-            Assert.AreEqual(1234567, Atoi.Convert("0909809809809"));
+            Assert.AreEqual(int.MaxValue, Atoi.Convert("0909809809809"));
         }
     }
 }
