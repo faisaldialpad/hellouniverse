@@ -5,6 +5,7 @@ public class MultipleOf3And5 {
 	public MultipleOf3And5(int max){
 		this.max=max;
 	}
+	// why not use or?
 	public int calculate(){
 		int sum=0;
 		int j=1;
