@@ -5,6 +5,7 @@ class DiameterOfBinaryTree:
         :type root: TreeNode
         :rtype: int
         """
+
         # diameter through a node is the sum of the maxdepth of its left subtree and right subtree
         # but we need to calculate the diameter through each node and return the max of them
 
@@ -27,4 +28,3 @@ class DiameterOfBinaryTree:
             self.val = x
             self.left = None
             self.right = None
-
