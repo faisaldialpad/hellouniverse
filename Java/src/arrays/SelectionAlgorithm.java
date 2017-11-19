@@ -17,13 +17,17 @@ public class SelectionAlgorithm {
 		int[] cloneArr=arr.clone(); //do not want to change the original array
 		return findRecursive(cloneArr,0,cloneArr.length-1,m);
 	}
+	
+	// this solution was good all along. It was rejected by leet code 
+	// because the definition of kth largest was different. Leet code was right, 
+	// kth largest means there are k-1 items larger than the expected item.
 	private static int findRecursive(int[] arr,int sIndex, int eIndex,int m){
 		if(sIndex==eIndex)
 			return arr[sIndex];
 		int pivot=arr[eIndex];
 		int j=sIndex;
 		int temp;
-		for(int i=sIndex;i<=eIndex;i++){
+		for(int i=sIndex;i<eIndex;i++){
 			if(arr[i]<pivot){
 				temp=arr[i];
 				arr[i]=arr[j];
