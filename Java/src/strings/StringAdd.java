@@ -54,6 +54,10 @@ public class StringAdd {
 			index1--;
 		}
 		
+		if (carry >= 1) {
+			sb.append(carry);
+		}
+		
 		sb.reverse();
 		return sb.toString();
 	}
