@@ -26,5 +26,43 @@ public class SimpleRegExTest {
 	    assertTrue(SimpleRegEx.match("*c*d", "abcd")); // Yes
 	    assertTrue(SimpleRegEx.match("*?c*d", "abcd")); // Yes
 	}
+	
+	@Test
+	public void testMatchUsingDp() {
+		assertTrue(SimpleRegEx.matchUsingDp("*", ""));
+		assertTrue(SimpleRegEx.matchUsingDp("*", "gfkjghdlkgjhdsg"));
+		assertTrue(SimpleRegEx.matchUsingDp("*?", "ldfksjglksdjfglksdjf"));
+		assertTrue(SimpleRegEx.matchUsingDp("?*k", "fsdfkgj;dfkjg;ldskk"));
+		assertTrue(SimpleRegEx.matchUsingDp("a?c", "adc"));
+		assertTrue(SimpleRegEx.matchUsingDp("g*ks", "geeks"));
+		assertTrue(SimpleRegEx.matchUsingDp("ge?ks*", "geeksforgeeks"));
+		assertTrue(SimpleRegEx.matchUsingDp("g*ks", "geeks")); // Yes
+		assertTrue(SimpleRegEx.matchUsingDp("ge?ks*", "geeksforgeeks")); // Yes
+		assertFalse(SimpleRegEx.matchUsingDp("g*k", "gee"));  // No because 'k' is not in second
+		assertFalse(SimpleRegEx.matchUsingDp("*pqrs", "pqrst")); // No because 't' is not in first
+	    assertTrue(SimpleRegEx.matchUsingDp("abc*bcd", "abcdhghgbcd")); // Yes
+	    assertFalse(SimpleRegEx.matchUsingDp("abc*c?d", "abcd")); // No because second must have 2 instances of 'c'
+	    assertTrue(SimpleRegEx.matchUsingDp("*c*d", "abcd")); // Yes
+	    assertTrue(SimpleRegEx.matchUsingDp("*?c*d", "abcd")); // Yes
+	}
+	
+	@Test
+	public void testMatchIterate() {
+		assertTrue(SimpleRegEx.matchIterate("*", ""));
+		assertTrue(SimpleRegEx.matchIterate("*", "gfkjghdlkgjhdsg"));
+		assertTrue(SimpleRegEx.matchIterate("*?", "ldfksjglksdjfglksdjf"));
+		assertTrue(SimpleRegEx.matchIterate("?*k", "fsdfkgj;dfkjg;ldskk"));
+		assertTrue(SimpleRegEx.matchIterate("a?c", "adc"));
+		assertTrue(SimpleRegEx.matchIterate("g*ks", "geeks"));
+		assertTrue(SimpleRegEx.matchIterate("ge?ks*", "geeksforgeeks"));
+		assertTrue(SimpleRegEx.matchIterate("g*ks", "geeks")); // Yes
+		assertTrue(SimpleRegEx.matchIterate("ge?ks*", "geeksforgeeks")); // Yes
+		assertFalse(SimpleRegEx.matchIterate("g*k", "gee"));  // No because 'k' is not in second
+		assertFalse(SimpleRegEx.matchIterate("*pqrs", "pqrst")); // No because 't' is not in first
+	    assertTrue(SimpleRegEx.matchIterate("abc*bcd", "abcdhghgbcd")); // Yes
+	    assertFalse(SimpleRegEx.matchIterate("abc*c?d", "abcd")); // No because second must have 2 instances of 'c'
+	    assertTrue(SimpleRegEx.matchIterate("*c*d", "abcd")); // Yes
+	    assertTrue(SimpleRegEx.matchIterate("*?c*d", "abcd")); // Yes
+	}
 
 }
