@@ -36,6 +36,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Caching\LruCacheTests.cs" />
     <Compile Include="Graphs\AlienOrderTopologicalSortTests.cs" />
     <Compile Include="Graphs\LongestIncreasingPathInMatrixTests.cs" />
     <Compile Include="Graphs\CourseScheduleTests.cs" />
