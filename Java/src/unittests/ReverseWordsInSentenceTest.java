@@ -8,22 +8,13 @@ import org.junit.Test;
 import strings.ReverseWordsInSentence;
 
 public class ReverseWordsInSentenceTest {
-	@BeforeClass
-	public static void setUpBeforeClass() throws Exception {
-		assertNotNull(new ReverseWordsInSentence(null));
-	}
-
 	@Test
-	public void testPerform() {
-		assertEquals(",olleH woh era ?uoy", new ReverseWordsInSentence("Hello, how are you?").performInPlace());
-		assertEquals(" ,olleH woh era ?uoy", new ReverseWordsInSentence(" Hello, how are you?").performInPlace());
-		assertEquals(",olleH woh era ?uoy ", new ReverseWordsInSentence("Hello, how are you? ").performInPlace());
+	public void testReverseInPlace() {
+		assertEquals(",olleH woh era ?uoy", ReverseWordsInSentence.reverseInPlace("Hello, how are you?"));
 	}
 	@Test
-	public void testPerformBoundary() {
-		assertEquals("", new ReverseWordsInSentence("").performInPlace());
-		assertNull(new ReverseWordsInSentence(null).performInPlace());
+	public void testReverseInPlaceBoundary() {
+		assertEquals("", ReverseWordsInSentence.reverseInPlace(""));
+		assertNull(ReverseWordsInSentence.reverseInPlace(null));
 	}
-	
-
 }
