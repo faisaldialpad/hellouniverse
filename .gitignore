@@ -14,3 +14,5 @@ input.txt
 *.settings
 Java/bin/
 Java/jcoverage.ser
+*.DS_Store
+
