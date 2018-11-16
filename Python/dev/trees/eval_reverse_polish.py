@@ -47,19 +47,19 @@ class EvalRPN(object):
 
     def create_tree_from_post_order(self, tokens):
         length = len(tokens)
-        root = TNode(tokens[length - 1])
+        root = self.TNode(tokens[length - 1])
         cur = root
         stack = []
         i = length -2
         while i>=0:
             if not cur.right:
-                cur.right = TNode(tokens[i])
+                cur.right = self.TNode(tokens[i])
                 if not self.is_leaf(tokens[i]):
                     stack.append(cur)
                     cur = cur.right
                 i-=1
             elif not cur.left:
-                cur.left = TNode(tokens[i])
+                cur.left = self.TNode(tokens[i])
                 if not self.is_leaf(tokens[i]):
                     stack.append(cur)
                     cur = cur.left
@@ -92,11 +92,11 @@ class EvalRPN(object):
     def is_leaf(self, t):
         return t not in ["+", "-", "*", "/"]
 
-class TNode(object):
-    def __init__(self, v):
-        self.v = v
-        self.left = None
-        self.right = None
+    class TNode(object):
+        def __init__(self, v):
+            self.v = v
+            self.left = None
+            self.right = None
 
-    def is_leaf(self):
-        return self.left is None and self.right is None
+        def is_leaf(self):
+            return self.left is None and self.right is None
