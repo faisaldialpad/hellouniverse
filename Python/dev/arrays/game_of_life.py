@@ -35,9 +35,38 @@ Could you solve it in-place? Remember that the board needs to be updated at the 
 In this question, we represent the board using a 2D array. In principle, the board is infinite, which would cause problems when the active area encroaches the border of the array. How would you address these problems?
 """
 
-class Solution:
-    def gameOfLife(self, board):
+
+class GameOfLife:
+    def get_next_generation(self, board):
         """
         :type board: List[List[int]]
         :rtype: void Do not return anything, modify board in-place instead.
         """
+        # 00 -> first 0 is for next and 2nd 0 is for current. (both gens dead)
+        # 01 -> Became dead from alive.
+        # 10 -> Became alive from dead.
+        # 11 -> both ges alive.
+        for i in range(len(board)):
+            for j in range(len(board[i])):
+                neighbours = self.get_neighbours(board, i, j)
+                live_count = len([x for x in neighbours if x & 1])
+                if board[i][j] & 1:
+                    # if current cell is alive.
+                    if 2 <= live_count <= 3:
+                        # Next gen lives
+                        board[i][j] |= 2
+                    # else: Next gen dies
+                else:
+                    # Current cell is dead
+                    if live_count == 3:
+                        # Next gen lives
+                        board[i][j] |= 2
+        for i in range(len(board)):
+            for j in range(len(board[i])):
+                # right shift everything. Make next gen current
+                board[i][j] >>= 1
+
+    def get_neighbours(self, board, i, j):
+        offsets = [(-1, 0), (1, 0), (0, -1), (0, 1), (-1, -1), (1, -1), (-1, 1), (1, 1)]
+        neighbours = [(i + x, j + y) for (x, y) in offsets if 0 <= i + x < len(board) and 0 <= j + y < len(board[i])]
+        return [board[x][y] for (x, y) in neighbours]
