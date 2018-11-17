@@ -19,6 +19,25 @@ Explanation: Intervals [1,4] and [4,5] are considered overlapping.
 
 class MergeIntervals(object):
     def merge(self, intervals):
+        return self.merge_leet(intervals)
+
+    def merge_leet(self, intervals):
+        """
+        :type intervals: List[Interval]
+        :rtype: List[Interval]
+        """
+        intervals = sorted(intervals, key=lambda x: x.start)  # sort by start
+        result = []
+        for i in intervals:
+            if not result or i.start > result[-1].end:
+                # Create a new interval to the result.
+                result.append(i) # BTW, destroys original! Make a copy instead.
+            else:
+                # Merge with the last
+                result[-1].end = max(result[-1].end, i.end)
+        return result
+
+    def merge_original(self, intervals):
         """
         :type intervals: List[Interval]
         :rtype: List[Interval]
