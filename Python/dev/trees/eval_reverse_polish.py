@@ -36,12 +36,43 @@ Explanation:
 
 """
 
+
 class EvalRPN(object):
     def eval(self, tokens):
         """
         :type tokens: List[str]
         :rtype: int
         """
+        return self.eval_leet(tokens)
+
+    def eval_leet(self, tokens):
+        stack = []
+        for t in tokens:
+            if self.is_op(t):
+                right = stack.pop()
+                left = stack.pop()
+                stack.append(self.perform_op(t, left, right))
+            else:
+                stack.append(int(t))
+        return stack.pop()
+
+    def is_op(self, t):
+        return t in ["+", "-", "*", "/"]
+
+    def perform_op(self, t, left, right):
+        if t == '+':
+            return left + right
+
+        if t == '-':
+            return left - right
+
+        if t == '*':
+            return left * right
+
+        if t == '/':
+            return int(left / right)
+
+    def eval_original(self, tokens):
         r = self.create_tree_from_post_order(tokens)
         return self.in_order_eval(r)
 
@@ -50,14 +81,14 @@ class EvalRPN(object):
         root = self.TNode(tokens[length - 1])
         cur = root
         stack = []
-        i = length -2
-        while i>=0:
+        i = length - 2
+        while i >= 0:
             if not cur.right:
                 cur.right = self.TNode(tokens[i])
                 if not self.is_leaf(tokens[i]):
                     stack.append(cur)
                     cur = cur.right
-                i-=1
+                i -= 1
             elif not cur.left:
                 cur.left = self.TNode(tokens[i])
                 if not self.is_leaf(tokens[i]):
@@ -76,21 +107,10 @@ class EvalRPN(object):
         left = self.in_order_eval(r.left)
         right = self.in_order_eval(r.right)
 
-        if r.v == '+':
-            return left + right
-
-        if r.v == '-':
-            return left - right
-
-        if r.v == '*':
-            return left * right
-
-        if r.v == '/':
-            return int(left / right)
-
+        return self.perform_op(r.v, left, right)
 
     def is_leaf(self, t):
-        return t not in ["+", "-", "*", "/"]
+        return not self.is_op(t)
 
     class TNode(object):
         def __init__(self, v):
