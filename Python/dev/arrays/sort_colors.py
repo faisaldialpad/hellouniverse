@@ -22,9 +22,22 @@ Could you come up with a one-pass algorithm using only constant space?
 """
 
 
-class Solution:
-    def sortColors(self, nums):
+class SortColors:
+    def sort(self, nums):
         """
         :type nums: List[int]
         :rtype: void Do not return anything, modify nums in-place instead.
         """
+        i = 0  # tracking 0s
+        j = 0  # tracking 1s
+        k = len(nums) - 1  # tracking 2s
+        while j <= k:
+            if nums[j] == 0:
+                nums[i], nums[j] = nums[j], nums[i]
+                i += 1
+                j += 1
+            elif nums[j] == 2:
+                nums[j], nums[k] = nums[k], nums[j]
+                k -= 1
+            else:
+                j += 1
