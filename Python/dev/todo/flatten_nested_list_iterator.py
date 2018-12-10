@@ -52,21 +52,36 @@ Explanation: By calling next repeatedly until hasNext returns false,
 
 class NestedIterator(object):
 
-    def __init__(self, nestedList):
+    def __init__(self, nested_list):
         """
         Initialize your data structure here.
-        :type nestedList: List[NestedInteger]
+        :type nested_list: List[NestedInteger]
         """
+        self.flat = self.flatten(nested_list)
+        self.i = 0
+
+    def flatten(self, nested_list):
+        # TODO(faisal): Don't flatten.
+        res = []
+        for ni in nested_list:
+            if ni.isInteger():
+                res.append(ni.getInteger())
+            else:
+                res.extend(self.flatten(ni.getList()))
+        return res
 
     def next(self):
         """
         :rtype: int
         """
+        self.i += 1
+        return self.flat[self.i - 1]
 
     def hasNext(self):
         """
         :rtype: bool
         """
+        return self.i < len(self.flat)
 
 # Your NestedIterator object will be instantiated and called as such:
 # i, v = NestedIterator(nestedList), []
