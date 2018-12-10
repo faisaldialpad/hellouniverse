@@ -32,10 +32,19 @@ Output: 28
 """
 
 
-class Solution(object):
-    def uniquePaths(self, m, n):
+class UniquePaths(object):
+    def count(self, m, n):
         """
         :type m: int
         :type n: int
         :rtype: int
         """
+        paths_count = [[0] * m for _ in range(0, n)]
+        paths_count[n - 1][m - 1] = 1
+        for i in range(n - 1, -1, -1):
+            for j in range(m - 1, -1, -1):
+                if i + 1 < n:
+                    paths_count[i][j] += paths_count[i + 1][j]
+                if j + 1 < m:
+                    paths_count[i][j] += paths_count[i][j + 1]
+        return paths_count[0][0]
